@@ -5,10 +5,7 @@
     "date" : "DATE",
     "authors" : [],
     "topics" : [],
-    "form" : "book",
-    "isbn" : "ISBN",
-    "doi" : "DOI",
-    "publisher" : "PUBLISHER",
+    "form" : "software",
     "cites" : [],
     "summary" : ""
 }
