@@ -1,0 +1,23 @@
+{
+  "name": "cwu-ai-vkd-website",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^8.0.4",
+    "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "graphology": "^0.26.0",
+    "octokit": "^5.0.5",
+    "sigma": "^3.0.2"
+  },
+  "homepage": "https://deanosaur666.github.io/cwu-ai-vkd-website"
+}
