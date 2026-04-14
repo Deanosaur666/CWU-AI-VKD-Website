@@ -5,9 +5,31 @@
         "title" : "DSCVis",
         "date" : "Jun 23, 2022",
         "authors" : ["Charles57-CWU"],
-        "topics" : ["Data Visualization"],
+        "topics" : ["data visualization"],
         "form" : "software",
         "cites" : [],
         "summary" : "This application displays multi-dimensional data in 2D using OpenGL for rendering. The plot can be dragged and zoomed in/out. Classes can be hidden, as well as specified attribute markers. A box-clipping algorithm is included to clip lines and return samples of the dataset. This visualization tool features four plots, including Parallel Coordinates, Paired Coordinates, DSC1, and DSC2. Additional multidimensional plots can be added with ease as the plot context class uses general vertices."
+    },
+    {
+        "id" : "JTabViz",
+        "link" : "https://github.com/CWU-VKD-LAB/JTabViz",
+        "title" : "JTabViz: Java Tabular Visualization Toolkit",
+        "date" : "Nov 17, 2025",
+        "authors" : ["Alice Wiliams"],
+        "topics" : ["machine learning", "data analysis", "classification", "visualization"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "JTabViz is a Java-based cross-platform software toolkit for machine learning (ML) data analysis, classification, and visualization. Originally developed to assist with classifier boosting and interactive classification research. It is designed for the visualization and analysis of multidimensional (n-D) tabular ML data to discover and build classification models from logical rules. With supports for feature engineering and data augmentation to analyze how dataset changes impact ML models. Fully interactive and transparent for interpretable model designing."
+    },
+    {
+        "id" : "ML_Classifier_Comparison_Tool",
+        "link" : "https://github.com/CWU-VKD-LAB/ML_Classifier_Comparison_Tool",
+        "title" : "Machine Learning Classifier Comparison Tool",
+        "date" : "Jan 2, 2025",
+        "authors" : [ "Alice Williams" ],
+        "topics" : ["machine learning", "classification"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "The Machine Learning Classifier Comparison Tool helps benchmark and compare the performance of various machine learning classifiers on a dataset. It supports optional evaluation data, cross-validation (or none if splits = 1), and an embedded parallel-coordinates visualization of the final results."
     }
 ]
