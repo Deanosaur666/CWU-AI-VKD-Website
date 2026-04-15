@@ -1,3 +1,5 @@
+Site at: https://deanosaur666.github.io/CWU-AI-VKD-Website/
+
 # To install dependencies:
 `npm i`
 
