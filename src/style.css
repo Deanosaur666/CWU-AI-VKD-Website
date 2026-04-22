@@ -1,0 +1,50 @@
+aside {
+    border: 4px solid black;
+    width: 260px;
+    background-color: #FFF680;
+}
+
+aside h1 {
+    border-bottom: 4px solid black;
+    padding-bottom: 20px;
+}
+
+aside h2 {
+    margin-top: 10px;
+    margin-inline: 20px;
+    width: fit-content;
+}
+
+aside div {
+    display: flex;
+}
+
+#sigma-container {
+    border: 2px solid black;
+    flex: 3;
+    position: relative;
+}
+
+#info-container {
+    border: 2px solid black;
+    flex: 1.25;
+    width: 260px;
+    background-color: lightgray;
+    font-size: 200%;
+}
+
+#snippet-container {
+    position: absolute;
+    pointer-events: none;
+    background: white;
+    border: 2px solid black;
+    padding: 8px;
+    z-index: 9999;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+

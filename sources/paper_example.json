@@ -1,0 +1,13 @@
+{
+    "id" : "ID",
+    "link" : "LINK",
+    "title" : "TITLE",
+    "date" : "DATE",
+    "authors" : [],
+    "topics" : [],
+    "form" : "paper",
+    "doi" : "DOI",
+    "publisher" : "PUBLISHER",
+    "cites" : [],
+    "summary" : ""
+}
