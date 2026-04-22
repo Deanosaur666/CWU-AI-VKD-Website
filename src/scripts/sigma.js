@@ -9,8 +9,11 @@ import Graph from "graphology";
 import Sigma from "sigma";
 import circular from "graphology-layout/circular";
 import forceAtlas2 from "graphology-layout-forceatlas2";
+import { Octokit, App } from "octokit";
 
-
+const octokit = new Octokit({
+    userAgent : "CWU-AI-VKD-Website"
+});
 
 /**
  * This function loads the data from the JSON files. It currently only does this from
@@ -18,8 +21,19 @@ import forceAtlas2 from "graphology-layout-forceatlas2";
  * @returns graphData
  */
 async function loadGraph() {
-    const response = await fetch("/sources/software.json");
-    const graphData = await response.json();
+    // API request
+    let result = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+        owner: 'Deanosaur666',
+        repo: 'CWU-AI-VKD-Website',
+        path: 'sources/software.json',
+    })
+
+    // Decode Base64 content to text
+    let decodedContent = atob(result.data.content);
+    
+    // Parse the text as JSON
+    let graphData = JSON.parse(decodedContent);
+    
     return graphData;
 }
 
