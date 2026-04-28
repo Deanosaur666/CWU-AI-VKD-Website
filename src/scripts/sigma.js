@@ -9,11 +9,8 @@ import Graph from "graphology";
 import Sigma from "sigma";
 import circular from "graphology-layout/circular";
 import forceAtlas2 from "graphology-layout-forceatlas2";
-import { Octokit, App } from "octokit";
 
-const octokit = new Octokit({
-    userAgent : "CWU-AI-VKD-Website"
-});
+
 
 /**
  * This function loads the data from the JSON files. It currently only does this from
@@ -21,19 +18,8 @@ const octokit = new Octokit({
  * @returns graphData
  */
 async function loadGraph() {
-    // API request
-    let result = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
-        owner: 'Deanosaur666',
-        repo: 'CWU-AI-VKD-Website',
-        path: 'sources/software.json',
-    })
-
-    // Decode Base64 content to text
-    let decodedContent = atob(result.data.content);
-    
-    // Parse the text as JSON
-    let graphData = JSON.parse(decodedContent);
-    
+    const response = await fetch("/sources/software.json");
+    const graphData = await response.json();
     return graphData;
 }
 
@@ -127,4 +113,76 @@ forceAtlas2.assign(graph, { settings, iterations: 2});
 //creates renderer
 const renderer = new Sigma(graph, document.getElementById("sigma-container"));
 
-export { graph, renderer };
+//insert snippet container
+const snippet_container = document.getElementById("snippet-container");
+const sigmaContainer = renderer.getContainer();
+
+sigmaContainer.insertBefore(snippet_container, sigmaContainer.querySelector(".sigma-hovers"));
+
+export { graph, renderer, topicMap, snippet_container };
+
+
+//creates a dictionary for the visibility on each topic
+const topicVisibility = {};
+topics.forEach(topic => {
+    topicVisibility[topic] = true;
+});
+
+
+/**
+ * This creates the display-container by reading from
+ * the topics and creating a div that has a checkbox and
+ * label for each. The checkbox toggles the topicVisibility
+ * and calls updateVisibility().
+ */
+const display_container = document.getElementById("display-container");
+for(let i = 0; i < topics.length; i++) {
+    const topic = topics[i];
+    const row = document.createElement("div");
+    row.className = "topic-row";
+
+    const label = document.createElement("label");
+    label.textContent = topic;
+
+    //adds button to div
+    const topicCheckbox = document.createElement("input");
+    topicCheckbox.type = "checkbox";
+    topicCheckbox.checked = true;
+
+    topicCheckbox.addEventListener("click", () => {
+        topicVisibility[topic] = event.target.checked;
+        updateVisibility();
+    });
+
+    row.appendChild(label);
+    row.appendChild(topicCheckbox);
+    display_container.appendChild(row);
+
+}
+
+/**
+ * This is where the visibility of each node/edge is updated
+ * due to one of the topic checkboxes being clicked. It also refreshes
+ * the renderer to insure that the updates are shown to the screen.
+ */
+async function updateVisibility() {
+    graph.forEachNode((node, attributes) => {
+        const topics = attributes.topics || [];
+
+        const visible = topics.some(t => topicVisibility[t]);
+
+        graph.setNodeAttribute(node, "hidden", !visible);
+    });
+
+    graph.forEachEdge((edge, attributes, source, target) => {
+        const sourceTopics = graph.getNodeAttribute(source, "topics") || [];
+        const targetTopics = graph.getNodeAttribute(target, "topics") || [];
+
+        const visible = sourceTopics.some(t => topicVisibility[t]) &&
+                        targetTopics.some(t => topicVisibility[t]);
+        
+        graph.setEdgeAttribute(edge, "hidden", !visible);
+    });
+
+    renderer.refresh();
+}

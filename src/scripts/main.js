@@ -5,7 +5,7 @@
  * 2. Clicking on a node will display to the info-container that displays the nodes info
  * 3. Will create display-container based on topics will allow for visibility toggling
  */
-import { graph, renderer } from './sigma.js';
+import { graph, renderer, topicMap, snippet_container } from './sigma.js';
 
 /**
  * This is the code that displays the info about each document
@@ -14,7 +14,6 @@ import { graph, renderer } from './sigma.js';
  * that will have more/less data to display :)
  */
 const info_container = document.getElementById("info-container");
-const snippet_container = document.getElementById("snippet-container");
 
 renderer.on("clickNode", ({node}) => {
     const data = graph.getNodeAttributes(node);
@@ -39,16 +38,22 @@ renderer.on("clickNode", ({node}) => {
  */
 renderer.on("enterNode", (event) => {
     const data = graph.getNodeAttributes(event.node);
-    const nodeDisplay = renderer.getNodeDisplayData(event.node);
+    
+    const x = event.event.x;
+    const y = event.event.y;
 
-    snippet_container.style.display = "block";
+    const offsetX = 15;
+    const offsetY = -30;
+
+    snippet_container.style.left = `${x + offsetX}px`;
+    snippet_container.style.top = `${y + offsetY}px`;
 
     snippet_container.innerHTML =
     `<strong>${data.title}</strong>
     <br>Date: ${data.date}</br>
     <br>Topics: ${data.topics}</br>
     `;
-    console.log(nodeDisplay);
+    snippet_container.style.display = "block";
 });
 
 //hides the snippet_container
