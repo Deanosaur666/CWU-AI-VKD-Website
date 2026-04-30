@@ -14,6 +14,7 @@
     "vite": "^8.0.4"
   },
   "dependencies": {
+    "buffer": "^6.0.3",
     "gh-pages": "^6.3.0",
     "graphology": "^0.26.0",
     "graphology-layout": "^0.6.1",

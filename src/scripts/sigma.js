@@ -9,7 +9,7 @@ import Graph from "graphology";
 import Sigma from "sigma";
 import circular from "graphology-layout/circular";
 import forceAtlas2 from "graphology-layout-forceatlas2";
-
+import { ghGetJSON } from "./github"
 
 
 /**
@@ -18,8 +18,9 @@ import forceAtlas2 from "graphology-layout-forceatlas2";
  * @returns graphData
  */
 async function loadGraph() {
-    const response = await fetch("/sources/software.json");
-    const graphData = await response.json();
+    //const response = await fetch("/sources/software.json");
+    //const graphData = await response.json();
+    const graphData = await ghGetJSON("/sources/software.json")
     return graphData;
 }
 
