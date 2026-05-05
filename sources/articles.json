@@ -1,0 +1,612 @@
+[{
+    "id": 0,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:f2IySw72cVMC",
+    "title": "Data Mining in Finance\u2014Advances in Relational and Hybrid Methods",
+    "date": "2000",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Kluwer Academic Publishers",
+    "cites": [],
+    "summary": "Data Mining methods map objects onto target values by discovered regularities in the data. These objects and mappings should be represented formally in some formal language. The selection of a language and a method for discovering regularities is a serious challenge. The uncertainty of problem description and method capability is among the most obvious difficulties in the process of selection.Historically, methods based on attribute-value languages (AVLs) have been most popular in applications of learning algorithms. Neural networks (Chapter 2) and decision trees (Chapter 3) are typical examples of methods based on AVLs. They are relatively simple, efficient, and can handle noisy data. However, these methods have serious limitations in how they represent knowledge."
+},{
+    "id": 1,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:mvPsJ3kp5DgC",
+    "title": "Determining the most important criteria in maintenance decision making",
+    "date": "1997/3/1",
+    "authors": [
+        "Evangelos Triantaphyllou",
+        "Boris Kovalerchuk",
+        "Lawrence Mann",
+        "Gerald M Knapp"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "MCB UP Ltd",
+    "cites": [],
+    "summary": "Many maintenance decisions require the evaluation of alternative solutions in terms of complex maintenance criteria such as cost, repairability, reliability and availability requirements. Such problems can be formulated as multi\u2010criteria decision\u2010making problems. The relative importance of maintenance criteria is difficult to assess, and therefore a sensitivity analysis becomes a necessity. The sensitivity analysis approach presented reveals some counter\u2010intuitive results and can considerably enhance the application of decision analysis in complex maintenance management."
+},{
+    "id": 2,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:kzcrU_BdoSEC",
+    "title": "Fuzzy logic in computer-aided breast cancer diagnosis: analysis of lobulation",
+    "date": "1997/9/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evangelos Triantaphyllou",
+        "James F Ruiz",
+        "Jane Clayton"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Elsevier",
+    "cites": [],
+    "summary": "This paper illustrates how a fuzzy logic approach can be used to formalize terms in the American College of Radiology (ACR) Breast Imaging Lexicon. In current practice, radiologists make a relatively subjective determination for many terms from the lexicon related to breast cancer diagnosis. Lobulation and microlobulation of nodules are two important features in the ACR lexicon. We offer an approach for formalizing the distinction of these features and also formalize the description of intermediate cases between lobulated and microlobulated masses. In this paper it is shown that fuzzy logic can be an effective tool in dealing with this kind of problem. The proposed formalization creates a basis for the next three steps: (i) extended verification with blinded comparison studies, (ii) the automatic extraction of the related primitives from the image, and (iii) the detection of lobulated and microlobulated masses based on\u00a0\u2026"
+},{
+    "id": 3,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:5Ul4iDaHHb8C",
+    "title": "Visual and Spatial Analysis",
+    "date": "2004",
+    "authors": [
+        "Boris Kovalerchuk",
+        "James Schwing"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Netherlands",
+    "cites": [],
+    "summary": null
+},{
+    "id": 4,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:QIV2ME_5wuYC",
+    "title": "Consistent knowledge discovery in medical diagnosis",
+    "date": "2000/7",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev",
+        "James F Ruiz"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Discusses eliminating contradictions among rules in computer-aided systems, experts rules, and databases. The study has demonstrated how consistent data mining in medical diagnosis can create a set of logical diagnostic rules for computer-aided diagnostic systems. Consistency avoids contradiction among rules generated using data mining software, rules used by an experienced radiologist, and a database of pathologically confirmed cases. The authors identified major problems: to find contradiction between diagnostic rules and to eliminate contradiction. They applied two complimentary intelligent technologies for extraction of rules and recognition of their contradictions. The first technique is based on discovering statistically significant logical diagnostic rules. The second technique is based on the restoration of a monotone Boolean function to generate a minimal dynamic sequence of questions to a medical\u00a0\u2026"
+},{
+    "id": 5,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:nrtMV_XWKgEC",
+    "title": "Survey of explainable machine learning with visual and granular methods beyond quasi-explanations",
+    "date": "2021",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Muhammad Aurangzeb Ahmad",
+        "Ankur Teredesai"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "This chapter surveys and analyses visual methods of explainability of Machine Learning (ML) approaches with focus on moving from quasi-explanations that dominate in ML to actual domain-specific explanation supported by granular visuals. The importance of visual and granular methods to increase the interpretability and validity of the ML model has grown in recent years. Visuals have an appeal to human perception, which other methods do not. ML interpretation is fundamentally a human activity, not a machine activity. Thus, visual methods are more readily interpretable. Visual granularity is a natural way for efficient ML explanation. Understanding complex causal reasoning can be beyond human abilities without \u201cdowngrading\u201d it to human perceptual and cognitive limits. The visual exploration of multidimensional data at different levels of granularity for knowledge discovery is a long-standing research focus\u00a0\u2026"
+},{
+    "id": 6,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:SeFeTyx0c_EC",
+    "title": "Consistent and complete data and\" expert\" mining in medicine",
+    "date": "2001",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev",
+        "James F Ruiz"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "PHYSICA-VERLAG",
+    "cites": [],
+    "summary": "The ultimate purpose of many medical data mining systems is to create formalized knowledge for a computer-aided diagnostic system, which can in turn, provide a second diagnostic opinion. Such systems should be consistent and complete as much as possible. The system is consistent if it is free of contradictions (between rules in a computer-aided diagnostic system, rules used by an experienced medical expert and a database of pathologically confirmed cases). The system is complete if it is able to cover (classify) all (or largest possible number of) combinations of the used attributes. A method for discovering a consistent and complete set of diagnostic rules is presented in this chapter. Advantages of the method are shown for development of a breast cancer computer-aided diagnostic system"
+},{
+    "id": 7,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:BqipwSGYUEgC",
+    "title": "Interactive learning of monotone Boolean functions",
+    "date": "1996/10/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evangelos Triantaphyllou",
+        "Aniruddha S Deshpande",
+        "Evgenii Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "[New York]: North-Holland, 1968-",
+    "cites": [],
+    "summary": "This paper presents some optimal interactive algorithms for some problems related to learning of monotone Boolean functions. These algorithms are based on the fundamental Hansel theorem. The advantage of the algorithms is that they are not heuristics, as is often the case of many known algorithms for general Boolean functions, but they are optimal in the sense of the Shannon function. This paper also formulates a new problem for the joint restoration of two nested monotone Boolean functions f1 and f2. This formulation allows one to further decrease the dialogue with an expert and restore nonmonotone functions of the form f 2&|f 1. The effectiveness of the proposed approaches is demonstrated by some illustrative computational experiments."
+},{
+    "id": 8,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:K3LRdlH-MEoC",
+    "title": "Visual knowledge discovery and machine learning",
+    "date": "2018/1/17",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer International Publishing",
+    "cites": [],
+    "summary": "Emergence of Data Science placed knowledge discovery, machine learning, and data mining in multidimensional data, into the forefront of a wide range of current research, and application activities in computer science, and many domains far beyond it.Discovering patterns, in multidimensional data, using a combination of visual and analytical machine learning means are an attractive visual analytics opportunity. It allows the injection of the unique human perceptual and cognitive abilities, directly into the process of discovering multidimensional patterns. While this opportunity exists, the long-standing problem is that we cannot see the nD data with a naked eye. Our cognitive and perceptual abilities are perfected only in the 3-D physical world. We need enhanced visualization tools (\u201cnD glasses\u201d) to represent the nD data in 2-D completely, without loss of information, which is important for knowledge discovery. While\u00a0\u2026"
+},{
+    "id": 9,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:W7OEmFMy1HYC",
+    "title": "Data mining for financial applications",
+    "date": "2005",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer, Boston, MA",
+    "cites": [],
+    "summary": null
+},{
+    "id": 10,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:CHSYGLWDkRkC",
+    "title": "Empirical theories discovery based on the measurement theory",
+    "date": "2004",
+    "authors": [
+        "Evgenii Vityaev",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "The purpose of this work is to analise the cognitive process of the domain theories as it described in the Measurement Theorry and to develop a computational Machine Learning approach, which realise it. As a result the Relational Data Mining approach, proposed by the authors in the preceding books, is developed. We present this approach, as implementation of the cognitive process as it perceived in the Measurement Thoery. In the first part of the paper we analise the cognitive process. In the second we persent the theory and method of the logically most powerful empirical theory discovery. It is based on the notion of \u201claw-like\u201d rules, which satisfy all the properties of laws of nature: generality, simplicity, maximum refutability and minimum number of parameters. This notion is defined for deterministic and probabilistic cases. Based on this method the system \u201cDiscovery\u201d is developed. This system was succesfully applied for solving of many practical tasks."
+},{
+    "id": 11,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:qUcmZB5y_30C",
+    "title": "Comparison of empirical and computed values of fuzzy conjunction",
+    "date": "1992/2/25",
+    "authors": [
+        "Boris Kovalerchuk",
+        "V Taliansky"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "North-Holland",
+    "cites": [],
+    "summary": "The necessity for further experiments such as in [4] for the foundation of fuzzy sets theory is shown. Generality of the experimental results on fuzzy conjunction in the paper by Thole, Zimmermann and Zisno (1979) [4] for the other objects and language is verified for other conditions. Usually the minimum, the product and the restricted sum operators are used as an intersection (conjunction) of fuzzy sets in fuzzy optimization (F-optimization). On the basis of experiments, it is shown that these operators are correct for F-optimization. Their correctness is founded on the stability of the extremal point (a decision in Bellman-Zadeh's scheme) under a positive linear mapping. It is shown that these mappings exist between empirical conjunction and considered operators as a statistical result of linear regression analysis."
+},{
+    "id": 12,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:kRWSkSYxWN8C",
+    "title": "Relational methodology for data mining and knowledge discovery",
+    "date": "2008/1/1",
+    "authors": [
+        "Evgenii E Vityaev",
+        "B Ya Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IOS press",
+    "cites": [],
+    "summary": "Knowledge discovery and data mining methods have been successful in many domains. However, their abilities to build or discover a domain theory remain unclear. This is largely due to the fact that many fundamental KDD&DM methodological questions are still unexplored such as (1) the nature of the information contained in input data relative to the domain theory, and (2) the nature of the knowledge that these methods discover. The goal of this paper is to clarify methodological questions of KDD&DM methods. This is done by using the concept of Relational Data Mining (RDM), representative measurement theory, an ontology of a subject domain, a many-sorted empirical system (algebraic structure in the first-order logic), and an ontology of a KDD&DM method. The paper concludes with a review of our RDM approach and 'Discovery' system built on this methodology that can analyze any hypotheses represented\u00a0\u2026"
+},{
+    "id": 13,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:g3aElNc5_aQC",
+    "title": "Visual Knowledge Discovery with Artificial Intelligence: Challenges and Future Directions",
+    "date": "2022",
+    "authors": [
+        "Boris Kovalerchuk",
+        "R\u0103zvan Andonie",
+        "Nuno Datia",
+        "Kawa Nazemi",
+        "Ebad Banissi"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer, Cham",
+    "cites": [],
+    "summary": "Integrating artificial intelligence (AI) and machine learning (ML) methods with interactive visualization is a research area that has evolved for years. With the rise of AI applications, the combination of AI/ML and interactive visualization is elevated to new levels of sophistication and has become more widespread in many domains. Such application drive has led to a growing trend to bridge the gap between AI/ML and visualizations. This chapter summarizes the current research trend and provides foresight to future research direction in integrating AI/ML and visualization. It investigates different areas of integrating the named disciplines, starting with visualization in ML, visual analytics, visual-enabled machine learning, natural language processing, and multidimensional visualization and AI to illustrate the research trend towards visual knowledge discovery. Each section of this chapter presents the current research\u00a0\u2026"
+},{
+    "id": 14,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:YOwf2qJgpHMC",
+    "title": "Adjustable general line coordinates for visual knowledge discovery in nD data",
+    "date": "2019/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Vladimir Grishin"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "SAGE Publications",
+    "cites": [],
+    "summary": "Preserving all multidimensional data in two-dimensional visualization is a long-standing problem in Visual Analytics, Machine Learning/Data Mining, and Multiobjective Pareto Optimization. While Parallel and Radial (Star) coordinates preserve all n-D data in two dimensions, they are not sufficient to address visualization challenges of all possible datasets such as occlusion. More such methods are needed. Recently, the concepts of lossless General Line Coordinates that generalize Parallel, Radial, Cartesian, and other coordinates were proposed with initial exploration and application of several subclasses of General Line Coordinates such as Collocated Paired Coordinates and Star Collocated Paired Coordinates. This article explores and enhances benefits of General Line Coordinates. It shows the ways to increase expressiveness of General Line Coordinates including decreasing occlusion and simplifying\u00a0\u2026"
+},{
+    "id": 15,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:uLbwQdceFCQC",
+    "title": "Probabilistic dynamic logic of cognition",
+    "date": "2013/10/1",
+    "authors": [
+        "Evgenii E Vityaev",
+        "Leonid I Perlovsky",
+        "Boris Ya Kovalerchuk",
+        "Stanislav O Speransky"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Elsevier",
+    "cites": [],
+    "summary": "We developed an original approach to cognition, based on the previously developed theory of neural modeling fields and dynamic logic. This approach is based on the detailed analysis and solution of the problems of artificial intelligence \u2013 combinatorial complexity and logic and probability synthesis. In this paper we interpret the theory of neural modeling fields and dynamic logic in terms of logic and probability, and obtain a Probabilistic Dynamic Logic of Cognition (PDLC). We interpret the PDLC at the neural level. As application we considered the task of the expert decision-making model approximation for the breast cancer diagnosis. First we extracted this model from the expert, using original procedure, based on monotone Boolean functions. Then we applied PDLC for learning this model from data. Because of this model may be interpreted at the neural level, it may be considered as a result of the expert brain\u00a0\u2026"
+},{
+    "id": 16,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:_kc_bZDykSQC",
+    "title": "The reliability issue of computer-aided breast cancer diagnosis",
+    "date": "2000/8/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evangelos Triantaphyllou",
+        "James F Ruiz",
+        "Vetle I Torvik",
+        "Evgeni Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Academic Press",
+    "cites": [],
+    "summary": "This paper introduces a number of reliability criteria for computer-aided diagnostic systems for breast cancer. These criteria are then used to analyze some published neural network systems. It is also shown that the property of monotonicity for the data is rather natural in this medical domain, and it has the potential to significantly improve the reliability of breast cancer diagnosis while maintaining a general representation power. A central part of this paper is devoted to the representation/narrow vicinity hypothesis, upon which existing computer-aided diagnostic methods heavily rely. The paper also develops a framework for determining the validity of this hypothesis. The same framework can be used to construct a diagnostic procedure with improved reliability."
+},{
+    "id": 17,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:KUbvn5osdkgC",
+    "title": "Integrating artificial intelligence and visualization for visual knowledge discovery",
+    "date": "2022/6/4",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Kawa Nazemi",
+        "R\u0103zvan Andonie",
+        "Nuno Datia",
+        "Ebad Banissi"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Nature",
+    "cites": [],
+    "summary": "Knowledge Discovery is a process as ancient as history itself. Visualization is a concept of forming a mental image, in which it can simulate other senses to acquire knowledge. Today, Knowledge Discovery and Visualization are fields on their own and intertwined that capitalize on the processing capabilities of computers and AI to transform complex data into a visual form not just for communication but also for knowledge discovery that leads to decision-and policymaking. The visualization field has evolved dramatically over the past four\u2013five decades. In recent years, AI has leapt into the application domain after maturing many machine learning fields such as deep learning techniques. AI is the newest phase in a technological revolution that impacts government policies, societies, and the economy unprecedented and unexpected. There is a race for AI-superiorities between technologically advanced governments\u00a0\u2026"
+},{
+    "id": 18,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:JoZmwDi-zQgC",
+    "title": "Agents\u2019 model of uncertainty",
+    "date": "2009/2/1",
+    "authors": [
+        "Germano Resconi",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer-Verlag",
+    "cites": [],
+    "summary": "Multi-agent systems play an increasing role in sensor networks, software engineering, web design, e-commerce, robotics, and many others areas. Uncertainty is a fundamental property of these areas. Agent-based systems use probabilistic and other uncertainty models developed earlier without explicit consideration of agents. This paper explores the impact of agents on uncertainty models and theories. We compare two methods of introducing agents to uncertainty theories and propose a new theory called the agent-based uncertainty theory (AUT). We show advantages of AUT for advancing multi-agent systems and for solving an internal fundamental question of uncertainty theories, that is identifying coherent approaches to uncertainty. The advantages of AUT are that it provides a uniform agent-based representation and an operational empirical interpretation for several uncertainty theories such as rough set\u00a0\u2026"
+},{
+    "id": 19,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:-f6ydRqryjwC",
+    "title": "Toward Efficient Automation of Interpretable Machine Learning",
+    "date": "2018/12/10",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Nathan Neuhaus"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Developing more efficient automated methods for interpretable machine learning (ML) is an important and longterm machine-learning goal. Recent studies show that unintelligible \"black\" box models, such as Deep Learning Neural Networks, often outperform more interpretable \"grey\" or \"white\" box models such as Decision Trees, Bayesian networks, Logic Relational models and others. Being forced to choose between accuracy and interpretability, however, is a major obstacle in the wider adoption of ML in healthcare and other domains where decisions requires both facets. Due to human perceptual limitations in analyzing complex multidimensional relations in ML, complex ML must be \"degraded\" to the level of human understanding, thereby also degrading model accuracy. To address this challenge, this paper presents the Dominance Classifier and Predictor (DCP) algorithm, capable of automating the process\u00a0\u2026"
+},{
+    "id": 20,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:70eg2SAEIzsC",
+    "title": "Visualization of multidimensional data with collocated paired coordinates and general line coordinates",
+    "date": "2014/2/3",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "SPIE",
+    "cites": [],
+    "summary": "Often multidimensional data are visualized by splitting n-D data to a set of low dimensional data. While it is useful it destroys integrity of n-D data, and leads to a shallow understanding complex n-D data. To mitigate this challenge a difficult perceptual task of assembling low-dimensional visualized pieces to the whole n-D vectors must be solved. Another way is a lossy dimension reduction by mapping n-D vectors to 2-D vectors (e.g., Principal Component Analysis). Such 2-D vectors carry only a part of information from n-D vectors, without a way to restore n-D vectors exactly from it. An alternative way for deeper understanding of n-D data is visual representations in 2-D that fully preserve n-D data. Methods of Parallel and Radial coordinates are such methods. Developing new methods that preserve dimensions is a long standing and challenging task that we address by proposing Paired Coordinates that is a new type\u00a0\u2026"
+},{
+    "id": 21,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:7PzlFSSx8tAC",
+    "title": "Modelling phenomena and dynamic logic of phenomena",
+    "date": "2012/6/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Leonid Perlovsky",
+        "Gregory Wheeler"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Routledge",
+    "cites": [],
+    "summary": "Modelling a complex phenomenon such as the mind presents tremendous computational complexity challenges. Modelling field theory (MFT) addresses these challenges in a non-traditional way. The main idea behind MFT is to match levels of uncertainty of the model (also, a problem or some theory) with levels of uncertainty of the evaluation criterion used to identify that model. When a model becomes more certain, then the evaluation criterion is adjusted dynamically to match that change to the model. This process is called the Dynamic Logic of Phenomena (DLP) for model construction and it mimics processes of the mind and natural evolution. This paper provides a formal description of DLP by specifying its syntax, semantics, and reasoning system. We also outline links between DLP and other logical approaches. Computational complexity issues that motivate this work are presented using an example of\u00a0\u2026"
+},{
+    "id": 22,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:1yQoGdGgb4wC",
+    "title": "Dynamic logic of phenomena and cognition",
+    "date": "2008/6/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Leonid Perlovsky"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Modeling of complex phenomena such as the mind presents tremendous computational complexity challenges. The neural modeling fields theory (NMF) addresses these challenges in a non-traditional way. The main idea behind success of NMF is matching the levels of uncertainty of the problem/model and the levels of uncertainty of the evaluation criterion used to identify the model. When a model becomes more certain then the evaluation criterion is also adjusted dynamically to match the adjusted model. This process is called dynamic logic (DL) of model construction, which mimics processes of the mind and natural evolution. This paper provides a formal description of phenomena dynamic logic (P-DL) and outlines its extension to the cognitive dynamic logic (C-DL). P-DL is presented with its syntactic, reasoning, and semantic parts. Computational complexity issues that motivate this paper are presented using\u00a0\u2026"
+},{
+    "id": 23,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:_B80troHkn4C",
+    "title": "Linguistic context spaces: necessary frames for correct approximate reasoning",
+    "date": "1996/6/1",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Taylor & Francis Group",
+    "cites": [],
+    "summary": "Effective inference under uncertainty in Artificial Intelligence depends on context. Inferences based on Bayesian conditional probabilities use context effectively. However, newer approaches, such as fuzzy reasoning (and others\u2014e.g., Dempster-Shafer, rough sets, etc.) cannot take context appropriately into account without further development of linguistic context. We develop the new concept of \u201ccontext space\u201d for fuzzy sets theory. Many-valued fuzzy sets were introduced by Nakanishi [1989]. We use them in this paper to describe context (context space) as an analog of probability space. Such a description of context space allows one to usefully construct fuzzy sets for specific applications, and thus improves the foundation for fuzzy sets theory. In addition, the problem of establishing membership functions (MFs) is considered for context spaces. It is shown that semantic operational procedures [Hisdal, 1984] and\u00a0\u2026"
+},{
+    "id": 24,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:_xSYboBqXhAC",
+    "title": "Agent-based uncertainty logic network",
+    "date": "2010/7/18",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Germano Resconi"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Boolean and discrete networks play an important role in many domains such as cellular automata. This paper generalizes that concept of Boolean networks for complex situations with multiple agents acting under uncertainty. This paper creates a logic network using a concept of the Agent-based Uncertainty Theory (AUT). The AUT is based on complex fusion of crisp (non-fuzzy) conflicting judgments of agents. It provides a uniform representation and an operational empirical interpretation for several uncertainty theories such as rough set theory, fuzzy sets theory, evidence theory, and probability theory. The AUT models conflicting evaluations that are fused in the same evaluation context. An AUT network extend the traditional inferential process by using a set of logic matrices obtained from AUT logic evaluation samples connected in a network. This network computes transformations of AUT logic vectors and gives\u00a0\u2026"
+},{
+    "id": 25,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:2osOgNQ5qMEC",
+    "title": "Correlation of complex evidence in forensic accounting using data mining",
+    "date": "2007",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev",
+        "Robert Holtfreter"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "The classical statistical correlation is an efficient technique for linking simple numerical data sets via a single correlation coefficient. The modern schemes for money laundering and financial fraud are becoming very sophisticated and are changed all the time. To be able to discover such schemes we need to deal simultaneously with a diverse set of numeric and non-numeric data types that include different numeric data types, ordered sets, graph structures, texts, schemes, plans, and other information. Often any individual evidence does not reveal a suspicious pattern and does not guide investigation in forensic accounting. In contrast, correlation of two or more evidences with each other and background knowledge can reveal a suspicious pattern. The area of Link Discovery (LD) has emerged recently as a promising new approach for such tasks. This paper outlines design of such a new technique called Hybrid Evidence Correlation (HEC). It combines first-order logic (FOL), probabilistic semantic inference (PSI) and negative rules for designing HEC to deal with rare suspicious patterns. The approach is illustrated with an example of discovery of suspicious patterns. Computational efficiency of the algorithm is justified by a computational experiment. Conceptual advantages of the algorithm such as completeness have been reported in previous mathematical analysis of the base concepts of the algorithm. The approach was successfully tested for detecting fraudulent transactions in synthetic data. Data contained several attributes of a transaction such as seller, buyer, types of buyer and seller, sold item, amount, price and date."
+},{
+    "id": 26,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:roLk4NBRz8UC",
+    "title": "Monotonicity and logical analysis of data: a mechanism for evaluation of mammographic and clinical data",
+    "date": "1996/6/6",
+    "authors": [
+        "B Kovalerchuk",
+        "E Triantaphyllou",
+        "J Ruiz"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": null
+},{
+    "id": 27,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:uJ-U7cs_P_0C",
+    "title": "Enhancement of Cross Validation Using Hybrid Visual and Analytical Means with Shannon Function",
+    "date": "2020",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer, Cham",
+    "cites": [],
+    "summary": "The algorithm of k-fold cross validation is actively used to evaluate and compare machine learning algorithms. However, it has several important deficiencies documented in the literature along with its advantages. The advantages of quick computations are also a source of its major deficiency. It tests only a small fraction of all the possible splits of data, on training and testing data leaving untested many difficult for prediction splits. The associated difficulties include bias in estimated average error rate and its variance, the large variance of the estimated average error, and possible irrelevance of the estimated average error to the problem of the user. The goal of this paper is improving the cross validation approach using the combined visual and analytical means in a hybrid setting. The visual means include both the point-to-point mapping and a new point\u2013to-graph mapping of the n-D data to 2-D data known as\u00a0\u2026"
+},{
+    "id": 28,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:Mojj43d5GZwC",
+    "title": "Decreasing occlusion and increasing explanation in interactive visual knowledge discovery",
+    "date": "2018/6/7",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Abdulrahman Gharawi"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer International Publishing",
+    "cites": [],
+    "summary": "Explanation and occlusion are the major problems for interactive visual knowledge discovery, machine learning and data mining in multidimensional data. This paper proposes a hybrid method that combines the visual and analytical means to deal with these problems. This method, denoted as FSP, uses visualization of n-D data in 2-D, in a set of Shifted Paired Coordinates (SPC). SPCs for n-D data consist of n/2 pairs of Cartesian coordinates, which are shifted relative to each other to avoid their overlap. Each n-D point is represented as a directed graph in SPC. It is shown that the FSP method simplifies the pattern discovery in n-D data, providing the explainable rules in a visual form with a significant decrease of the cognitive load for analysis of n-D data. The computational experiments on real data has shown its efficiency on both training and validation data."
+},{
+    "id": 29,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:UeHWp8X0CEIC",
+    "title": "Visual knowledge discovery and machine learning for investment strategy",
+    "date": "2017/8/1",
+    "authors": [
+        "Antoni Wilinski",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Elsevier",
+    "cites": [],
+    "summary": "Knowledge discovery is an important aspect of human cognition. The advantage of the visual approach is in opportunity to substitute some complex cognitive tasks by easier perceptual tasks. However for cognitive tasks such as financial investment decision making this opportunity faces the challenge that financial data are abstract multidimensional and multivariate, i.e., outside of traditional visual perception in 2D or 3D world. This paper presents an approach to find an investment strategy based on pattern discovery in multidimensional space of specifically prepared time series. Visualization based on the lossless Collocated Paired Coordinates (CPC) plays an important role in this approach for building the criteria in the multidimensional space for finding an efficient investment strategy. Criteria generated with the CPC approach allow reducing/compressing space using simple directed graphs with beginnings and\u00a0\u2026"
+},{
+    "id": 30,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:PELIpwtuRlgC",
+    "title": "Neural networks for data mining: constrains and open problems.",
+    "date": "2004/4",
+    "authors": [
+        "Razvan Andonie",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "When we talk about using neural networks for data mining we have in mind the original data mining scope and challenge. How did neural networks meet this challenge? Can we run neural networks on a dataset with gigabytes of data and millions of records? Can we provide explanations of discovered patterns? How useful that patterns are? How to distinguish useful, interesting patterns automatically? We aim to summarize here the state-of-the-art of the principles beyond using neural models in data mining."
+},{
+    "id": 31,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:URolC5Kub84C",
+    "title": "Discovering Interpretable Machine Learning Models in Parallel Coordinates",
+    "date": "2021/7/5",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Dustin Hayes"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "This paper contributes to interpretable machine learning via visual knowledge discovery in parallel coordinates. The concepts of hypercubes and hyper-blocks are used as easily understandable by end-users in the visual form in parallel coordinates. The Hyper algorithm for classification with mixed and pure hyper-blocks (HBs) is proposed to discover hyper-blocks interactively and automatically in individual, multiple, overlapping, and non-overlapping setting. The combination of hyper-blocks with linguistic description of visual patterns is presented too. It is shown that Hyper models generalize decision trees. The Hyper algorithm was tested on the benchmark data from UCI ML repository. It allowed discovering pure and mixed HBs with all data and then with 10-fold cross validation. The links between hyper-blocks, dimension reduction and visualization are established. Major benefits of hyper-block technology and the Hyper algorithm are in their ability to discover and observe hyper-blocks by end-users including side by side visualizations making patterns visible for all classes. Another advantage of sets of HBs relative to the decision trees is the ability to avoid both data overgeneralization and overfitting."
+},{
+    "id": 32,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:EUQCXRtRnyEC",
+    "title": "Symbolic methodology for numeric data mining",
+    "date": "2008/1/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IOS press",
+    "cites": [],
+    "summary": "Currently statistical and artificial neural network methods dominate in data mining applications. Alternative relational (symbolic) data mining methods have shown their effectiveness in robotics, drug design, and other areas. Neural networks and decision tree methods have serious limitations in capturing relations that may have a variety of forms. Learning systems based on symbolic first-order logic (FOL) representations capture relations naturally. The learned regularities are understandable directly in domain terms that help to build a domain theory. This paper describes relational data mining methodology and develops it further for numeric data such as financial and spatial data. This includes (1) comparing the attribute-value representation with the relational representation, (2) defining a new concept of joint relational representations, (3) a process of their use, and the Discovery algorithm. This methodology\u00a0\u2026"
+},{
+    "id": 33,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:WbkHhVStYXYC",
+    "title": "Learning common outcomes of communicative actions represented by labeled graphs",
+    "date": "2007",
+    "authors": [
+        "Boris A Galitsky",
+        "Boris Kovalerchuk",
+        "Sergei O Kuznetsov"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Berlin Heidelberg",
+    "cites": [],
+    "summary": "We build a generic methodology based on learning and reasoning to detect specific attitudes of human agents and patterns of their interactions. Human attitudes are determined in terms of communicative actions of agents; models of machine learning are used when it is rather hard to identify attitudes in a rule-based form directly. We employ scenario knowledge representation and learning techniques in such problems as predicting an outcome of international conflicts, assessment of an attitude of a security clearance candidate, mining emails for suspicious emotional profiles, mining wireless location data for suspicious behavior, and classification of textual customer complaints. A preliminary performance estimate evaluation is conducted in the above domains. Successful use of the proposed methodology in rather distinct domains shows its adequacy for mining human attitude-related data in a wide range of\u00a0\u2026"
+},{
+    "id": 34,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:z_wVstp3MssC",
+    "title": "Symbolic methodology in numeric data mining: relational techniques for financial applications",
+    "date": "2002/8/15",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev",
+        "Husan Yusupov"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": null
+},{
+    "id": 35,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:S16KYo8Pm5AC",
+    "title": "Artificial intelligence and visualization: advancing visual knowledge discovery",
+    "date": "2024/4/24",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Kawa Nazemi",
+        "R\u0103zvan Andonie",
+        "Nuno Datia",
+        "Ebad Bannissi"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer",
+    "cites": [],
+    "summary": "This book continues a series of Springer publications devoted to the emerging field of Integrated Artificial Intelligence and Machine Learning with Visual Knowledge Discovery and Visual Analytics that combine advances in both fields. Artificial Intelligence and Machine Learning face long-standing challenges of explainability and interpretability that underpin trust. Such attributes are fundamental to both decision-making and knowledge discovery. Models are approximations and, at best, interpretations of reality that are transposed to algorithmic form. A visual explanation paradigm is critically important to address such challenges, as current studies demonstrate in salience analysis in deep learning for images and texts. Visualization means are generally effective for discovering and explaining high-dimensional patterns in all high-dimensional data, while preserving data properties and relations in visualizations is\u00a0\u2026"
+},{
+    "id": 36,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:zLWjf1WUPmwC",
+    "title": "Solving Non-image Learning Problems by Mapping to Images",
+    "date": "2020/9/7",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Bedant Agarwal",
+        "Divya Chandrika Kalla"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Transforming non-image Machine Learning (ML) problems into the image recognition problems, opens an opportunity to solve these problems, by powerful deep learning algorithms. This paper proposes a new CPC-R algorithm, which converts non-image data into images, by visualizing non-image data. Then several deep learning CNN algorithms are exploited to solve the learning problems. The CPC-R algorithm preserves high-dimensional information in 2-D. It splits the attributes of an n-D point into pairs of its values and visualizes pairs as 2-D points, in the same 2-D Cartesian coordinates. Next, it maps pairs to grey scale or color intensity values to encode the order of pairs producing a heatmap. This paper reports the results of computational experiments with CPC-R for different CNN architectures, and methods to optimize the CPC-R images. These results show that the combined CPC-R and deep learning\u00a0\u2026"
+},{
+    "id": 37,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:EkHepimYqZsC",
+    "title": "The logic of uncertainty with irrational agents",
+    "date": "2006/10/8",
+    "authors": [
+        "Germano Resconi",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "Modern axiomatic uncertainty theories (fuzzy logic, probability theory and others) provide a calculus for manipulating with probabilities, membership functions, and degrees of belief when the initial values such as probabilities of elementary events are already given. These theories do not include a mechanism for getting initial uncertainty values. The value of these theories is in computing uncertainties of complex events that follow a structure imposed by axioms of a specific uncertainty theory. The lack of internal mechanism for getting initial values often means in the end that the same mechanism is applied for getting initial probability values, fuzzy logic membership functions, and belief functions. This is a source of much confusion--what is the real difference between all of these theories. A resolution of this confusion is critical from both theoretical and practical viewpoints. We argue that adding an internal\u00a0\u2026"
+},{
+    "id": 38,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:PR6Y55bgFSsC",
+    "title": "Visual data mining using monotone Boolean functions",
+    "date": "2004",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Florian Delizy"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Netherlands",
+    "cites": [],
+    "summary": "This chapter describes a new technique for extracting patterns and relations visually from multidimensional binary data using monotone Boolean functions. Visual Data Mining has shown benefits in many areas when used with numerical data, but that technique is less beneficial for binary data. This problem is especially challenging in medical applications tracked with binary symptoms. The proposed method relies on monotone structural relations between Boolean vectors in the n-dimensional binary cube, En, and visualizes them in 2-D as chains of Boolean vectors. Actual Boolean vectors are laid out on this chain structure. Currently the system supports two visual forms: the multiple disk form (MDF) and the \u201cYin/Yang\u201d form (YYF). In the MDF, every vector has a fixed horizontal and vertical position. In the YYF, only the vertical position is fixed.Key words: Visual Data Mining, explicit data structure, Boolean data\u00a0\u2026"
+}
+]
