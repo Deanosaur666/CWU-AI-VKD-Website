@@ -17,6 +17,11 @@ const gh_repo = "CWU-AI-VKD-Website"
 // shas for files loaded, so we can update them
 let gh_shas = {};
 
+let sourcePaths = [
+    "sources/articles.json",
+    "sources/software.json"
+];
+
 export async function ghAuth(authToken) {
     username = "";
 
@@ -86,4 +91,13 @@ export async function ghUploadJSON(object, path) {
     const { commit: { html_url } } = fileContent.data;
 
     console.log(`File ${path} updated. See changes at ${html_url}.`);
+}
+
+export async function ghGetSourceJSONs() {
+    let objects = [];
+    for(let i = 0; i < sourcePaths.length; i ++) {
+        let sourceObjects = await ghGetJSON(sourcePaths[i]);
+        objects = objects.concat(sourceObjects);
+    }
+    return objects;
 }
