@@ -19,9 +19,17 @@ let gh_shas = {};
 let gh_source_jsons = {};
 let gh_source_modified = {};
 
+// the indexes of these should correspond to paths below
+let sourceTypes = [
+    "article",
+    "software"
+]
+
 let sourcePaths = [
     "sources/articles.json",
-    "sources/software.json"
+    "sources/software.json",
+
+    "sources/other.json" // anything else
 ];
 
 export async function ghAuth(authToken) {
@@ -121,4 +129,40 @@ export function ghAddSource(sourceFilePath, object) {
     gh_source_jsons[sourceFilePath].push(object);
     // this file has been modified
     gh_source_modified[sourceFilePath] = true;
+}
+
+// we will use this to generate a list of fields or something
+const sourceFields = [
+    "id", "link", "title", "date", "authors", "topics",
+    "form", "isbn", "doi", "publisher", "cites", "summary"
+];
+
+// create GUI form to enter data
+export function ghAddSourceForm() {
+    // a dropdown list from sourceTypes,
+    // determines what file to add to, form
+
+    // ID field
+
+    // link field
+
+    // Title field
+
+    // Date field
+
+    // Authors field (list, maybe comma seperated or something?)
+
+    // Topics field (list like above)
+
+    // form is automatically set by the type thing above
+
+    // isbn field
+
+    // doi field
+
+    // publisher field
+
+    // cites field (list)
+
+    // summary field (big text box?)
 }
