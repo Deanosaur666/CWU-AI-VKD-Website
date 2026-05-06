@@ -1,5 +1,5 @@
 /**
- * Ian Cunningham 4/30/2026
+ * Dean Yockey 5/26/2026
  * This file is all about using the GitHub API
  */
 
@@ -16,6 +16,8 @@ const gh_repo = "CWU-AI-VKD-Website"
 
 // shas for files loaded, so we can update them
 let gh_shas = {};
+let gh_source_jsons = {};
+let gh_source_modified = {};
 
 let sourcePaths = [
     "sources/articles.json",
@@ -47,7 +49,7 @@ export async function ghAuth(authToken) {
 
 }
 
-export async function ghGetJSON(path) {
+async function ghGetJSON(path) {
     console.log(`ghGetJSon(${path})`);
     
     // API request
@@ -66,11 +68,14 @@ export async function ghGetJSON(path) {
     
     // Parse the text as JSON
     let json = JSON.parse(decodedContent);
+
+    gh_source_jsons[path] = json;
+    gh_source_modified[path] = false;
     
     return json;
 }
 
-export async function ghUploadJSON(object, path) {
+async function ghUploadJSON(object, path) {
     // you can't upload if you're not logged in
     if(!username) {
         console.log("User must authenticate with GitHub personal access token to upload data.");
@@ -100,4 +105,20 @@ export async function ghGetSourceJSONs() {
         objects = objects.concat(sourceObjects);
     }
     return objects;
+}
+
+export async function ghUploadModifed() {
+    for(const [key, value] of Object.entries(gh_source_jsons)) {
+        if(gh_source_modified[key]) {
+            ghUploadJSON(value, key);
+            gh_source_modified[key] = false;
+        }
+    }
+}
+
+export function ghAddSource(sourceFilePath, object) {
+    // add object to end of the array
+    gh_source_jsons[sourceFilePath].push(object);
+    // this file has been modified
+    gh_source_modified[sourceFilePath] = true;
 }
