@@ -9,7 +9,7 @@ import Graph from "graphology";
 import Sigma from "sigma";
 import circular from "graphology-layout/circular";
 import forceAtlas2 from "graphology-layout-forceatlas2";
-import { ghGetSourceJSONs } from "./github"
+import { ghGetSourceJSONs, ghAddSourceForm } from "./github"
 
 
 /**
@@ -137,6 +137,7 @@ topics.forEach(topic => {
  * and calls updateVisibility().
  */
 const display_container = document.getElementById("display-container");
+// add button for the add source form
 for(let i = 0; i < topics.length; i++) {
     const topic = topics[i];
     const row = document.createElement("div");

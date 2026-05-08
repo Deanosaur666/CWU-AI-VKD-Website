@@ -131,38 +131,171 @@ export function ghAddSource(sourceFilePath, object) {
     gh_source_modified[sourceFilePath] = true;
 }
 
-// we will use this to generate a list of fields or something
-const sourceFields = [
-    "id", "link", "title", "date", "authors", "topics",
-    "form", "isbn", "doi", "publisher", "cites", "summary"
+const info_container = document.getElementById("info-container");
+const display_container = document.getElementById("display-container");
+
+// the button for adding a source
+const row = document.createElement("div");
+row.className = "button-row";
+
+//adds button to div
+const addSourceButton = document.createElement("button");
+addSourceButton.textContent = "Add source";
+
+addSourceButton.addEventListener("click", () => {
+    ghAddSourceForm();
+});
+
+row.appendChild(addSourceButton);
+display_container.appendChild(row);
+
+const sourceFormFields = [
+    // a dropdown list from sourceTypes,
+    // determines what file to add to, for
+    {
+        id : "typeSelector",
+        label : "Source type:",
+        element : "select",
+        innerHTML :
+            `
+            <option value="software">Software</option>
+            <option value="article">Article</option>
+            <option value="other">Other</option>
+            `
+    },
+    // ID field
+    {
+        id : "idField",
+        label : "ID: ",
+        element : "input",
+        type : "text"
+    },
+    // Link field
+    {
+        id : "linkField",
+        label : "Link: ",
+        element : "input",
+        type : "text"
+    },
+    // Title field
+    {
+        id : "titleField",
+        label : "Title: ",
+        element : "input",
+        type : "text"
+    },
+    // Date field
+    {
+        id : "dateField",
+        label : "Date: ",
+        element : "input",
+        type : "date"
+    },
+    // Authors field (list, maybe comma seperated or something?)
+    {
+        id : "authorField",
+        label : "Authors: ",
+        element : "input",
+        type : "text"
+    },  // would like something nicer than just a normal textox, maybe using horsey or something?
+        // but this is a placeholder for now I guess
+
+    // Topics field (list like above)
+    {
+        id : "topicsField",
+        label : "Topics: ",
+        element : "input",
+        type : "text"
+    },
+
+    // can I make these only appear based on what the type is?
+    // ISBN
+    {
+        id : "isbnField",
+        label : "ISBN: ",
+        element : "input",
+        type : "text"
+    },
+
+    // DOI
+    {
+        id : "doiField",
+        label : "DOI: ",
+        element : "input",
+        type : "text"
+    },
+
+    // Publisher
+    {
+        id : "publisherField",
+        label : "Publisher: ",
+        element : "input",
+        type : "text"
+    },
+
+    // Cites field (list)
+    {
+        id : "citesField",
+        label : "Cites: ",
+        element : "input",
+        type : "text"
+    },
+
+    // Summary field (big text box)
+    // 5 rows or something?
+    // textarea element
+    {
+        id : "summaryField",
+        label : "Summary: ",
+        element : "textarea",
+    },
 ];
 
 // create GUI form to enter data
 export function ghAddSourceForm() {
-    // a dropdown list from sourceTypes,
-    // determines what file to add to, form
 
-    // ID field
+    // title
+    info_container.innerHTML = "<div><strong>Add source</strong></div>";
 
-    // link field
+    // fields
+    for(let i = 0; i < sourceFormFields.length; i ++) {
+        const field = sourceFormFields[i];
+        const row = document.createElement("div");
+        row.className = "field-row";
 
-    // Title field
+        // label
+        if("label" in field) {
+            const label = document.createElement("label");
+            label.setAttribute("for", field.id)
+            label.textContent = field.label;
+            row.appendChild(label);
+        }
 
-    // Date field
+        const fieldElement = document.createElement(field.element);
+        fieldElement.id = field.id;
+        if("innerHTML" in field) {
+            fieldElement.innerHTML = field.innerHTML;
+        }
+        if("type" in field) {
+            fieldElement.setAttribute("type", field.type);
+        }
 
-    // Authors field (list, maybe comma seperated or something?)
+        row.appendChild(fieldElement);
+        info_container.appendChild(row);
+    }
 
-    // Topics field (list like above)
+    // submit button
+    const row = document.createElement("div");
+    row.className = "button-row";
 
-    // form is automatically set by the type thing above
+    //adds button to div
+    const addSourceButton = document.createElement("button");
+    addSourceButton.textContent = "Submit source";
 
-    // isbn field
+    addSourceButton.addEventListener("click", () => {
+        /* Add source to json array or whatever */
+    });
 
-    // doi field
-
-    // publisher field
-
-    // cites field (list)
-
-    // summary field (big text box?)
+    row.appendChild(addSourceButton);
+    info_container.appendChild(row);
 }
