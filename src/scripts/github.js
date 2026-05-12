@@ -154,7 +154,7 @@ const sourceFormFields = [
     // determines what file to add to, for
     {
         id : "typeSelector",
-        label : "Source type:",
+        label : "Source type",
         element : "select",
         innerHTML :
             `
@@ -169,7 +169,7 @@ const sourceFormFields = [
     // ID field
     {
         id : "idField",
-        label : "ID: ",
+        label : "ID",
         element : "input",
         type : "text",
         jsonkey : "id"
@@ -177,7 +177,7 @@ const sourceFormFields = [
     // Link field
     {
         id : "linkField",
-        label : "Link: ",
+        label : "Link",
         element : "input",
         type : "text",
         jsonkey : "link",
@@ -186,7 +186,7 @@ const sourceFormFields = [
     // Title field
     {
         id : "titleField",
-        label : "Title: ",
+        label : "Title",
         element : "input",
         type : "text",
         jsonkey : "title",
@@ -195,7 +195,7 @@ const sourceFormFields = [
     // Date field
     {
         id : "dateField",
-        label : "Date: ",
+        label : "Date",
         element : "input",
         type : "date",
         jsonkey : "date"
@@ -203,7 +203,7 @@ const sourceFormFields = [
     // Authors field (list, maybe comma seperated or something?)
     {
         id : "authorField",
-        label : "Authors: ",
+        label : "Authors",
         element : "input",
         type : "text",
         jsonkey : "authors",
@@ -215,7 +215,7 @@ const sourceFormFields = [
     // Topics field (list like above)
     {
         id : "topicsField",
-        label : "Topics: ",
+        label : "Topics",
         element : "input",
         type : "text",
         jsonkey : "topics",
@@ -226,7 +226,7 @@ const sourceFormFields = [
     // ISBN
     {
         id : "isbnField",
-        label : "ISBN: ",
+        label : "ISBN",
         element : "input",
         type : "text",
         jsonkey : "isbn",
@@ -236,7 +236,7 @@ const sourceFormFields = [
     // DOI
     {
         id : "doiField",
-        label : "DOI: ",
+        label : "DOI",
         element : "input",
         type : "text",
         jsonkey : "doi",
@@ -246,7 +246,7 @@ const sourceFormFields = [
     // Publisher
     {
         id : "publisherField",
-        label : "Publisher: ",
+        label : "Publisher",
         element : "input",
         type : "text",
         jsonkey : "publisher",
@@ -256,7 +256,7 @@ const sourceFormFields = [
     // Cites field (list)
     {
         id : "citesField",
-        label : "Cites: ",
+        label : "Cites",
         element : "input",
         type : "text",
         jsonkey : "cites",
@@ -268,7 +268,7 @@ const sourceFormFields = [
     // textarea element
     {
         id : "summaryField",
-        label : "Summary: ",
+        label : "Summary",
         element : "textarea",
         jsonkey : "summary",
         required : true,
@@ -294,7 +294,6 @@ export function ghAddSourceForm() {
 
         // skip if not visible for this type
         if(type && ("visibleon" in field) && !field.visibleon.includes(type)) {
-            console.log(field.jsonkey);
             continue;
         }
 
@@ -304,8 +303,12 @@ export function ghAddSourceForm() {
         // label
         if("label" in field) {
             const label = document.createElement("label");
-            label.setAttribute("for", field.id)
-            label.textContent = field.label;
+            label.setAttribute("for", field.id);
+            let text = field.label;
+            if("required" in field && field.required)
+                text += "<span class='required'>*</span>";
+            text += ": ";
+            label.innerHTML = text;
             row.appendChild(label);
         }
 
@@ -334,10 +337,44 @@ export function ghAddSourceForm() {
     const addSourceButton = document.createElement("button");
     addSourceButton.textContent = "Submit source";
 
-    addSourceButton.addEventListener("click", () => {
-        /* Add source to json array or whatever */
-    });
+    addSourceButton.addEventListener("click", ghSubmitAddSourceForm);
 
     row.appendChild(addSourceButton);
     info_container.appendChild(row);
+}
+
+function ghSubmitAddSourceForm() {
+    const typeSelector = document.getElementById("typeSelector");
+    const type = typeSelector.value;
+
+    const jsonobj = {};
+    let failed = false;
+    
+    // fields
+    for(let i = 0; i < sourceFormFields.length; i ++) {
+        const field = sourceFormFields[i];
+        
+        // skip if not visible for this type
+        if(type && ("visibleon" in field) && !field.visibleon.includes(type)) {
+            continue;
+        }
+
+        const element = document.getElementById(field.id);
+
+        if(!failed && "required" in field && field.required && !element.value) {
+            alert("Please fill out all required fields.");
+            failed = true;
+        }
+
+        else if(element.value) {
+            if("jsontype" in field && field.jsontype == "array") {
+                jsonobj[field.jsonkey] = element.value.split(",").map(item => item.trim());
+            }
+            else {
+                jsonobj[field.jsonkey] = element.value;
+            }
+        }
+    }
+
+    console.log(jsonobj);
 }
