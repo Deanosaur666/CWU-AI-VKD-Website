@@ -160,43 +160,55 @@ const sourceFormFields = [
             `
             <option value="software">Software</option>
             <option value="article">Article</option>
+            <option value="book">Book</option>
             <option value="other">Other</option>
-            `
+            `,
+        jsonkey : "form",
+        required : true,
     },
     // ID field
     {
         id : "idField",
         label : "ID: ",
         element : "input",
-        type : "text"
+        type : "text",
+        jsonkey : "id"
     },
     // Link field
     {
         id : "linkField",
         label : "Link: ",
         element : "input",
-        type : "text"
+        type : "text",
+        jsonkey : "link",
+        required : true,
     },
     // Title field
     {
         id : "titleField",
         label : "Title: ",
         element : "input",
-        type : "text"
+        type : "text",
+        jsonkey : "title",
+        required : "true"
     },
     // Date field
     {
         id : "dateField",
         label : "Date: ",
         element : "input",
-        type : "date"
+        type : "date",
+        jsonkey : "date"
     },
     // Authors field (list, maybe comma seperated or something?)
     {
         id : "authorField",
         label : "Authors: ",
         element : "input",
-        type : "text"
+        type : "text",
+        jsonkey : "authors",
+        jsontype : "array",
+        required : true,
     },  // would like something nicer than just a normal textox, maybe using horsey or something?
         // but this is a placeholder for now I guess
 
@@ -205,7 +217,9 @@ const sourceFormFields = [
         id : "topicsField",
         label : "Topics: ",
         element : "input",
-        type : "text"
+        type : "text",
+        jsonkey : "topics",
+        jsontype : "array"
     },
 
     // can I make these only appear based on what the type is?
@@ -214,7 +228,9 @@ const sourceFormFields = [
         id : "isbnField",
         label : "ISBN: ",
         element : "input",
-        type : "text"
+        type : "text",
+        jsonkey : "isbn",
+        visibleon : ["book", "other"]
     },
 
     // DOI
@@ -222,7 +238,9 @@ const sourceFormFields = [
         id : "doiField",
         label : "DOI: ",
         element : "input",
-        type : "text"
+        type : "text",
+        jsonkey : "doi",
+        visibleon : ["book", "article", "other"]
     },
 
     // Publisher
@@ -230,7 +248,9 @@ const sourceFormFields = [
         id : "publisherField",
         label : "Publisher: ",
         element : "input",
-        type : "text"
+        type : "text",
+        jsonkey : "publisher",
+        visibleon : ["book", "article", "other"]
     },
 
     // Cites field (list)
@@ -238,7 +258,9 @@ const sourceFormFields = [
         id : "citesField",
         label : "Cites: ",
         element : "input",
-        type : "text"
+        type : "text",
+        jsonkey : "cites",
+        jsontype : "array"
     },
 
     // Summary field (big text box)
@@ -248,11 +270,20 @@ const sourceFormFields = [
         id : "summaryField",
         label : "Summary: ",
         element : "textarea",
+        jsonkey : "summary",
+        required : true,
     },
 ];
 
 // create GUI form to enter data
 export function ghAddSourceForm() {
+
+    let type = null;
+    let typeSelector = document.getElementById("typeSelector");
+    if(typeSelector) {
+        type = typeSelector.value;
+        console.log(type);
+    }
 
     // title
     info_container.innerHTML = "<div><strong>Add source</strong></div>";
@@ -260,6 +291,13 @@ export function ghAddSourceForm() {
     // fields
     for(let i = 0; i < sourceFormFields.length; i ++) {
         const field = sourceFormFields[i];
+
+        // skip if not visible for this type
+        if(type && ("visibleon" in field) && !field.visibleon.includes(type)) {
+            console.log(field.jsonkey);
+            continue;
+        }
+
         const row = document.createElement("div");
         row.className = "field-row";
 
@@ -283,6 +321,10 @@ export function ghAddSourceForm() {
         row.appendChild(fieldElement);
         info_container.appendChild(row);
     }
+
+    typeSelector = document.getElementById("typeSelector");
+    typeSelector.addEventListener("change", ghAddSourceForm);
+    typeSelector.value = type;
 
     // submit button
     const row = document.createElement("div");
