@@ -137,6 +137,10 @@ topics.forEach(topic => {
  * and calls updateVisibility().
  */
 const display_container = document.getElementById("display-container");
+const section = document.createElement("div");
+section.textContent = "Topics:";
+display_container.appendChild(section);
+
 // add button for the add source form
 for(let i = 0; i < topics.length; i++) {
     const topic = topics[i];
@@ -161,6 +165,63 @@ for(let i = 0; i < topics.length; i++) {
     display_container.appendChild(row);
 
 }
+
+//year section header
+const year = document.createElement("div");
+year.textContent = "Sort By Year:";
+display_container.appendChild(year);
+
+//Creates all of the elements for year selection
+const yearSelect = document.createElement("div");
+const startYear = document.createElement("input");
+startYear.type = "text";
+const label = document.createElement("label");
+label.textContent = "to";
+const endYear = document.createElement("input");
+endYear.type = "text";
+const currentYear = new Date().getFullYear();
+endYear.value = currentYear;
+const choseYear = document.createElement("input");
+choseYear.type = "button";
+choseYear.value = "Sort";
+
+/**
+ * Event listener for when the "sort" button is
+ * clicked to sort by year. This updates the visibility
+ * on all of the nodes on the graph. At this point in time
+ * the data must have a date that includes a year and 
+ * use a delimiter of foward slashes "/", and it must
+ * start with the year "this is how Alan has been webscraping"
+ * EX: 2026/5/12
+ */
+choseYear.addEventListener("click", () => {
+    const start = parseInt(startYear.value);
+    const end = parseInt(endYear.value);
+
+    //error checks for ints
+    if(!start || !end) {
+        alert("Invalid input!\nMust be a numerical year");
+        return;
+    }
+    //checks that there is a valid date range
+    else if(end < start) {
+        alert("Invalid input!\nMust be a valid date range");
+    }
+
+    graph.forEachNode((node, attributes) => {
+        const nodeYear = parseInt(attributes.date.split("/"));
+        const visible = nodeYear >= start && nodeYear <= end;
+        graph.setNodeAttribute(node, "hidden", !visible);
+    });
+    renderer.refresh();
+});
+
+//append year textboxes to display_container
+yearSelect.appendChild(startYear);
+yearSelect.appendChild(label);
+yearSelect.appendChild(endYear);
+yearSelect.appendChild(choseYear);
+display_container.appendChild(yearSelect);
 
 /**
  * This is where the visibility of each node/edge is updated

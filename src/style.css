@@ -52,11 +52,15 @@ aside div {
 #display-container div {
     font-size: 125%;
     padding: 5px;
-    height: 50px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 15px;
+}
+
+#display-container div input {
+    width: 40px;
 }
 
 body {
