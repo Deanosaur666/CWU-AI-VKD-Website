@@ -276,17 +276,23 @@ const sourceFormFields = [
 ];
 
 // create GUI form to enter data
-export function ghAddSourceForm() {
+// source is null for new source I guess
+// if source is an existing source, pre-fill stuff
+export function ghAddSourceForm(source) {
 
     let type = null;
     let typeSelector = document.getElementById("typeSelector");
     if(typeSelector) {
         type = typeSelector.value;
-        console.log(type);
+    }
+
+    if(source) {
+        type = source.form;
+        console.log(source);
     }
 
     // title
-    info_container.innerHTML = "<div><strong>Add source</strong></div>";
+    info_container.innerHTML = "<div><strong>Add/edit source</strong></div>";
 
     // fields
     for(let i = 0; i < sourceFormFields.length; i ++) {
@@ -321,12 +327,22 @@ export function ghAddSourceForm() {
             fieldElement.setAttribute("type", field.type);
         }
 
+        // pre-fill
+        if(source && field.jsonkey in source) {
+            if("jsontype" in field && field.jsontype == "array") {
+                fieldElement.value = source[field.jsonkey].join(", ");
+            }
+            else {
+                fieldElement.value = source[field.jsonkey];
+            }
+        }
+
         row.appendChild(fieldElement);
         info_container.appendChild(row);
     }
 
     typeSelector = document.getElementById("typeSelector");
-    typeSelector.addEventListener("change", ghAddSourceForm);
+    typeSelector.addEventListener("change", () => { ghAddSourceForm(null) });
     typeSelector.value = type;
 
     // submit button
