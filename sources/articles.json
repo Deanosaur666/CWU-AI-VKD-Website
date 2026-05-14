@@ -173,21 +173,6 @@
     "summary": "The purpose of this work is to analise the cognitive process of the domain theories as it described in the Measurement Theorry and to develop a computational Machine Learning approach, which realise it. As a result the Relational Data Mining approach, proposed by the authors in the preceding books, is developed. We present this approach, as implementation of the cognitive process as it perceived in the Measurement Thoery. In the first part of the paper we analise the cognitive process. In the second we persent the theory and method of the logically most powerful empirical theory discovery. It is based on the notion of \u201claw-like\u201d rules, which satisfy all the properties of laws of nature: generality, simplicity, maximum refutability and minimum number of parameters. This notion is defined for deterministic and probabilistic cases. Based on this method the system \u201cDiscovery\u201d is developed. This system was succesfully applied for solving of many practical tasks."
 },{
     "id": 11,
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:qUcmZB5y_30C",
-    "title": "Comparison of empirical and computed values of fuzzy conjunction",
-    "date": "1992/2/25",
-    "authors": [
-        "Boris Kovalerchuk",
-        "V Taliansky"
-    ],
-    "topics": [],
-    "form": "paper",
-    "doi": null,
-    "publisher": "North-Holland",
-    "cites": [],
-    "summary": "The necessity for further experiments such as in [4] for the foundation of fuzzy sets theory is shown. Generality of the experimental results on fuzzy conjunction in the paper by Thole, Zimmermann and Zisno (1979) [4] for the other objects and language is verified for other conditions. Usually the minimum, the product and the restricted sum operators are used as an intersection (conjunction) of fuzzy sets in fuzzy optimization (F-optimization). On the basis of experiments, it is shown that these operators are correct for F-optimization. Their correctness is founded on the stability of the extremal point (a decision in Bellman-Zadeh's scheme) under a positive linear mapping. It is shown that these mappings exist between empirical conjunction and considered operators as a statistical result of linear regression analysis."
-},{
-    "id": 12,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:kRWSkSYxWN8C",
     "title": "Relational methodology for data mining and knowledge discovery",
     "date": "2008/1/1",
@@ -202,7 +187,39 @@
     "cites": [],
     "summary": "Knowledge discovery and data mining methods have been successful in many domains. However, their abilities to build or discover a domain theory remain unclear. This is largely due to the fact that many fundamental KDD&DM methodological questions are still unexplored such as (1) the nature of the information contained in input data relative to the domain theory, and (2) the nature of the knowledge that these methods discover. The goal of this paper is to clarify methodological questions of KDD&DM methods. This is done by using the concept of Relational Data Mining (RDM), representative measurement theory, an ontology of a subject domain, a many-sorted empirical system (algebraic structure in the first-order logic), and an ontology of a KDD&DM method. The paper concludes with a review of our RDM approach and 'Discovery' system built on this methodology that can analyze any hypotheses represented\u00a0\u2026"
 },{
+    "id": 12,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:qUcmZB5y_30C",
+    "title": "Comparison of empirical and computed values of fuzzy conjunction",
+    "date": "1992/2/25",
+    "authors": [
+        "Boris Kovalerchuk",
+        "V Taliansky"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "North-Holland",
+    "cites": [],
+    "summary": "The necessity for further experiments such as in [4] for the foundation of fuzzy sets theory is shown. Generality of the experimental results on fuzzy conjunction in the paper by Thole, Zimmermann and Zisno (1979) [4] for the other objects and language is verified for other conditions. Usually the minimum, the product and the restricted sum operators are used as an intersection (conjunction) of fuzzy sets in fuzzy optimization (F-optimization). On the basis of experiments, it is shown that these operators are correct for F-optimization. Their correctness is founded on the stability of the extremal point (a decision in Bellman-Zadeh's scheme) under a positive linear mapping. It is shown that these mappings exist between empirical conjunction and considered operators as a statistical result of linear regression analysis."
+},{
     "id": 13,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:uLbwQdceFCQC",
+    "title": "Probabilistic dynamic logic of cognition",
+    "date": "2013/10/1",
+    "authors": [
+        "Evgenii E Vityaev",
+        "Leonid I Perlovsky",
+        "Boris Ya Kovalerchuk",
+        "Stanislav O Speransky"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Elsevier",
+    "cites": [],
+    "summary": "We developed an original approach to cognition, based on the previously developed theory of neural modeling fields and dynamic logic. This approach is based on the detailed analysis and solution of the problems of artificial intelligence \u2013 combinatorial complexity and logic and probability synthesis. In this paper we interpret the theory of neural modeling fields and dynamic logic in terms of logic and probability, and obtain a Probabilistic Dynamic Logic of Cognition (PDLC). We interpret the PDLC at the neural level. As application we considered the task of the expert decision-making model approximation for the breast cancer diagnosis. First we extracted this model from the expert, using original procedure, based on monotone Boolean functions. Then we applied PDLC for learning this model from data. Because of this model may be interpreted at the neural level, it may be considered as a result of the expert brain\u00a0\u2026"
+},{
+    "id": 14,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:g3aElNc5_aQC",
     "title": "Visual Knowledge Discovery with Artificial Intelligence: Challenges and Future Directions",
     "date": "2022",
@@ -220,7 +237,7 @@
     "cites": [],
     "summary": "Integrating artificial intelligence (AI) and machine learning (ML) methods with interactive visualization is a research area that has evolved for years. With the rise of AI applications, the combination of AI/ML and interactive visualization is elevated to new levels of sophistication and has become more widespread in many domains. Such application drive has led to a growing trend to bridge the gap between AI/ML and visualizations. This chapter summarizes the current research trend and provides foresight to future research direction in integrating AI/ML and visualization. It investigates different areas of integrating the named disciplines, starting with visualization in ML, visual analytics, visual-enabled machine learning, natural language processing, and multidimensional visualization and AI to illustrate the research trend towards visual knowledge discovery. Each section of this chapter presents the current research\u00a0\u2026"
 },{
-    "id": 14,
+    "id": 15,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:YOwf2qJgpHMC",
     "title": "Adjustable general line coordinates for visual knowledge discovery in nD data",
     "date": "2019/1",
@@ -234,23 +251,6 @@
     "publisher": "SAGE Publications",
     "cites": [],
     "summary": "Preserving all multidimensional data in two-dimensional visualization is a long-standing problem in Visual Analytics, Machine Learning/Data Mining, and Multiobjective Pareto Optimization. While Parallel and Radial (Star) coordinates preserve all n-D data in two dimensions, they are not sufficient to address visualization challenges of all possible datasets such as occlusion. More such methods are needed. Recently, the concepts of lossless General Line Coordinates that generalize Parallel, Radial, Cartesian, and other coordinates were proposed with initial exploration and application of several subclasses of General Line Coordinates such as Collocated Paired Coordinates and Star Collocated Paired Coordinates. This article explores and enhances benefits of General Line Coordinates. It shows the ways to increase expressiveness of General Line Coordinates including decreasing occlusion and simplifying\u00a0\u2026"
-},{
-    "id": 15,
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:uLbwQdceFCQC",
-    "title": "Probabilistic dynamic logic of cognition",
-    "date": "2013/10/1",
-    "authors": [
-        "Evgenii E Vityaev",
-        "Leonid I Perlovsky",
-        "Boris Ya Kovalerchuk",
-        "Stanislav O Speransky"
-    ],
-    "topics": [],
-    "form": "paper",
-    "doi": null,
-    "publisher": "Elsevier",
-    "cites": [],
-    "summary": "We developed an original approach to cognition, based on the previously developed theory of neural modeling fields and dynamic logic. This approach is based on the detailed analysis and solution of the problems of artificial intelligence \u2013 combinatorial complexity and logic and probability synthesis. In this paper we interpret the theory of neural modeling fields and dynamic logic in terms of logic and probability, and obtain a Probabilistic Dynamic Logic of Cognition (PDLC). We interpret the PDLC at the neural level. As application we considered the task of the expert decision-making model approximation for the breast cancer diagnosis. First we extracted this model from the expert, using original procedure, based on monotone Boolean functions. Then we applied PDLC for learning this model from data. Because of this model may be interpreted at the neural level, it may be considered as a result of the expert brain\u00a0\u2026"
 },{
     "id": 16,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&citation_for_view=k12ONA8AAAAJ:_kc_bZDykSQC",
@@ -564,6 +564,21 @@
     "summary": "This book continues a series of Springer publications devoted to the emerging field of Integrated Artificial Intelligence and Machine Learning with Visual Knowledge Discovery and Visual Analytics that combine advances in both fields. Artificial Intelligence and Machine Learning face long-standing challenges of explainability and interpretability that underpin trust. Such attributes are fundamental to both decision-making and knowledge discovery. Models are approximations and, at best, interpretations of reality that are transposed to algorithmic form. A visual explanation paradigm is critically important to address such challenges, as current studies demonstrate in salience analysis in deep learning for images and texts. Visualization means are generally effective for discovering and explaining high-dimensional patterns in all high-dimensional data, while preserving data properties and relations in visualizations is\u00a0\u2026"
 },{
     "id": 36,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:PR6Y55bgFSsC",
+    "title": "Visual data mining using monotone Boolean functions",
+    "date": "2004",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Florian Delizy"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Netherlands",
+    "cites": [],
+    "summary": "This chapter describes a new technique for extracting patterns and relations visually from multidimensional binary data using monotone Boolean functions. Visual Data Mining has shown benefits in many areas when used with numerical data, but that technique is less beneficial for binary data. This problem is especially challenging in medical applications tracked with binary symptoms. The proposed method relies on monotone structural relations between Boolean vectors in the n-dimensional binary cube, En, and visualizes them in 2-D as chains of Boolean vectors. Actual Boolean vectors are laid out on this chain structure. Currently the system supports two visual forms: the multiple disk form (MDF) and the \u201cYin/Yang\u201d form (YYF). In the MDF, every vector has a fixed horizontal and vertical position. In the YYF, only the vertical position is fixed.Key words: Visual Data Mining, explicit data structure, Boolean data\u00a0\u2026"
+},{
+    "id": 37,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:zLWjf1WUPmwC",
     "title": "Solving Non-image Learning Problems by Mapping to Images",
     "date": "2020/9/7",
@@ -579,7 +594,7 @@
     "cites": [],
     "summary": "Transforming non-image Machine Learning (ML) problems into the image recognition problems, opens an opportunity to solve these problems, by powerful deep learning algorithms. This paper proposes a new CPC-R algorithm, which converts non-image data into images, by visualizing non-image data. Then several deep learning CNN algorithms are exploited to solve the learning problems. The CPC-R algorithm preserves high-dimensional information in 2-D. It splits the attributes of an n-D point into pairs of its values and visualizes pairs as 2-D points, in the same 2-D Cartesian coordinates. Next, it maps pairs to grey scale or color intensity values to encode the order of pairs producing a heatmap. This paper reports the results of computational experiments with CPC-R for different CNN architectures, and methods to optimize the CPC-R images. These results show that the combined CPC-R and deep learning\u00a0\u2026"
 },{
-    "id": 37,
+    "id": 38,
     "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:EkHepimYqZsC",
     "title": "The logic of uncertainty with irrational agents",
     "date": "2006/10/8",
@@ -594,19 +609,1077 @@
     "cites": [],
     "summary": "Modern axiomatic uncertainty theories (fuzzy logic, probability theory and others) provide a calculus for manipulating with probabilities, membership functions, and degrees of belief when the initial values such as probabilities of elementary events are already given. These theories do not include a mechanism for getting initial uncertainty values. The value of these theories is in computing uncertainties of complex events that follow a structure imposed by axioms of a specific uncertainty theory. The lack of internal mechanism for getting initial values often means in the end that the same mechanism is applied for getting initial probability values, fuzzy logic membership functions, and belief functions. This is a source of much confusion--what is the real difference between all of these theories. A resolution of this confusion is critical from both theoretical and practical viewpoints. We argue that adding an internal\u00a0\u2026"
 },{
-    "id": 38,
-    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:PR6Y55bgFSsC",
-    "title": "Visual data mining using monotone Boolean functions",
-    "date": "2004",
+    "id": 39,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:_FxGoFyzp5QC",
+    "title": "Design of consistent system for radiologists to support breast cancer diagnosis",
+    "date": "1997",
     "authors": [
         "Boris Kovalerchuk",
-        "Florian Delizy"
+        "Evgenii Vityaev",
+        "James F Ruiz"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": null
+},{
+    "id": 40,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:dfsIfKJdRG4C",
+    "title": "Deep Learning of 2-D Images Representing nD Data in General Line Coordinates",
+    "date": "2018",
+    "authors": [
+        "Dmytro Dovhalets",
+        "Boris Kovalerchuk",
+        "Szil\u00e1rd Vajda",
+        "R\u0103zvan Andonie"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Japan Society of Kansei Engineering",
+    "cites": [],
+    "summary": "While knowledge discovery and nD data visualization procedures are often efficient, the loss of information, occlusion, and clutter continue to be a challenge. General Line Coordinates (GLC) is a rather new technique to deal with such artifacts. GLC-Linear, which is one of the methods in GLC, allows transforming nD numerical data to their visual representation as polylines losslessly. The method proposed in this paper uses these 2-D visual representations as input to Convolutional Neural Network (CNN) classifiers. The obtained classification accuracies are close to the ones obtained by other machine learning algorithms. The main benefit of the method is the possibility to use the lossless visualization of n-dimensional data for interpretation and explanation of the discovered relationships besides the classical classification using statistical learning strategies."
+},{
+    "id": 41,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:xtRiw3GOFMkC",
+    "title": "Monotone Boolean function learning techniques integrated with user interaction",
+    "date": "1995",
+    "authors": [
+        "BORIS KOVALERCHUK",
+        "EVANGELOS TRIANTAPHYLLOU",
+        "EUGENE VITYAEV"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "This paper discusses some key issues about an interactive machine learning approach based on the theory of monotone Boolean functions. We present some key problems and the main steps of some algorithms for solving them. The concept of Shannon functions is used as a criterion for algorithmic optimality. The proposed approach allows for the possibility to decrease the number of positive and negative examples needed to infer a monotone Boolean function, and thus can make this type of machine learning systems more applicable."
+},{
+    "id": 42,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:lmc2jWPfTJgC",
+    "title": "Visual knowledge discovery with general line coordinates",
+    "date": "2024/4/25",
+    "authors": [
+        "Lincoln Huber",
+        "Boris Kovalerchuk",
+        "Charles Recaido"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Nature Switzerland",
+    "cites": [],
+    "summary": "Understanding black-box Machine Learning methods on multidimensional data is a key challenge in Machine Learning. While many powerful Machine Learning methods already exist, these methods are often unexplainable or perform poorly on complex data. This paper proposes Visual Knowledge Discovery approaches based on several forms of lossless General Line Coordinates. These are an expansion of the previously introduced General Line Coordinates Linear and Dynamic Scaffolding Coordinates to produce, explain, and visualize non-linear classifiers with explanation rules. To ensure these non-linear models and rules are accurate, General Line Coordinates Linear also developed new interactive Visual Knowledge Discovery algorithms for finding worst-case validation splits. These expansions are General Line Coordinates non-linear, interactive rules linear, hyperblock rules linear, and worst-case\u00a0\u2026"
+},{
+    "id": 43,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:UHK10RUVsp4C",
+    "title": "Discovering common outcomes of agents\u2019 communicative actions in various domains",
+    "date": "2011/3/1",
+    "authors": [
+        "Boris Galitsky",
+        "Josep-Lluis de la Rosa",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Elsevier",
+    "cites": [],
+    "summary": "We explore the common patterns of human behavior, expressed via communicative actions, and displayed in various domains of human activities associated with conflicts. We build the generic methodology based on machine learning and reasoning to predict specific communicative actions of human agents, given previous sequence of communicative actions of themselves and their opponents. This methodology is applied to textual as well as structured data on inter-human conflicts of diverse modalities. Scenarios are represented by directed graphs with labeled vertices (for communicative actions) and arcs (for temporal and causal relationships between subjects of these actions). Scenario representation and learning techniques are firstly developed in the domain of textual customer complaints, and then applied to such problems as predicting an outcome of international conflicts, assessment of an attitude of a\u00a0\u2026"
+},{
+    "id": 44,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:a0OBvERweLwC",
+    "title": "Detecting patterns of fraudulent behavior in forensic accounting",
+    "date": "2003",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Berlin Heidelberg",
+    "cites": [],
+    "summary": "Often evidence from a single case does not reveal any suspicious patterns to aid investigations in forensic accounting and other forensic fields. In contrast, correlation of sets of evidence from several cases with suitable background knowledge may reveal suspicious patterns. Link Discovery (LD) has recently emerged as a promising new area for such tasks. Currently LD mostly relies on deterministic graphical techniques. Other relevant techniques are Bayesian probabilistic and causal networks. These techniques need further development to handle rare events. This paper combines first-order logic (FOL) and probabilistic semantic inference (PSI) to address this challenge. Previous research has shown this approach is computationally efficient and complete for statistically significant patterns. This paper shows that a modified method can be successful for discovering rare patterns. The method is illustrated with an\u00a0\u2026"
+},{
+    "id": 45,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:NhqRSupF_l8C",
+    "title": "Multidimensional collaborative lossless visualization: experimental study",
+    "date": "2014/9/14",
+    "authors": [
+        "Vladimir Grishin",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer International Publishing",
+    "cites": [],
+    "summary": "The major challenges in visualization of large n-D data in 2-D are in supporting the most efficient and fast usage of abilities of users to analyze visualized information and to extract patterns visually. This paper describes experimental results of a collaborative approach to support n-D data visualization based on new lossless n-D visualization methods (collocated paired coordinates and their stars modifications) that we propose. This is a second part of the work. The first part presented in a separate paper is focused on description of the algorithms."
+},{
+    "id": 46,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:olpn-zPbct0C",
+    "title": "Improving web search relevance with learning structure of domain concepts",
+    "date": "2014",
+    "authors": [
+        "Boris A Galitsky",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer New York",
+    "cites": [],
+    "summary": "This paper addresses the problem of improving the relevance of a search engine results in a vertical domain. The proposed algorithm is built on a structured taxonomy of keywords. The taxonomy construction process starts from the seed terms (keywords) and mines the available source domains for new terms associated with these entities. These new terms are formed in several steps. First the snippets of answers generated by the search engine are parsed producing parsing trees. Then commonalities of these parsing trees are found by using a machine learning algorithm. These commonality expressions then form new keywords as parameters of existing keywords and are turned into new seeds at the next learning iteration. To match NL expressions between source and target domains, the proposed algorithm uses syntactic generalization, an operation which finds a set of maximal common sub-trees of\u00a0\u2026"
+},{
+    "id": 47,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:evX43VCCuoAC",
+    "title": "Interpretable Machine Learning with Boosting by Boolean Algorithm",
+    "date": "2019/5/1",
+    "authors": [
+        "Nathan Neuhaus",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "Much research has been conducted for developing efficient, automated, interpretable, and highly accurate Machine Learning algorithms. However, the primary challenge remains - developing algorithms successful in all of these aspects simultaneously. For applications, where human lives are at stake, having to choose between accuracy and interpretability is not acceptable. To address this challenge, previously the Dominance Classifier and Predictor (DCP) algorithm, capable of discovering of the human-understandable models in simple and visualizable terms was proposed. On the benchmark Wisconsin Breast Cancer (WBC) dataset, it achieved greater accuracy than other interpretable algorithms, reducing the gap between the prediction accuracy of interpretable and non-interpretable algorithms on these data. This paper proposes a new interpretable algorithm RPPR, to bridge this gap more by boosting DCP\u00a0\u2026"
+},{
+    "id": 48,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:qjMakFHDy7sC",
+    "title": "Reversible data visualization to support machine learning",
+    "date": "2018/6/7",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Vladimir Grishin"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer International Publishing",
+    "cites": [],
+    "summary": "An important challenge for Machine Learning (ML) methods such as the Support Vector Machine (SVM), and others, is the selection of the structure of ML models for given data. This paper shows that the abilities of the pure analytical ML methods to address this challenge are limited. It is due to the fundamental nature of the ML methods, which rely on the available training data, which can result in overgeneralized or overfitted model. In the proposed visual analytics approach, domain experts are put into the \u201cdriving seat\u201d of the ML model development to control the model overgeneralization and overfitting. In this approach, domain experts work interactively with multidimensional data, and the ML data classification models, presented in the lossless reversible visualizations. This paper shows that it enhances the ML classification models, and decreases the use of external and irrelevant-to-the-domain assumptions in\u00a0\u2026"
+},{
+    "id": 49,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:eq2jaN3J8jMC",
+    "title": "Concepts of solutions of uncertain equations with intervals, probabilities and fuzzy sets for applied tasks",
+    "date": "2017/9/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Vladik Kreinovich"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer International Publishing",
+    "cites": [],
+    "summary": "The focus of this paper is to clarify the concepts of solutions of linear equations in interval, probabilistic, and fuzzy sets setting for real-world tasks. There is a fundamental difference between formal definitions of the solutions and physically meaningful concepts of solution in applied tasks, when equations have uncertain components. For instance, a formal definition of the solution in terms of Moore interval analysis can be completely irrelevant for solving a real-world task. We show that formal definitions must follow a meaningful concept of the solution in the real world. The contribution of this paper is the seven formalized definitions of the concept of solution for the linear equations with uncertain components in the interval settings that are interpretable in the real-world tasks. It is shown that these definitions have analogies in probability and fuzzy set terms too. These new formalized concepts of solutions are\u00a0\u2026"
+},{
+    "id": 50,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:zYLM7Y9cAGgC",
+    "title": "Relationships Between Probability and Possibility Theories",
+    "date": "2017",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer, Cham",
+    "cites": [],
+    "summary": "The goal of a new area of Computing with Words (CWW) is solving computationally tasks formulated in a natural language (NL). The extreme uncertainty of NL is the major challenge to meet this ambitious goal requiring computational approaches to handle NL uncertainties. Attempts to solve various CWW tasks lead to the methodological questions about rigorous and heuristic formulations and solutions of the CWW tasks. These attempts immediately reincarnated the long-time discussion about different methodologies to model uncertainty, namely: Probability Theory, Multi-valued logic, Fuzzy Sets, Fuzzy Logic, and the Possibility theory. The main forum of the recent discussion was an on-line Berkeley Initiative on Soft Computing group in 2014. Zadeh claims that some computing with words tasks are in the province of the fuzzy logic and possibility theory, and probabilistic solutions are not appropriate for these tasks\u00a0\u2026"
+},{
+    "id": 51,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:XiSMed-E-HIC",
+    "title": "Visual data mining and discovery with binarized vectors",
+    "date": "2012",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Florian Delizy",
+        "Logan Riggs",
+        "Evgenii Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Berlin Heidelberg",
+    "cites": [],
+    "summary": "The emerging field of Visual Analytics combines several fields where Data Mining and Visualization play leading roles. The fundamental departure of visual analytics from other approaches is in extensive use of visual analytical tools to discover patterns not only to visualize pattern that have been discovered by traditional data mining methods. High complexity data mining tasks often require employing a multi-level top-down approach, where first at the top levels a qualitative analysis of the complex situation is conducted and top-level patterns are discovered. This paper presents the concept of Monotone Boolean Function Visual Analytics (MBFVA) for such top level pattern discovery. This approach employs binarization and monotonization of quantitative attributes to get a top level data representation. The top level discoveries form a foundation for next more detailed data mining levels where patterns are refined\u00a0\u2026"
+},{
+    "id": 52,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:9ZlFYXVOiuMC",
+    "title": "Assessing plausibility of explanation and meta-explanation in inter-human conflicts",
+    "date": "2011/12/1",
+    "authors": [
+        "Boris A Galitsky",
+        "Boris Kovalerchuk",
+        "Josep Lluis de la Rosa"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Pergamon",
+    "cites": [],
+    "summary": "This paper focuses on explanations in behavioral scenarios that involve conflicting agents. In these scenarios, implicit of or explicit conflict can be caused by contradictory agents' interests, as communicated in their explanations for why they behaved in a particular way, by a lack of knowledge of the situation, or by a mixture of explanations of multiple factors. We argue that in many cases to assess the plausibility of explanations, we must analyze two following components and their interrelations: (1) explanation at the actual object level (explanation itself) and (2) explanation at the higher level (meta-explanation). Comparative analysis of the roles of both is conducted to assess the plausibility of how agents explain the scenarios of their interactions. Object-level explanation assesses the plausibility of individual claims by using a traditional approach to handle argumentative structure of a dialog. Meta-explanation links\u00a0\u2026"
+},{
+    "id": 53,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:hqOjcs7Dif8C",
+    "title": "Quest for rigorous combining probabilistic and fuzzy logic approaches for computing with words",
+    "date": "2013",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer, Berlin, Heidelberg",
+    "cites": [],
+    "summary": "Lotfi Zadeh initiated three fundamental concepts: (1) the concept of a linguisticvariable, (2) the concept of a fuzzyset (with a membershipfunction (MF) for linguistic terms that gradually changes between 0 and 1), and (3) the concept a matrixoflinguisticrules that connect linguistic variables. These concepts are outside of the main stream of concepts used in both the probability theory and the control theory. These concepts are critical for the area that Zadeh later denoted as Computing with Words (CWW) [17]. The elegance and intuitiveness of these three concepts deeply impressed me when I learned about them a long time ago."
+},{
+    "id": 54,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:r0BpntZqJG4C",
+    "title": "Image Registration and Conflation Based on Structural Characteristics.",
+    "date": "2003/6",
+    "authors": [
+        "Boris Kovalerchuk",
+        "William Sumner",
+        "James L Schwing"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "An approach to conflation/registration of images that does not depend on identifying common points is being developed. It uses the method of algebraic invariants to provide a common set of coordinates to images using continuous chains of line segments formally described as polylines. It is shown the invariant algebraic properties of the polylines provide sufficient information to automate conflation. When there are discrepancies between the image data sets, robust measures of the possibility and quality of match (measures of correctness) are necessary. Decision making and the usability of the resulting conflation depends on such quality control measures. These measures may also be used to mitigate the effects of sensor and observational artifacts. This paper describes the theory of algebraic invariants and presents a conflation/registration method and measures of correctness of feature matching."
+},{
+    "id": 55,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:b1wdh0AR-JQC",
+    "title": "Explainable Machine Learning for Categorical and Mixed Data with Lossless Visualization",
+    "date": "2024/4/25",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Elijah McCoy"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Nature Switzerland",
+    "cites": [],
+    "summary": "Building accurate and explainable/interpretable Machine Learning (ML) models for heterogeneous/mixed data is a long-standing challenge for algorithms designed for numeric data. This work focuses on developing numeric coding schemes for non-numeric attributes for ML algorithms to support accurate and explainable ML models, methods for lossless visualization of n-D non-numeric categorical data with visual rule discovery in these visualizations, and accurate and explainable ML models for categorical data. This study proposes a classification of mixed data types and analyzes their important role in Machine Learning. It presents a toolkit for enforcing interpretability of all internal operations of ML algorithms on mixed data with a visual data exploration on mixed data. A new Sequential Rule Generation (SRG) algorithm for explainable rule generation with categorical data is proposed and successfully evaluated\u00a0\u2026"
+},{
+    "id": 56,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:VaXvl8Fpj5cC",
+    "title": "Visual Explainable Machine Learning for High-Stakes Decision-Making with Worst Case Estimates",
+    "date": "2023/9/24",
+    "authors": [
+        "Charles Recaido",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Nature Switzerland",
+    "cites": [],
+    "summary": "A major motivation for explaining and rigorous evaluating Machine Learning (ML) models is coming from high-stake decision-making tasks like cancer diagnostics, self-driving cars, and others with possible catastrophic consequences of wrong decisions. This chapter shows that visual knowledge discovery (VKD) methods, based on the General Line Coordinates (GLC) recently developed, can significantly contribute to solving this problem. The concept of hyperblocks (n-D rectangles) as interpretable dataset units and GLC are combined to create visual self-service machine learning models. Two variants of Dynamic Scaffold Coordinates (DSC) are proposed. It allows losslessly mapping high-dimensional datasets to a single two-dimensional Cartesian plane and building interactively an ML predictive model in this 2-D visualization space. Major benefits of DSC1 and DSC2 is their highly interpretable nature. They\u00a0\u2026"
+},{
+    "id": 57,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:k8Z6L05lTy4C",
+    "title": "Interactive Decision Tree Creation and Enhancement with Complete Visualization for Explainable Modeling",
+    "date": "2023/5/28",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Andrew Dunn",
+        "Alex Worland",
+        "Sridevi Wagle"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "To increase the interpretability and prediction accuracy of the Machine Learning (ML) models, visualization of ML models is a key part of the ML process. Decision Trees (DTs) are essential in machine learning because they are used to understand many black box ML models including Deep Learning models. In this research, two new methods for creation and enhancement with complete visualizing Decision Trees as understandable models are suggested. These methods use two versions of General Line Coordinates (GLC): Bended Coordinates (BC) and Shifted Paired Coordinates (SPC). The Bended Coordinates are a set of line coordinates, where each coordinate is bended in a threshold point of the respective DT node. In SPC, each n-D point is visualized in a set of shifted pairs of 2-D Cartesian coordinates as a directed graph. These new methods expand and complement the capabilities of existing methods\u00a0\u2026"
+},{
+    "id": 58,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:hMsQuOkrut0C",
+    "title": "Visualization of Decision Trees based on General Line Coordinates to Support Explainable Models",
+    "date": "2022/7/19",
+    "authors": [
+        "Alex Worland",
+        "Sridevi Wagle",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Visualization of Machine Learning (ML) models is an important part of the ML process to enhance the interpretability and prediction accuracy of the ML models. This paper proposes a new method SPC-DT to visualize the Decision Tree (DT) as interpretable models. These methods use a version of General Line Coordinates called Shifted Paired Coordinates (SPC). In SPC, each n-D point is visualized in a set of shifted pairs of 2-D Cartesian coordinates as a directed graph. The new method expands and complements the capabilities of existing methods, to visualize DT models. It shows: (1) relations between attributes, (2) individual cases relative to the DT structure, (3) data flow in the DT, (4) how tight each split is to thresholds in the DT nodes, and (5) the density of cases in parts of the n-D space. This information is important for domain experts for evaluating and improving the DT models, including avoiding\u00a0\u2026"
+},{
+    "id": 59,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:ILKRHgRFtOwC",
+    "title": "Interpretable Machine Learning for Self-Service High-Risk Decision-Making",
+    "date": "2022/7/19",
+    "authors": [
+        "Charles Recaido",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "This paper contributes to interpretable machine learning via visual knowledge discovery in general line coordinates (GLC). The concepts of hyperblocks as interpretable dataset units and general line coordinates are combined to create a visual self-service machine learning model. Dynamic Scaffolding Coordinates as lossless multidimensional coordinate systems are proposed, and their applications as visual models is shown. DSC1 and DSC2 can map multiple dataset attributes to a single two-dimensional (X, Y) Cartesian plane using a graph construction algorithm. The hyperblock analysis was used to determine visually appealing dataset attribute orders and to reduce line occlusion. It is shown that hyperblocks can generalize decision tree rules and a series of DSC1 or DSC2 plots can visualize a decision tree. The DSC1 and DSC2 plots were tested on benchmark datasets from the UCI ML repository. They\u00a0\u2026"
+},{
+    "id": 60,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:UebtZRa9Y70C",
+    "title": "Constructing Interactive Visual Classification, Clustering and Dimension Reduction Models for nD Data",
+    "date": "2017/7/25",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Dmytro Dovhalets"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Multidisciplinary Digital Publishing Institute",
+    "cites": [],
+    "summary": "The exploration of multidimensional datasets of all possible sizes and dimensions is a long-standing challenge in knowledge discovery, machine learning, and visualization. While multiple efficient visualization methods for n-D data analysis exist, the loss of information, occlusion, and clutter continue to be a challenge. This paper proposes and explores a new interactive method for visual discovery of n-D relations for supervised learning. The method includes automatic, interactive, and combined algorithms for discovering linear relations, dimension reduction, and generalization for non-linear relations. This method is a special category of reversible General Line Coordinates (GLC). It produces graphs in 2-D that represent n-D points losslessly, i.e., allowing the restoration of n-D data from the graphs. The projections of graphs are used for classification. The method is illustrated by solving machine-learning classification and dimension-reduction tasks from the domains of image processing, computer-aided medical diagnostics, and finance. Experiments conducted on several datasets show that this visual interactive method can compete in accuracy with analytical machine learning algorithms."
+},{
+    "id": 61,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:B3FOqHPlNUQC",
+    "title": "Toward virtual data scientist with visual means",
+    "date": "2017/5/14",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Michael Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "The Big data challenge includes dealing with a big number of heterogeneous and multidimensional datasets of all possible sizes not only with data of big size. As a result a huge number of Machine Learning (ML) tasks, which must be solved dramatically exceeds the number of data scientists who can solve these tasks. Next many ML tasks require critical input from subject matter experts (SME) and end users/decision makers who are not ML experts. A set of tools that we call a \u201cvirtual data scientist\u201d is needed to assist SMEs and end users to construct ML models for their tasks to meet this Big data challenge with a minimal contribution from data scientists. This paper describes our vision of such a \u201cvirtual data scientist\u201d based on the visual approach with collocated and shifted paired coordinates. The approach is illustrated with real world data and ML tasks, as well as simulated data."
+},{
+    "id": 62,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:pqnbT2bcN3wC",
+    "title": "A methodology for automated vector-to-image registration",
+    "date": "2007/10/10",
+    "authors": [
+        "Peter Doucette",
+        "Boris Kovalerchuk",
+        "Robert Brigantic",
+        "Gamal Seedahmed",
+        "Brian Graff"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Registration and alignment of feature (e.g., vector) and raster geospatial data is a difficult and time-consuming process when performed manually. This paper presents an approach for vector-to-raster registration. Candidate features are auto-extracted and vectorized from imagery, which are the basis to compare against existing vector layer(s) to be registered. Given that automated feature extraction (AFE) methods are imperfect, the objective is to determine and gather a sufficient signal-to-noise ratio from AFE upon which to base a registration process between vector data sets. Two vector registration methods were investigated. The first is based on an algebraic structural algorithm (ASA) in which structural components (e.g., angles, lengths and areas) are used as similarity metrics. The second is based on a similarity transformation of local features (STLF) in which a 4-parameter transformation is used to align\u00a0\u2026"
+},{
+    "id": 63,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:VL0QpB8kHFEC",
+    "title": "Ontology of the data mining subject domain",
+    "date": "2007/9/1",
+    "authors": [
+        "NG Zagoruiko",
+        "SE Gulyaevskii",
+        "B Ya Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Nauka/Interperiodica",
+    "cites": [],
+    "summary": "We consider the subject domain related to discovering of regularities in arrays of statistical or experimental data and applications of these regularities to solving problems of recognition, prediction, clustering, etc. Ontology describes methods for pre-and post-processing, which are specific for each kind of initial information, and processing methods universal for all kinds of information."
+},{
+    "id": 64,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:GnPB-g6toBAC",
+    "title": "Collaborative lossless visualization of nD data by collocated paired coordinates",
+    "date": "2014/9/14",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Vladimir Grishin"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer International Publishing",
+    "cites": [],
+    "summary": "The collaborative approach is a natural way to enhance visualization and visual analytics methods. This paper continues our long-term efforts on enhancement of visualization and visual analytics methods. The major challenges in visualization of large n-D data in 2-D are not only in providing lossless visualization by using sophisticated computational methods, but also in supporting the most efficient and fast usage of abilities of users (agents) to analyze visualized information and to extract patterns visually. This paper describes a collaborative approach to support n-D data visualization based on new lossless n-D visualization methods that we propose. The second part of this work presented in a separate paper is focused on experimental results of cooperative n-D data visualization described in this paper."
+},{
+    "id": 65,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:blknAaTinKkC",
+    "title": "Probabilistic Solution of Zadeh\u2019s test problems",
+    "date": "2014",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer International Publishing",
+    "cites": [],
+    "summary": "Zadeh posed several Computing with Words (CWW) test problems such as: \u201cWhat is the probability that John is short?\u201d These problems assume a given piece of information in the form of membership functions for linguistic terms including tall, short, young, middle-aged, and the probability density functions of age and height. This paper proposes a solution that interprets Zadeh\u2019s solution for these problems as a solution in terms of probability spaces as defined in the probability theory. This paper also discusses methodological issues of relations between concepts of probability and fuzzy sets."
+},{
+    "id": 66,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:hMod-77fHWUC",
+    "title": "Automated vector-to-raster image registration",
+    "date": "2008/5/2",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Peter Doucette",
+        "Gamal Seedahmed",
+        "Robert Brigantic",
+        "Michael Kovalerchuk",
+        "Brian Graff"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "SPIE",
+    "cites": [],
+    "summary": "The variability of panchromatic and multispectral images, vector data (maps) and DEM models is growing. Accordingly, the requests and challenges are growing to correlate, match, co-register, and fuse them. Data to be integrated may have inaccurate and contradictory geo-references or not have them at all. Alignment of vector (feature) and raster (image) geospatial data is a difficult and time-consuming process when transformational relationships between the two are nonlinear. The robust solutions and commercial software products that address current challenges do not yet exist. In the proposed approach for Vector-to-Raster Registration (VRR) the candidate features are auto-extracted from imagery, vectorized, and compared against existing vector layer(s) to be registered. Given that available automated feature extraction (AFE) methods quite often produce false features and miss some features, we use\u00a0\u2026"
+},{
+    "id": 67,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:RHpTSmoSYBkC",
+    "title": "Algebraic relational approach for geospatial feature correlation",
+    "date": "2002/6/24",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Jim Schwing"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "In Geometry in Action: Cartography and geographic Information Systems David Eppstein [6] lists several important problems of computational geometry for cartography and GIS. This paper considers two of them:(1) matching/correlating similar features from different geospatial databases (the conflation problem), and (2) handling approximate and inconsistent data.These problems are of great practical importance for end users--defense and intelligence analysts, geologists, geographers, ecologists and others. An adequate mathematical formulation and solution of these problems is still an open question due their complexity. This paper analyzes relations between these problems and topics in computational topology and geometry. This analysis concludes that a fundamentally new mathematical approach is needed. The paper develops such new approach based on the general concept of an abstract algebraic system. Such a system can uniformly express all major algebraic constructs such as groups, fields, algebras and models. We also show the benefit of developing a fundamentally new approach--algebraic invariants for geospatial data analysis and correlation using this concept."
+},{
+    "id": 68,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:5nxA0vEk-isC",
+    "title": "Visualization and decision-making using structural information",
+    "date": "2001",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "Visualization and computational intelligence methods such as data mining and knowledge discovery are important tools for decision support in imaging science. The goal of this paper is to discuss the blending of these areas to improve decision making for a variety of applications. The paper offers a conceptual model for integrating decision-making models, models for discovery of relations (computational intelligence models) and methods of visual correlation. Analysts use visual correlation for discovering relations and decision-makers use them for visualizing the decision under consideration. The model reflects this difference. The blending of these models is illustrated in the example of stopping cholera in London in the 19th century. The last part of the paper is devoted to systematization of visual correlation (VC) methods and their efficiency."
+},{
+    "id": 69,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:LI9QrySNdTsC",
+    "title": "Interpretable Machine Learning forFinancial Applications",
+    "date": "2023/8/18",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev",
+        "Alexander Demin",
+        "Antoni Wilinski"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer International Publishing",
+    "cites": [],
+    "summary": "This chapter describes machine learning (ML) for financial applications with a focus on interpretable relational methods. It presents financial tasks, methodologies, and techniques in this ML area. It includes time dependence, data selection, forecast horizon, measures of success, quality of patterns, hypothesis evaluation, problem ID, method profile, and attribute-based and interpretable relational methodologies. The second part of this chapter presents ML models and practice in finance. It covers the use of ML in portfolio management, design of interpretable trading rules, and discovering money-laundering schemes using the machine learning methodology."
+},{
+    "id": 70,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:4MWp96NkSFoC",
+    "title": "Self-service Data Classification Using Interactive Visualization and Interpretable Machine Learning",
+    "date": "2022",
+    "authors": [
+        "Sridevi Narayana Wagle",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer, Cham",
+    "cites": [],
+    "summary": "Machine learning algorithms often produce models considered as complex black-box models by both end users and developers. Such algorithms fail to explain the model in terms of the domain they are designed for. The proposed Iterative Visual Logical Classifier (IVLC) is an interpretable machine learning algorithm that allows end users to design a model with more confidence and without compromising the accuracy. Such technique is especially helpful for tasks like cancer diagnostics with high cost of errors. With the proposed interactive and lossless multidimensional visualization, end users can identify the pattern and make explainable decisions, which is not possible in black box machine learning methodologies. The interpretable IVLC algorithm is supported by the Interactive Shifted Paired Coordinates Software System (SPCVis), which is a lossless multidimensional data visualization system. The interactivity\u00a0\u2026"
+},{
+    "id": 71,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:vDijr-p_gm4C",
+    "title": "Full interpretable machine learning in 2D with inline coordinates",
+    "date": "2021/7/5",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Hoang Phan"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "This paper proposed a new methodology for machine learning in 2-dimensional space (2-D ML) in inline coordinates. It is a full machine learning approach that does not require to deal with n-dimensional data in n-dimensional space. It allows discovering n-D patterns in 2-D space without loss of n-D information using graph representations of n-D data in 2-D. Specifically, it can be done with the inline based coordinates in different modifications, including static and dynamic ones. The classification and regression algorithms based on these inline coordinates were introduced. A successful case study based on a benchmark data demonstrated the feasibility of the approach. This approach helps to consolidate further a whole new area of full 2-D machine learning as a promising ML methodology. It has advantages of abilities to involve actively the end-users into the discovering of models and their justification. Another advantage is providing interpretable ML models."
+},{
+    "id": 72,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:yB1At4FlUx8C",
+    "title": "Interactive Visual Self-service Data Classification Approach to Democratize Machine Learning",
+    "date": "2020/9/7",
+    "authors": [
+        "Sridevi Narayana Wagle",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Although machine learning algorithms are progressively used in an expansive range of domains, the effective machine learning classifiers are often black-boxed, non-comprehensive to the end users and beyond their abilities to develop models themselves. To overcome this challenge, data visualization combined with self-service or democratized machine learning is proposed in the form of the Iterative Logical Classifier (ILC) algorithm with an added advantage of outperforming the accuracies of black-box machine learning classifiers on benchmark datasets. The algorithm is based on the concept of Shifted Paired Coordinates that allow 2-D visualization of n-D data without loss of n-D information."
+},{
+    "id": 73,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:9Nmd_mFXekcC",
+    "title": "Lossless Visual Knowledge Discovery in High Dimensional Data with Elliptic Paired Coordinates",
+    "date": "2020/9/7",
+    "authors": [
+        "Rose McDonald",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Data with more than two or three dimensions are difficult for humans to conceptualize and facilitate knowledge discovery. Novel Elliptic Paired Coordinates (EPCs) allow for multidimensional data to be represented in 2-D without loss of multidimensional information. In addition, EPC halves the required visual elements in the graph in comparison with parallel and radial coordinates. This research explores the effectiveness of constructing predictive machine learning models interactively using EPC visualizations. For this research EllipseVis, an interactive software system, was developed to process high-dimensional datasets, create corresponding EPC visualizations, and build predictive classification models based on dominance rules. The EllipseVis system allows both interactive and automatic discovery of areas that are located with a high percentage of single-class dominance. The experiments using it on\u00a0\u2026"
+},{
+    "id": 74,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:ZeXyd9-uunAC",
+    "title": "Mining the Blogosphere for Contributors' Sentiments.",
+    "date": "2006",
+    "authors": [
+        "Boris A Galitsky",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "We propose a domain-independent approach to blog analysis for an assessment of bloggers\u2019 sentiments. The generic methodology to detect specific attitudes of human agents is based on representation of conflict scenarios by means of communicative actions (which express sentiments) and causal/argumentative links between their subjects (which may support these sentiments). This methodology is applied to textual data on interhuman interactions including conflicts in opinions of bloggers. Evaluation is conducted in the domain of customer complaints. 1"
+},{
+    "id": 75,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:YsMSGLbcyi4C",
+    "title": "Image analysis method for overcoming source distortion using algebraic invariant methods",
+    "date": "2005/6/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Richard Chase"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "International Society for Optics and Photonics",
+    "cites": [],
+    "summary": "For multispectral sensory and geospatial data to be properly integrated they must be co-registered with known data which is a difficult and time consuming process. A persistent problem with new unregistered data is geometric image distortion. This paper deals with distortion due to disproportional transformation. Images can be disproportionally transformed because of a specific angle of data acquisition, sensor and lens distortions, atmospheric effects, and others factors. This research is focused on developing a method to overcome such distortion effects and to provide computational tools to automate a large portion of the process without relying on the sensor geometry and model that may not be known. Current methods of image analysis and feature recognition rely heavily on geometric shapes and/or the topological nature of data contained within the image. In addition to geometric shapes and topological data\u00a0\u2026"
+},{
+    "id": 76,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:R3hNpaxXUhUC",
+    "title": "Matching image feature structures using shoulder analysis method",
+    "date": "2004/8/12",
+    "authors": [
+        "Boris Kovalerchuk",
+        "William Q Sumner",
+        "Mark Curtiss",
+        "Michael Kovalerchuk",
+        "Richard Chase"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "International Society for Optics and Photonics",
+    "cites": [],
+    "summary": "The problems of imagery registration, conflation, fusion and search require sophisticated and robust methods. An algebraic approach is a promising new option for developing such methods. It is based on algebraic analysis of features represented as polylines. The problem of choosing points when attempting to prepare a linear feature for comparison with other linear features is a significant challenge when orientation and scale is unknown. Previously we developed an invariant method known as Binary Structural Division (BSD). It is shown to be effective in comparing feature structure for specific cases. In cases where a bias of structure variability exists however, this method performs less well. A new method of Shoulder Analysis (SA) has been found which enhances point selection, and improves the BSD method. This paper describes the use of shoulder values, which compares the actual distance traveled along a\u00a0\u2026"
+},{
+    "id": 77,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:ZuybSZzF8UAC",
+    "title": "Algebraic relational approach to conflating images",
+    "date": "2003/9/23",
+    "authors": [
+        "Boris Kovalerchuk",
+        "William Q Sumner"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "International Society for Optics and Photonics",
+    "cites": [],
+    "summary": "An approach to conflation/registration of images that does not depend on identifying common points is being developed. It uses the method of algebraic invariants to provide a common set of coordinates to images using continuous chains of line segments formally described as polylines. It is shown the invariant algebraic properties of the polylines provide sufficient information to automate conflation. When there are discrepancies between the image data sets, robust measures of the possibility and quality of match (measures of correctness) are necessary. Decision making and the usability of the resulting conflation depends on such quality control measures. These measures may also be used to mitigate the effects of sensor and observational artifacts. This paper describes the theory of algebraic invariants and presents a conflation/registration method and measures of correctness of feature matching."
+},{
+    "id": 78,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:WF5omc3nYNoC",
+    "title": "Correlation of complex evidences and link discovery",
+    "date": "2002",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "The classical statistical correlation is an efficient technique for linking simple numerical data sets via a single correlation coefficient R. Correlation of complex evidences that involves structured objects, text and data in a variety of discrete and continuous scales (nominal, order, absolute and so on) requires development of a new technique. Complexity of this task dictates the need to combine the statistical techniques with other mathematical techniques. This paper outlines design of such a new technique called Hybrid Evidence Correlation (HEC).Often any individual evidence does not reveal a suspicious pattern and does not guide investigation in forensic accounting and other forensic fields. In contrast correlation of two or more evidences with each other and background knowledge can reveal a suspicious pattern. A new area of Link Discovery (LD) emerged recently is a promising new area for such tasks. Potential applications of link discovery range from basic science to a variety of practical forensic tasks. Currently LD mostly relies on deterministic graphical techniques. Bayesian probabilistic and causal networks are another relevant techniques. Both techniques need further development to handle rare events. This paper combines firstorder logic (FOL) and probabilistic semantic inference (PSI) for designing HEC. The approach is illustrated with an example of discovery of suspicious patterns. Computational efficiency and completeness of the algorithm is justified by a computational experiment and a theorem. Main concepts of the approach are:(1) a set of evidences D described by a set of attributes {A} and predicates {P} with two or more\u00a0\u2026"
+},{
+    "id": 79,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:0EnyYjriUFMC",
+    "title": "Second interpolation in fuzzy control",
+    "date": "1996/9/8",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "New approaches are required to develop effective fuzzy controllers. We present an \"interpolation\" approach, which solves some difficulties of the current approach. Our controller gives practically the same precision as a Mamdani controller for a wide range of one- and two-dimensional state spaces. This interpolation approach eliminates the following heuristic elements of a Mamdani controller: (ii) defuzzification with the center of gravity, (ii) tuning of antecedent and consequent membership functions by \"blind\" optimization and (iii) min and max operations for logical connectives. We show that the alternative interpolation is a universal approximator like a Mamdani controller itself. The deviation between Mamdani and our interpolation is /spl les/5.05% of the fuzzy set's support for a two-dimensional case and /spl les/2.07% for a one dimensional case. The alternative interpolation is much simpler than a Mamdani\u00a0\u2026"
+},{
+    "id": 80,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:AvfA0Oy_GE0C",
+    "title": "Deep Learning Image Recognition for Non-images",
+    "date": "2022",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Divya Chandrika Kalla",
+        "Bedant Agarwal"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer, Cham",
+    "cites": [],
+    "summary": "Powerful deep learning algorithms open an opportunity for solving non-image Machine Learning (ML) problems by transforming these problems into the image recognition problems. The CPC-R algorithm presented in this chapter converts non-image data into images by visualizing non-image data. Then deep learning CNN algorithms solve the learning problems on these images. The design of the CPC-R algorithm allows preserving all high-dimensional information in 2-D images. The use of pair values mapping instead of single value mapping used in the alternative approaches allows encoding each n-D point with 2 times fewer visual elements. The attributes of an n-D point are divided into pairs of its values and each pair is visualized as 2-D points in the same 2-D Cartesian coordinates. Next, grey scale or color intensity values are assigned to each pair to encode the order of pairs. This is resulted in the\u00a0\u2026"
+},{
+    "id": 81,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:YohjEiUPhakC",
+    "title": "Survey of explainable machine learning with visual and granular methods beyond quasi-explanations",
+    "date": "2020/9/21",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Muhammad Aurangzeb Ahmad",
+        "Ankur Teredesai"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "This paper surveys visual methods of explainability of Machine Learning (ML) with focus on moving from quasi-explanations that dominate in ML to domain-specific explanation supported by granular visuals. ML interpretation is fundamentally a human activity and visual methods are more readily interpretable. While efficient visual representations of high-dimensional data exist, the loss of interpretable information, occlusion, and clutter continue to be a challenge, which lead to quasi-explanations. We start with the motivation and the different definitions of explainability. The paper focuses on a clear distinction between quasi-explanations and domain specific explanations, and between explainable and an actually explained ML model that are critically important for the explainability domain. We discuss foundations of interpretability, overview visual interpretability and present several types of methods to visualize the ML models. Next, we present methods of visual discovery of ML models, with the focus on interpretable models, based on the recently introduced concept of General Line Coordinates (GLC). These methods take the critical step of creating visual explanations that are not merely quasi-explanations but are also domain specific visual explanations while these methods themselves are domain-agnostic. The paper includes results on theoretical limits to preserve n-D distances in lower dimensions, based on the Johnson-Lindenstrauss lemma, point-to-point and point-to-graph GLC approaches, and real-world case studies. The paper also covers traditional visual methods for understanding ML models, which include deep learning and time\u00a0\u2026"
+},{
+    "id": 82,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:O3NaXMp0MMsC",
+    "title": "Ontological data mining",
+    "date": "2017",
+    "authors": [
+        "Evgenii Vityaev",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer International Publishing",
+    "cites": [],
+    "summary": "We propose the ontological approach to Data Mining that is based on: (1) the analysis of subject domain ontology, (2) information in data that are interpretable in terms of ontology, and (3) interpretability of Data Mining methods and their results in ontology. Respectively concepts of Data Ontology and Data Mining Method Ontology are introduced. These concepts lead us to a new Data Mining approach\u2014Ontological Data Mining (ODM). ODM uses the information extracted from data which is interpretable in the subject domain ontology instead of raw data. Next we present the theoretical and practical advantages of this approach and the Discovery system that implements this approach. The value of ODM is demonstrated by solutions of the tasks from the areas of financial forecasting, bioinformatics and medicine."
+},{
+    "id": 83,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:YFjsv_pBGBYC",
+    "title": "Super-intelligence challenges and lossless visual representation of high-dimensional data",
+    "date": "2016/7/24",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Fundamental challenges and goals of the cognitive algorithms are moving super-intelligent machines and super-intelligent humans from dreams to reality. This paper is devoted to a technical way to reach some specific aspects of super-intelligence that are beyond the current human cognitive abilities. Specifically the proposed technique is to overcome inabilities to analyze a large amount of abstract numeric high-dimensional data and finding complex patterns in these data with a naked eye. Discovering patterns in multidimensional data using visual means is a long-standing problem in multiple fields and Data Science and Modeling in general. The major challenge is that we cannot see n-D data by a naked eye and need visualization tools to represent n-D data in 2-D losslessly. The number of available lossless methods is quite limited. The objective of this paper is expanding the class of such lossless methods, by\u00a0\u2026"
+},{
+    "id": 84,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:u_35RYKgDlwC",
+    "title": "Computing with words beyond quantitative words: incongruity modeling",
+    "date": "2015/8/17",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Andrew Smigaj"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Soft computing and computing with words (CWW) operate with uncertain natural language (NL) statements to make NL statements more exact. Currently these NL statements in CWW are limited by quantitative concepts. This paper expands CWW beyond quantitative words to texts that contain incongruities. Incongruities are common in jokes, ironies and contradictory texts. A dynamic model, an algorithm, and visualization are proposed for recognizing incongruities."
+},{
+    "id": 85,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:WA5NYHcadZ8C",
+    "title": "Quest for rigorous intelligent tutoring systems under uncertainty: Computing with Words and Images",
+    "date": "2013/6/24",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Probabilistic and Fuzzy Logic approaches have been used for developing Intelligent Tutoring Systems (ITS) for years to deal with uncertainties in ITS but without much attention to justification of the particular techniques, which we call the analysis of scientific rigor of the approach. In probabilistic approaches, there is a missing justification of the Markovian assumption of Bayesian networks along with others. In fuzzy logic approaches, there is a missing justification of fuzzy logic operations by the analysis of the specific ITS task. One of the fundamental and natural ways to provide a rigorously justified way to deal with the uncertainty in ITS is the systematic modeling the context of each ITS task. This paper proposes a methodology based on the comprehensive use of the uncertain contextual verbal and visual information."
+},{
+    "id": 86,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:hC7cP41nSMkC",
+    "title": "Computing With Words (CWW): role of fuzzy, probability and measurement concepts, and operations",
+    "date": "2012",
+    "authors": [
+        "Gleb Beliakov",
+        "Bernadette Bouchon-Meunier",
+        "Janusz Kacprzyk",
+        "B Kovarlerchik",
+        "Vladik Kreinovich",
+        "Jerry M Mendel"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Departamento de Ciencias de la Computaci\u00f3n e Inteligencia Artificial",
+    "cites": [],
+    "summary": "The goal of this panel at IEEE World Computational Intelligence Congress in Brisbane, Australia was to discuss the fundamental concepts that underline a new area of computing with words initiated by L. Zadeh. The panel was held on June 10 with six panelists: Gleb Beliakov (Deakin University, Australia), Bernadette Bouchon Meunier (University of Paris, France), Janusz Kacprzyk (Polish Academy of Sciences, Poland), Boris Kovalerchuk (moderator, Central Washington University, USA), Vladik Kreinovich (moderator, University of Texas, USA), and Jerry Mendel (University of Southern California, USA)."
+},{
+    "id": 87,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:3s1wT3WcHBgC",
+    "title": "An evaluation methodology for vector data updating",
+    "date": "2009/4/27",
+    "authors": [
+        "Peter Doucette",
+        "Boris Kovalerchuk",
+        "Michael Kovalerchuk",
+        "Robert Brigantic"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "SPIE",
+    "cites": [],
+    "summary": "The methods used to evaluate automation tools are a critical part of the development process. In general, the most meaningful measure of an automation method from an operational standpoint is its effect on productivity. Both timed comparison between manual and automation based-extraction, as well as measures of spatial accuracy are needed. In this paper, we introduce the notion of correspondence to evaluate spatial accuracy of an automated update method. Over time, existing vector data becomes outdated because 1) land cover changes occur, or 2) more accurate overhead images are acquired, and/or vector data resolution requirements by the user may increase. Therefore, an automated vector data updating process has the potential to significantly increase productivity, particularly as existing worldwide vector database holdings increase in size, and become outdated more quickly. In this paper we apply\u00a0\u2026"
+},{
+    "id": 88,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:SP6oXDckpogC",
+    "title": "Argumentation vs Meta-argumentation for the Assessment of Multi-agent Conflict",
+    "date": "2008",
+    "authors": [
+        "Boris Galitsky",
+        "Sergei O Kuznetsov",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "Comparative analysis of argumentation and metaargumentation is conducted to track the plausibility of scenarios of interaction between agents. Metaargumentation deals with the overall structure of a scenario, which included communicative actions in addition to attack relations and is learned from previous experience of multiagent interactions. Object-level argumentation is a traditional machinery to handle argumentative structure of a dialogue, assessing the plausibility of individual claims. Evaluation of contribution of each argumentation level shows that both levels of argumentation are essential for assessment of multi-agent scenarios."
+},{
+    "id": 89,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:KxtntwgDAa4C",
+    "title": "Visual data mining with simultaneous rescaling",
+    "date": "2004",
+    "authors": [
+        "Evgenii Vityaev",
+        "Boris Kovalerchuk"
     ],
     "topics": [],
     "form": "paper",
     "doi": null,
     "publisher": "Springer Netherlands",
     "cites": [],
-    "summary": "This chapter describes a new technique for extracting patterns and relations visually from multidimensional binary data using monotone Boolean functions. Visual Data Mining has shown benefits in many areas when used with numerical data, but that technique is less beneficial for binary data. This problem is especially challenging in medical applications tracked with binary symptoms. The proposed method relies on monotone structural relations between Boolean vectors in the n-dimensional binary cube, En, and visualizes them in 2-D as chains of Boolean vectors. Actual Boolean vectors are laid out on this chain structure. Currently the system supports two visual forms: the multiple disk form (MDF) and the \u201cYin/Yang\u201d form (YYF). In the MDF, every vector has a fixed horizontal and vertical position. In the YYF, only the vertical position is fixed.Key words: Visual Data Mining, explicit data structure, Boolean data\u00a0\u2026"
+    "summary": "Visualization is used in data mining for the visual presentation of already discovered patterns and for discovering new patterns visually. Success in both tasks depends on the ability of presenting abstract patterns as simple visual patterns. Getting simple visualizations for complex abstract patterns is an especially challenging problem. A new approach called inverse visualization (IV) is suggested for addressing the problem of visualizing complex patterns. The approach is based on specially designed data preprocessing. Preprocessing based on a transformation theorem is proved in this chapter. A mathematical formalism is derived from the Representative Measurement Theory. The possibility of solving inverse visualization tasks is illustrated on functional nonlinear additive dependencies. The approach is called inverse visualization because it does not use data \u201cas is\u201d and does not follow the traditional sequence\u00a0\u2026"
+},{
+    "id": 90,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:4OULZ7Gr8RgC",
+    "title": "Prototype Internet consultation system for radiologists",
+    "date": "1998/8/1",
+    "authors": [
+        "Boris Kovalerchuk",
+        "James Ruiz",
+        "Evgenii Vityaev",
+        "Steven Fisher"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer-Verlag",
+    "cites": [],
+    "summary": "The overall purpose of this study is to develop a prototype radiological consultation system. We concentrate our work on prototype software environment for the system. The system provides a second diagnostic opinion based on similar cases, incorporating the experience of radiologists, their diagnostic rules and a database of previous cases. The system allows a radiologist to enter the description of a particular case using the lexicon such as BI-RADS of American College of Radiology and retrieve the second diagnostic opinion (probable diagnosis) for a given case. The system also allows a radiologist to get other important information too. These advances are based on a new computational intelligence technique and firstorder logic. We implemented a rule-based prototype diagnostic system. Two experimental Internet versions are currently available on the web and are under testing and evaluation of design. The\u00a0\u2026"
+},{
+    "id": 91,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:8k81kl-MbHgC",
+    "title": "Fuzzy logic for formalization of breast imaging lexicon and feature extraction",
+    "date": "1998",
+    "authors": [
+        "BORIS Kovalerchuk",
+        "NATHAN Conner",
+        "JAMES Ruiz",
+        "JANE Clayton"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "In [1] we began formalization of the Breast Imaging Lexicon of American College of Radiology (ACR) for automated feature extraction using fuzzy logic. In this paper we report further development. In current practice, radiologists make a relatively subjective determination for many terms from the lexicon related to breast cancer diagnosis. Lobulation and microlobulation of nodules are two important features in the ACR lexicon. A feature extraction algorithm and experimental software are developed for these features. They are computationally more effective in comparison with direct formalization from [1] and were successfully tested."
+},{
+    "id": 92,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:j8SEvjWlNXcC",
+    "title": "On the relation of the probability theory and the fuzzy sets theory foundations",
+    "date": "1988",
+    "authors": [
+        "BY Kovalerchuk",
+        "DI Shapiro"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": null
+},{
+    "id": 93,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:PoWvk5oyLR8C",
+    "title": "Synthetic Data Generation and Automated Multidimensional Data Labeling for AI/ML in General and Circular Coordinates",
+    "date": "2024/7/22",
+    "authors": [
+        "Alice Williams",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Insufficient amounts of available training data is a critical challenge for both development and deployment of artificial intelligence and machine learning (AI/ML) models. This paper proposes a unified approach to both synthetic data generation (SDG) and automated data labeling (ADL) with a unified SDG-ADL algorithm. SDG-ADL uses multidimensional (n-D) representations of data visualized losslessly with General Line Coordinates (GLCs), relying on reversible GLC properties to visualize n-D data in multiple GLCs. This paper demonstrates use of the new Circular Coordinates in Static and Dynamic forms, used with Parallel Coordinates and Shifted Paired Coordinates, since each GLC exemplifies unique data properties, such as inter-attribute n-D distributions and outlier detection. The approach is interactively implemented in computer software with the Dynamic Coordinates Visualization system (DCVis). Results\u00a0\u2026"
+},{
+    "id": 94,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:MLfJN-KU85MC",
+    "title": "Parallel Coordinates for Discovery of Interpretable Machine Learning Models",
+    "date": "2024/4/25",
+    "authors": [
+        "Dustin Hayes",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer Nature Switzerland",
+    "cites": [],
+    "summary": "This work uses visual knowledge discovery in parallel coordinates to advance methods of interpretable machine learning. The graphic data representation in parallel coordinates made the concepts of hypercubes and hyperblocks (HBs) simple to understand for end users. It is suggested to use mixed and pure hyperblocks in the proposed data classifier algorithm Hyper. It is shown that Hyper models generalize decision trees. The algorithm is presented in several settings and options to discover interactively or automatically overlapping or non-overlapping hyperblocks. Additionally, the use of hyperblocks in conjunction with language descriptions of visual patterns is demonstrated. The benchmark data from the UCI ML repository were used to evaluate the Hyper algorithm. It enabled the discovery of mixed and pure HBs evaluated using tenfold cross validation. Connections among hyperblocks, dimension reduction\u00a0\u2026"
+},{
+    "id": 95,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:Z5m8FVwuT1cC",
+    "title": "Non-linear Visual Knowledge Discovery with Elliptic Paired Coordinates",
+    "date": "2022",
+    "authors": [
+        "Rose McDonald",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Springer, Cham",
+    "cites": [],
+    "summary": "It is challenging for humans to enable visual knowledge discovery in data with more than 2\u20133 dimensions with a naked eye. This chapter explores the efficiency of discovering predictive machine learning models interactively using new Elliptic Paired coordinates (EPC) visualizations. It is shown that EPC are capable to visualize multidimensional data and support visual machine learning with preservation of multidimensional information in 2-D. Relative to parallel and radial coordinates, EPC visualization requires only a half of the visual elements for each n\u2013D point. An interactive software system EllipseVis, which is developed in this work, processes high-dimensional datasets, creates EPC visualizations, and produces predictive classification models by discovering dominance rules in EPC. By using interactive and automatic processes it discovers zones in EPC with a high dominance of a single class. The EPC\u00a0\u2026"
+},{
+    "id": 96,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:TQgYirikUcIC",
+    "title": "Visual cognitive algorithms for high-dimensional data and super-intelligence challenges",
+    "date": "2017/10/1",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Elsevier",
+    "cites": [],
+    "summary": "In the long run the cognitive algorithms intend to make super-intelligent machines and super-intelligent humans. This paper presents a technical process to reach specific aspects of super-intelligence that are out of the current human cognitive abilities. These aspects are inabilities to discover patterns in large numeric multidimensional data with a naked eye. This is a long-standing problem in Data Science and Modeling in general. The major obstacle is in human inability to see n-D data by a naked eye and our needs in visualization means to represent n-D data in 2-D losslessly. While these means exist their number and abilities are limited. This paper expands the class of such lossless visual methods, by further developing a new concept of Generalized Shifted Paired Coordinates. It shows the advantages of proposed reversible lossless technique by representing real data and by proving mathematical properties."
+},{
+    "id": 97,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:D03iK_w7-QYC",
+    "title": "MapSnap system to perform vector-to-raster fusion",
+    "date": "2011/5/16",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Peter Doucette",
+        "Gamal Seedahmed",
+        "Jerry Tagestad",
+        "Sergei Kovalerchuk",
+        "Brian Graff"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "SPIE",
+    "cites": [],
+    "summary": "As the availability of geospatial data increases, there is a growing need to match these datasets together. However, since these datasets often vary in their origins and spatial accuracy, they frequently do not correspond well to each other, which create multiple problems. To accurately align with imagery, analysts currently either: 1) manually move the vectors, 2) perform a labor-intensive spatial registration of vectors to imagery, 3) move imagery to vectors, or 4) redigitize the vectors from scratch and transfer the attributes. All of these are time consuming and labor-intensive operations. Automated matching and fusing vector datasets has been a subject of research for years, and strides are being made. However, much less has been done with matching or fusing vector and raster data. While there are initial forays into this research area, the approaches are not robust. The objective of this work is to design and build\u00a0\u2026"
+},{
+    "id": 98,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:q3oQSFYPqjQC",
+    "title": "Uncertainty modeling for spatial data fusion and mining",
+    "date": "2011/4/11",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Leonid Perlovsky"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "Fusion and mining of uncertain heterogeneous spatial data in the cyber-physical space are challenging problems especially to deal in a coordinated way with both topological and geometrical uncertainties. This paper explores opportunities to meet these challenges by generalizing the Dynamic Logic of Phenomena (DLP) and the Neural Modeling Field (NMF) Theory for geo-spatial data. The main idea behind success of NMF and DLP in applications is matching the levels of uncertainty of the problem/model and the levels of uncertainty of the evaluation criterion used to identify the model with data. When a model becomes more certain then the evaluation criterion is also adjusted dynamically to match the adjusted model. This process mimics processes of the mind and natural evolution. This paper also outlines a generalization of k-nearest neighbors' algorithm in the DLP framework for geo-spatial structural data\u00a0\u2026"
+},{
+    "id": 99,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=20&pagesize=80&citation_for_view=k12ONA8AAAAJ:uWQEDVKXjbEC",
+    "title": "Interpretable fuzzy systems: analysis of T-norm interpretability",
+    "date": "2010/7/18",
+    "authors": [
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "The issues of Interpretable Fuzzy Systems (IFS) spin from the fundamental definitions of the concept of IFS to practical design of such systems. This paper addresses the current issues of formalization of the concept of interpretability, its dimensions, evaluations and design of interpretable Fuzzy Systems, including fuzzy control systems. T-norms and T-conorms are in the core of Fuzzy Systems, therefore we consider the following questions about them. Where is the adequate sphere for T-norms in IFS to be interpretable operations? How to modify the T-norms to satisfy the IFS requirements? What are the alternatives to T-norms and t-conorms in IFS? This analysis of T-norms is done in the context of their interpretation as measurements. We show that the approach used in the representative measurement theory is a source of the interpretability definition, which is in line with Tarsky's definition of interpretability. This\u00a0\u2026"
+},{
+    "id": 100,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=100&pagesize=100&citation_for_view=k12ONA8AAAAJ:yD5IFk8b50cC",
+    "title": "Probabilistic Dynamic Logic of Phenomena and Cognition",
+    "date": "2010/7/18",
+    "authors": [
+        "Evgenii Vityaev",
+        "Boris Kovalerchuk",
+        "Leonid Perlovsky",
+        "Stanislav Smerdov"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "IEEE",
+    "cites": [],
+    "summary": "The purpose of this paper is to develop further the main concepts of Phenomena Dynamic Logic (P-DL) and Cognitive Dynamic Logic (C-DL), presented in the previous paper. The specific character of these logics is in matching vagueness or fuzziness of similarity measures to the uncertainty of models. These logics are based on the following fundamental notions: generality relation, uncertainty relation, simplicity relation, similarity maximization problem with empirical content and enhancement (learning) operator. We develop these notions in terms of logic and probability and developed a Probabilistic Dynamic Logic of Phenomena and Cognition (P-DL-PC) that relates to the scope of probabilistic models of brain. In our research the effectiveness of suggested formalization is demonstrated by approximation of the expert model of breast cancer diagnostic decisions. The P-DL-PC logic was previously successfully\u00a0\u2026"
+},{
+    "id": 101,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=100&pagesize=100&citation_for_view=k12ONA8AAAAJ:eflP2zaiRacC",
+    "title": "Visual discovery in multivariate binary data",
+    "date": "2010/1/18",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Florian Delizy",
+        "Logan Riggs",
+        "Evgenii Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "International Society for Optics and Photonics",
+    "cites": [],
+    "summary": "This paper presents the concept of Monotone Boolean Function Visual Analytics (MBFVA) and its application to the medical domain. The medical application is concerned with discovering breast cancer diagnostic rules (i) interactively with a radiologist, (ii) analytically with data mining algorithms, and (iii) visually. The coordinated visualization of these rules opens an opportunity to coordinate the rules, and to come up with rules that are meaningful for the expert in the field, and are confirmed with the database. This paper shows how to represent and visualize binary multivariate data in 2-D and 3-D. This representation preserves the structural relations that exist in multivariate data. It creates a new opportunity to guide the visual discovery of unknown patterns in the data. In particular, the structural representation allows us to convert a complex border between the patterns in multidimensional space into visual 2-D and 3\u00a0\u2026"
+},{
+    "id": 102,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=100&pagesize=100&citation_for_view=k12ONA8AAAAJ:KlAtU1dfN6UC",
+    "title": "Overcoming the combined effect of geometric distortion and object change in image registration and conflation",
+    "date": "2006/5/4",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Yuliya Kamatkova",
+        "Peter Doucette"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "SPIE",
+    "cites": [],
+    "summary": "A persistent problem with new unregistered geospatial data is geometric image distortion caused by different sensor/camera location. Often this distortion is modeled by means of arbitrary affine transformations. However in most of the real cases such geometric distortion is combined with other distortions caused by different image resolutions, different feature extraction techniques and others. Often images overlap only partially. Thus, the same objects on two images can differ significantly. The simple geometric distortion preserves one-to-one match between all points of the same object in the two images. In contrast when images are only partially overlapped or have different resolution there is no one-to-one point match. This paper explores theoretical and practical limits of building algorithms that are both robust and invariant at the same time to geometric distortions and change of image resolution. We provide two\u00a0\u2026"
+},{
+    "id": 103,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=100&pagesize=100&citation_for_view=k12ONA8AAAAJ:Wp0gIr-vW9MC",
+    "title": "Data mining in finance: From extremes to realism",
+    "date": "2004",
+    "authors": [
+        "Boris Kovalerchuk",
+        "Evgenii Vityaev"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": "Capco Institute",
+    "cites": [],
+    "summary": "This paper describes data mining in finance by discussing financial tasks and specifics of methodologies and techniques in this data mining area. It includes time dependence, data selection, forecast horizon, measures of success, quality of patterns, hypothesis evaluation, problem ID, method profile, attribute-based, and relational methodologies."
+},{
+    "id": 104,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=100&pagesize=100&citation_for_view=k12ONA8AAAAJ:vbGhcppDl1QC",
+    "title": "Computer System \u201cGene Discovery\u201d for Promoter Structure Analysis",
+    "date": "2003",
+    "authors": [
+        "Nikolay A Kolchanov",
+        "Mikhail A Pozdnyakov",
+        "L Orlov Yu",
+        "Oleg V Vishnevsky",
+        "Nikolay L Podkolodny",
+        "Eugenii E Vityaev",
+        "Boris Kovalerchuk"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "Data Mining and Knowledge Discovery techniques proved to be efficient tools for variety of complex tasks in biology including DNA research. This paper presents implementation of these techniques for searching regularities in tables of context features of DNA sequences involved in transcription regulation. The goal is to discover regularities that interrelate nucleotide sequences with the functional class of these sequences. The search for regularities is implemented in a software system\" Gene Discovery\" which is based on first-order probabilistic logic. The\" Gene Discovery\" system provides a general scenario of functional annotation of an arbitrary nucleotide sequence. This system accepts molecular-genetical data retrieved from the database using SQL queries. Sequences of non-homologous gene promoters extracted from the TRRD database have been analysed using this system. Several regularities have been detected. These regularities relate the context of regulatory DNA nucleotide sequence and its location relative to transcription start with the functional class. Our approach based on Data Mining methods selects a specific oligonucleotide pattern for description of the functional class of a gene. The method relies to original Knowledge Discovery approach that can be used for wide variety of complex bioinformatics problems."
+},{
+    "id": 105,
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=k12ONA8AAAAJ&cstart=100&pagesize=100&citation_for_view=k12ONA8AAAAJ:mB3voiENLucC",
+    "title": "Mathematical support for combining geospatial data",
+    "date": "2001",
+    "authors": [
+        "Boris Kovalerchuk",
+        "James Schwing"
+    ],
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": "This paper describes a task-driven framework for characterizing the quality of conflated data relative to a given problem by addressing mathematical issues. Issues considered include: growing geospatial data from multiple sources, a variety of techniques for data generation, a variety of requested data combinations, and emerging data types. Briefly our approach is task-driven includes the development of task-specific measures, the use of a taskdriven conflation agent, and the identification of task-related default parameters. We develop a methodology for characterizing the quality of conflated data relative to a task-specific problem statement by introducing: measures of the correctness for the combination of geospatial data using the formalized concepts of context space that integrate fuzzy logic measure along with the concept of visual correlation formalism."
+},{
+    "id": 106,
+    "link": "https://www.google.com/sorry/index?continue=https://scholar.google.com/citations%3Fview_op%3Dview_citation%26hl%3Den%26user%3Dk12ONA8AAAAJ%26cstart%3D100%26pagesize%3D100%26citation_for_view%3Dk12ONA8AAAAJ:kNdYIx-mwKoC&hl=en&q=EgRHUMZUGKDVktAGIi6hjovJk2LiQx3GNeciIYm5k8amtUPsvw1bpfpJEwNWdtiQly8TuPWt6egraD2mMgJyUloBQw",
+    "title": "Some recent developments of using logical analysis for inferring a Boolean function with few clauses",
+    "date": null,
+    "authors": null,
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": null
+},{
+    "id": 107,
+    "link": "https://scholar.google.com/citations%3Fview_op%3Dview_citation%26hl%3Den%26user%3Dk12ONA8AAAAJ%26cstart%3D100%26pagesize%3D100%26citation_for_view%3Dk12ONA8AAAAJ:l7t_Zn2s7bgC&hl=en&q=EgRHUMZUGK3VktAGIi5BiT9Gh74c-eVeYoO0NSDZp6V_MS6fRr2vMK3fKm-RZ-bZR608ksl0wI-TpkeCMgJyUloBQw",
+    "title": "Fuzzy logic in digital mammography: analysis of lobulation",
+    "date": null,
+    "authors": null,
+    "topics": [],
+    "form": "paper",
+    "doi": null,
+    "publisher": null,
+    "cites": [],
+    "summary": null
 }
 ]
