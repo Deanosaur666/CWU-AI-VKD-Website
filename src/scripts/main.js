@@ -5,6 +5,7 @@
  * 2. The logic for hte help window
  */
 import { graph, renderer, topicMap, snippet_container } from './sigma.js';
+import { setSelectedSource, getSelectedSource, ghAddSourceForm } from './github.js';
 
 const helpWindow = document.getElementById("help-window");
 const openHelpWindowBtn = document.getElementById("help-button");
@@ -28,7 +29,6 @@ closeHelpWindowBtn.onclick = function() {
  */
 const info_container = document.getElementById("info-container");
 
-
 renderer.on("clickNode", ({node}) => {
     const data = graph.getNodeAttributes(node);
 
@@ -41,7 +41,14 @@ renderer.on("clickNode", ({node}) => {
     <a href="${data.link}" target="_blank">Link</a>
     <br>Citations: ${data.citations}</br>
     <br>Summary: ${data.summary}</br>
+    <button id="editSourceButton">Edit source</button>
     `;
+
+    setSelectedSource(data);
+    const editSourceButton = document.getElementById("editSourceButton");
+    editSourceButton.addEventListener("click", () => {
+        ghAddSourceForm(getSelectedSource());
+    });
 });
 
 /**

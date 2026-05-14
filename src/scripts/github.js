@@ -22,7 +22,9 @@ let gh_source_modified = {};
 // the indexes of these should correspond to paths below
 let sourceTypes = [
     "article",
-    "software"
+    "paper",
+    "software",
+    "other"
 ]
 
 let sourcePaths = [
@@ -160,6 +162,7 @@ const sourceFormFields = [
             `
             <option value="software">Software</option>
             <option value="article">Article</option>
+            <option value="paper">Paper</option>
             <option value="book">Book</option>
             <option value="other">Other</option>
             `,
@@ -393,4 +396,14 @@ function ghSubmitAddSourceForm() {
     }
 
     console.log(jsonobj);
+}
+
+let selectedSource = null;
+
+export function setSelectedSource(source) {
+    selectedSource = source;
+}
+
+export function getSelectedSource() {
+    return selectedSource;
 }
