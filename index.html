@@ -4,16 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cwu-ai-vkd-website</title>
-    <script type="module" crossorigin src="./assets/index-a48yokya.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CX81h_Al.css">
+    <script type="module" crossorigin src="./assets/index-DSY2HqOp.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-21vH-uJy.css">
   </head>
   <body>
     <aside>
       <div id="display-container">
         <img src="./assets/CWU-Logo-DluG3jHD.png" alt="CWU Logo">
-        <h1>Dr. Kovalerchuk's Research</h1>
+        <h1>Boris Kovalerchuk
+          <button id="help-button">Help!</button>
+        </h1>
       </div>
     </aside>
+    <div id="help-window" class="help-window">
+      <button id ="close-help-window" class="close-help-window">
+        <img src="./assets/CloseBtn-PGOMFv3K.png" alt="Close">
+      </button>
+      <h2>
+        Each node is a document. Click on one to see its information.
+        They are clustered by topic and linked if they share citations.
+        <br><br>
+        To filter by topic, click the checkbox on the lefthand side to
+        hide a topic. If the node still has a topic that is visible, it
+        will still appear. There is also the option to filter by year.
+        <br><br>
+        If you want to add a new document, click the 'Add source' button
+        and enter all of the required information. The ID is a SSH ID that
+        you get from the github repository, as long as you have permission.
+      </h2>
+    </div>
     <div id="sigma-container">
       <div id="snippet-container"></div>
     </div>
