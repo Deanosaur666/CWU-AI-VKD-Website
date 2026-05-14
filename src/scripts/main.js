@@ -2,10 +2,23 @@
  * Ian Cunningham 4/21/2026
  * This is for the additional functionality on the website. These include:
  * 1. Hovering over the node will show info to snippet-container
- * 2. Clicking on a node will display to the info-container that displays the nodes info
- * 3. Will create display-container based on topics will allow for visibility toggling
+ * 2. The logic for hte help window
  */
 import { graph, renderer, topicMap, snippet_container } from './sigma.js';
+
+const helpWindow = document.getElementById("help-window");
+const openHelpWindowBtn = document.getElementById("help-button");
+const closeHelpWindowBtn = document.getElementById("close-help-window");
+
+openHelpWindowBtn.onclick = function() {
+    helpWindow.style.display = helpWindow.style.display === "block"
+        ? "none"
+        : "block";
+}
+
+closeHelpWindowBtn.onclick = function() {
+    helpWindow.style.display = "none";
+}
 
 /**
  * This is the code that displays the info about each document
@@ -14,6 +27,7 @@ import { graph, renderer, topicMap, snippet_container } from './sigma.js';
  * that will have more/less data to display :)
  */
 const info_container = document.getElementById("info-container");
+
 
 renderer.on("clickNode", ({node}) => {
     const data = graph.getNodeAttributes(node);
@@ -60,3 +74,5 @@ renderer.on("enterNode", (event) => {
 renderer.on("leaveNode", () => {
     snippet_container.style.display = "none";
 });
+
+
