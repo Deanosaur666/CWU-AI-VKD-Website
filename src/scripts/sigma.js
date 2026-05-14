@@ -168,7 +168,7 @@ for(let i = 0; i < topics.length; i++) {
 
 //year section header
 const year = document.createElement("div");
-year.textContent = "Sort By Year:";
+year.textContent = "Filter By Year:";
 display_container.appendChild(year);
 
 //Creates all of the elements for year selection
@@ -183,7 +183,7 @@ const currentYear = new Date().getFullYear();
 endYear.value = currentYear;
 const choseYear = document.createElement("input");
 choseYear.type = "button";
-choseYear.value = "Sort";
+choseYear.value = "Filter ";
 
 /**
  * Event listener for when the "sort" button is
@@ -204,7 +204,7 @@ choseYear.addEventListener("click", () => {
         return;
     }
     //checks that there is a valid date range
-    else if(end < start) {
+    else if(end < start || start < 0) {
         alert("Invalid input!\nMust be a valid date range");
     }
 

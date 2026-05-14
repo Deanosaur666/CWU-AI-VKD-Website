@@ -1,7 +1,7 @@
 aside {
     border: 4px solid black;
     width: 260px;
-    background-color: #FFF680;
+    background-color: #ECE1CE;
 }
 
 aside h1 {
@@ -23,14 +23,17 @@ aside div {
     border: 2px solid black;
     flex: 3;
     position: relative;
+    background-color: #A7BCD6;
 }
 
 #info-container {
     border: 2px solid black;
     flex: 1.25;
     width: 260px;
-    background-color: lightgray;
+    background-color: #CD0037;
     font-size: 200%;
+    max-height: 100vh;
+    overflow-y: auto;
 }
 
 #snippet-container {
