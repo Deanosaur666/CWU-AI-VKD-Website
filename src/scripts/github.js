@@ -201,7 +201,8 @@ const sourceFormFields = [
         label : "Date",
         element : "input",
         type : "date",
-        jsonkey : "date"
+        jsonkey : "date",
+        jsontype : "date"
     },
     // Authors field (list, maybe comma seperated or something?)
     {
@@ -334,6 +335,9 @@ export function ghAddSourceForm(source) {
         if(source && field.jsonkey in source) {
             if("jsontype" in field && field.jsontype == "array") {
                 fieldElement.value = source[field.jsonkey].join(", ");
+            }
+            else if("jsontype" in field && field.jsontype == "date") {
+                fieldElement.value = new Date(source[field.jsonkey]).toISOString().split('T')[0].slice(0, 10);
             }
             else {
                 fieldElement.value = source[field.jsonkey];

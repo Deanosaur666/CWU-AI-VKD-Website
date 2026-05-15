@@ -209,7 +209,8 @@ choseYear.addEventListener("click", () => {
     }
 
     graph.forEachNode((node, attributes) => {
-        const nodeYear = parseInt(attributes.date.split("/"));
+        const nodeDate = new Date(attributes.date);
+        const nodeYear = nodeDate.getFullYear();
         const visible = nodeYear >= start && nodeYear <= end;
         graph.setNodeAttribute(node, "hidden", !visible);
     });
