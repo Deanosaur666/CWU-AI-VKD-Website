@@ -110,10 +110,20 @@ async function ghUploadJSON(object, path) {
 
 export async function ghGetSourceJSONs() {
     let objects = [];
+    let promises = [];
     for(let i = 0; i < sourcePaths.length; i ++) {
-        let sourceObjects = await ghGetJSON(sourcePaths[i]);
-        objects = objects.concat(sourceObjects);
+        let promise = ghGetJSON(sourcePaths[i]);
+        promises.push(promise);
     }
+
+    const results = await Promise.allSettled(promises);
+
+    for(let i = 0; i < sourcePaths.length; i ++) {
+        let sourceObjects = results[i].value;
+        objects = objects.concat(sourceObjects);
+        console.log(sourceObjects);
+    }
+
     return objects;
 }
 
