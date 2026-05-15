@@ -68,6 +68,8 @@ topics.forEach((topic, i) => {
     COLORS[topic] = palette[i % palette.length];
 });
 
+topics.push("none");
+
 /**
  * Assigns the nodes their color based on their first topic. If there is
  * no topic then it sets the color to gray. This also makes nodes bigger 
@@ -124,7 +126,7 @@ export { graph, renderer, topicMap, snippet_container };
 
 
 //creates a dictionary for the visibility on each topic
-const topicVisibility = {};
+const topicVisibility = { "none" : true };
 topics.forEach(topic => {
     topicVisibility[topic] = true;
 });
@@ -233,7 +235,7 @@ async function updateVisibility() {
     graph.forEachNode((node, attributes) => {
         const topics = attributes.topics || [];
 
-        const visible = topics.some(t => topicVisibility[t]);
+        const visible = topics.some(t => topicVisibility[t]) || (topics.length == 0 && topicVisibility["none"]);
 
         graph.setNodeAttribute(node, "hidden", !visible);
     });
