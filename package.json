@@ -20,7 +20,8 @@
     "graphology-layout": "^0.6.1",
     "graphology-layout-forceatlas2": "^0.10.1",
     "octokit": "^5.0.5",
-    "sigma": "^3.0.2"
+    "sigma": "^3.0.2",
+    "vite-plugin-node-polyfills": "^0.2.0"
   },
   "homepage": "https://deanosaur666.github.io/cwu-ai-vkd-website"
 }

@@ -34,6 +34,12 @@ let sourcePaths = [
     "sources/other.json" // anything else
 ];
 
+let sourceTypeToPath = {};
+sourceTypeToPath["article"] = "sources/articles.json";
+sourceTypeToPath["paper"] = "sources/articles.json";
+sourceTypeToPath["software"] = "sources/software.json";
+sourceTypeToPath["other"] = "sources/other.json";
+
 export async function ghAuth(authToken) {
     username = "";
 
@@ -409,7 +415,31 @@ function ghSubmitAddSourceForm() {
         }
     }
 
-    console.log(jsonobj);
+    // find an object to replace, if it exists
+    let sourcePath = sourceTypeToPath[type];
+    let sourceJson = gh_source_jsons[sourcePath];
+    let index = -1;
+    if(jsonobj.id) {
+        console.log(sourceJson);
+        console.log(jsonobj.id);
+        index = sourceJson.findIndex((e) => jsonobj.id == e.id, jsonobj);
+        console.log(index);
+    }
+    if(index == -1 && jsonobj.title) {
+        index = sourceJson.findIndex((e) => jsonobj.title == e.titl, jsonobj);
+    }
+
+    if(index == -1) {
+        sourceJson.push(jsonobj);
+        gh_source_modified[sourcePath] = true;
+        console.log(`Added new source to ${sourcePath}.`);
+    }
+    else {
+        sourceJson[index] = jsonobj;
+        gh_source_modified[sourcePath] = true;
+        console.log(`Modfied source ${index} in ${sourcePath}.`);
+    }
+
 }
 
 let selectedSource = null;
