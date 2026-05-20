@@ -178,6 +178,17 @@ addSourceButton.addEventListener("click", () => {
 row.appendChild(addSourceButton);
 display_container.appendChild(row);
 
+// upload button
+const uploadButton = document.createElement("button");
+uploadButton.textContent = "Upload changes";
+
+uploadButton.addEventListener("click", () => {
+    ghUploadForm();
+});
+
+row.appendChild(uploadButton);
+display_container.appendChild(row);
+
 const sourceFormFields = [
     // a dropdown list from sourceTypes,
     // determines what file to add to, for
@@ -498,6 +509,37 @@ function ghSubmitAddSourceForm() {
         console.log(`Modfied source ${index} in ${sourcePath}.`);
     }
 
+}
+
+// create GUI form to upload
+function ghUploadForm() {
+    // title
+    info_container.innerHTML = `<div><strong>Upload changes</strong></div>`;
+
+    if(!username) {
+        info_container.innerHTML +=
+        `<div>You must be logged in to upload changes.</div>`;
+        return false;
+    }
+
+    let ulist = "<div>Modified files:</div>";
+    ulist += "<div><ul>";
+
+    Object.keys(gh_source_modified).forEach((k) => {
+        if(gh_source_modified[k])
+            ulist += `<li>${k}</li>`;
+    });
+
+    ulist += "</div></ul>";
+    info_container.innerHTML += ulist;
+    info_container.innerHTML += `<div><button id="uploadButton">Upload changes</button></div>`;
+    document.getElementById("uploadButton").addEventListener("click", clickUploadButton);
+
+}
+
+async function clickUploadButton() {
+    await ghUploadModifed();
+    ghUploadForm();
 }
 
 let selectedSource = null;
