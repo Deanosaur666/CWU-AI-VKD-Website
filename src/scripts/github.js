@@ -156,7 +156,18 @@ const display_container = document.getElementById("display-container");
 const row = document.createElement("div");
 row.className = "button-row";
 
-//adds button to div
+// login button
+const loginButton = document.createElement("button");
+loginButton.textContent = "Login";
+
+loginButton.addEventListener("click", () => {
+    ghLoginForm();
+});
+
+row.appendChild(loginButton);
+display_container.appendChild(row);
+
+// add source button
 const addSourceButton = document.createElement("button");
 addSourceButton.textContent = "Add source";
 
@@ -314,6 +325,12 @@ export function ghAddSourceForm(source) {
     // title
     info_container.innerHTML = "<div><strong>Add/edit source</strong></div>";
 
+    if(!username) {
+        info_container.innerHTML +=
+        `<div>You must be logged in to add or edit a source.</div>`;
+        return false;
+    }
+
     // fields
     for(let i = 0; i < sourceFormFields.length; i ++) {
         const field = sourceFormFields[i];
@@ -382,7 +399,48 @@ export function ghAddSourceForm(source) {
     info_container.appendChild(row);
 }
 
+// create GUI form to login
+function ghLoginForm() {
+    let userDisplay = username;
+    if(!username)
+        userDisplay = "[NONE]"
+    // title
+    info_container.innerHTML = 
+        `<div><strong>Login</strong></div>
+        <div>Username: <span id="username">${userDisplay}</span></div>
+        <div>
+            <label for="ghtoken">Github personal access token:</label>
+            <input type="password" name="ghtoken" id="ghtoken" placeholder="Enter GitHub Token">
+        </div>
+        <div><button id="authButton">Authenticate</button></div>
+        <div><pre id="output"></pre></div>`;
+
+    document.getElementById("ghtoken").value = "";
+    document.getElementById("authButton").addEventListener("click", clickAuthButton);
+}
+
+async function clickAuthButton() {
+    const authToken = document.getElementById("ghtoken").value;
+    const output = document.getElementById("output");
+    const usernameField = document.getElementById("username");
+    const success = await ghAuth(authToken);
+    if(!authToken) {
+        output.textContent = "Please enter a token.";
+        usernameField.textContent = "[NONE]"
+        return;
+    }
+    if(success) {
+        output.textContent = `Logged in as: ${username}`;
+        usernameField.textContent = username;
+    }
+    else {
+        output.textContent = `Login failed`;
+        usernameField.textContent = "[NONE]";
+    }
+}
+
 function ghSubmitAddSourceForm() {
+    
     const typeSelector = document.getElementById("typeSelector");
     const type = typeSelector.value;
 
