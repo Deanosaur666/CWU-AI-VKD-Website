@@ -150,7 +150,7 @@ export function ghAddSource(sourceFilePath, object) {
 }
 
 const info_container = document.getElementById("info-container");
-const display_container = document.getElementById("display-container");
+const header = document.getElementById("header-info");
 
 // the button for adding a source
 const row = document.createElement("div");
@@ -165,7 +165,7 @@ loginButton.addEventListener("click", () => {
 });
 
 row.appendChild(loginButton);
-display_container.appendChild(row);
+header.appendChild(row);
 
 // add source button
 const addSourceButton = document.createElement("button");
@@ -176,7 +176,7 @@ addSourceButton.addEventListener("click", () => {
 });
 
 row.appendChild(addSourceButton);
-display_container.appendChild(row);
+header.appendChild(row);
 
 const sourceFormFields = [
     // a dropdown list from sourceTypes,

@@ -140,6 +140,7 @@ topics.forEach(topic => {
  */
 const display_container = document.getElementById("display-container");
 const section = document.createElement("div");
+section.className = "Topics";
 section.textContent = "Topics:";
 display_container.appendChild(section);
 
