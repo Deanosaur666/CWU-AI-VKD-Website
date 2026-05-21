@@ -488,6 +488,9 @@ function ghSubmitAddSourceForm() {
         }
     }
 
+    if(failed)
+        return false;
+
     // find an object to replace, if it exists
     let sourcePath = sourceTypeToPath[type];
     let sourceJson = gh_source_jsons[sourcePath];
