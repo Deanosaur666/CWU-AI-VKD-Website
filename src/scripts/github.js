@@ -186,8 +186,9 @@ uploadButton.addEventListener("click", () => {
     ghUploadForm();
 });
 
+const display_container = document.getElementById("display-container");
 row.appendChild(uploadButton);
-display_container.appendChild(row);
+display_container.appendChild(uploadButton);
 
 const sourceFormFields = [
     // a dropdown list from sourceTypes,
