@@ -21,7 +21,9 @@ async function loadGraph() {
     //const response = await fetch("/sources/software.json");
     //const graphData = await response.json();
     const graphData = await ghGetSourceJSONs();
-    return graphData;
+    
+    // create copies so the originals don't get messed up
+    return graphData.map(x => structuredClone(x));
 }
 
 let graph_json = await loadGraph();

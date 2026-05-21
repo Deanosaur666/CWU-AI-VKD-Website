@@ -377,8 +377,11 @@ export function ghAddSourceForm(source) {
         }
 
         // pre-fill
-        if(source && field.jsonkey in source) {
-            if("jsontype" in field && field.jsontype == "array") {
+        if(source) {
+            if(!(field.jsonkey in source)) {
+                fieldElement.value = "";
+            }
+            else if("jsontype" in field && field.jsontype == "array") {
                 fieldElement.value = source[field.jsonkey].join(", ");
             }
             else if("jsontype" in field && field.jsontype == "date") {
@@ -508,6 +511,7 @@ function ghSubmitAddSourceForm() {
         sourceJson[index] = jsonobj;
         gh_source_modified[sourcePath] = true;
         console.log(`Modfied source ${index} in ${sourcePath}.`);
+        console.log(jsonobj);
     }
 
 }
