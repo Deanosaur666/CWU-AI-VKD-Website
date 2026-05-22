@@ -467,6 +467,7 @@ function ghSubmitAddSourceForm() {
         
         // skip if not visible for this type
         if(type && ("visibleon" in field) && !field.visibleon.includes(type)) {
+            console.log(`${field.jsonkey} not visible in ${type}.`);
             continue;
         }
 
@@ -487,6 +488,14 @@ function ghSubmitAddSourceForm() {
                 jsonobj[field.jsonkey] = element.value;
                 if(!jsonobj[field.jsonkey])
                     jsonobj[field.jsonkey] = null;
+            }
+        }
+        else {
+            if("jsontype" in field && field.jsontype == "array") {
+                jsonobj[field.jsonkey] = [];
+            }
+            else {
+                jsonobj[field.jsonkey] = null;
             }
         }
     }
