@@ -283,7 +283,7 @@ const sourceFormFields = [
         element : "input",
         type : "text",
         jsonkey : "doi",
-        visibleon : ["book", "article", "other"]
+        visibleon : ["book", "article", "paper", "other"]
     },
 
     // Publisher
