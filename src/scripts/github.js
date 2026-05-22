@@ -98,7 +98,7 @@ async function ghUploadJSON(object, path) {
         return false;
     }
 
-    const content = Buffer.from(JSON.stringify(object)).toString("base64");
+    const content = Buffer.from(JSON.stringify(object, null, "\t")).toString("base64");
     const fileContent = await octokit.rest.repos.createOrUpdateFileContents({
         owner: gh_owner,
         repo: gh_repo,
@@ -331,7 +331,6 @@ export function ghAddSourceForm(source) {
 
     if(source) {
         type = source.form;
-        console.log(source);
     }
 
     // title
@@ -481,9 +480,13 @@ function ghSubmitAddSourceForm() {
         else if(element.value) {
             if("jsontype" in field && field.jsontype == "array") {
                 jsonobj[field.jsonkey] = element.value.split(",").map(item => item.trim());
+                if(!jsonobj[field.jsonkey])
+                    jsonobj[field.jsonkey] = [];
             }
             else {
                 jsonobj[field.jsonkey] = element.value;
+                if(!jsonobj[field.jsonkey])
+                    jsonobj[field.jsonkey] = null;
             }
         }
     }
@@ -505,6 +508,9 @@ function ghSubmitAddSourceForm() {
         index = sourceJson.findIndex((e) => jsonobj.title == e.titl, jsonobj);
     }
 
+    console.log("Old sources:");
+    console.log(JSON.stringify(sourceJson, null, "\t"));
+
     if(index == -1) {
         sourceJson.push(jsonobj);
         gh_source_modified[sourcePath] = true;
@@ -514,8 +520,9 @@ function ghSubmitAddSourceForm() {
         sourceJson[index] = jsonobj;
         gh_source_modified[sourcePath] = true;
         console.log(`Modfied source ${index} in ${sourcePath}.`);
-        console.log(jsonobj);
     }
+
+    console.log(JSON.stringify(sourceJson, null, "\t"));
 
 }
 
