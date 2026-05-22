@@ -293,7 +293,7 @@ const sourceFormFields = [
         element : "input",
         type : "text",
         jsonkey : "publisher",
-        visibleon : ["book", "article", "other"]
+        visibleon : ["book", "article", "paper", "other"]
     },
 
     // Cites field (list)
