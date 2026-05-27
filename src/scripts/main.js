@@ -32,13 +32,16 @@ const info_container = document.getElementById("info-container");
 renderer.on("clickNode", ({node}) => {
     const data = graph.getNodeAttributes(node);
 
-    
+    let linkElement = `<a href="${data.link}" target="_blank">Link</a>`;
+    if(!data.link)
+        linkElement = ""; // no link
+
     info_container.innerHTML =
     `<strong>${data.title}</strong>
     <br>Date: ${data.date}</br>
     <br>Authors: ${data.authors}</br>
     <br>Topics: ${data.topics}</br>
-    <a href="${data.link}" target="_blank">Link</a>
+    ${linkElement}
     <br>Citations: ${data.citations}</br>
     <br>Summary: ${data.summary}</br>
     <button id="editSourceButton">Edit source</button>
