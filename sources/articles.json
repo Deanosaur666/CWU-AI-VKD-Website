@@ -1793,5 +1793,1070 @@
 		"publisher": null,
 		"cites": [],
 		"summary": null
-	}
+	},
+	{
+        "authors": [
+            "Kovalerchuk B."
+        ],
+        "title": "Visual knowledge discovery and machine learning",
+        "publisher": "Springer",
+        "date": "2018",
+        "volume_issue_pages": "",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Additive classifiers (Linear, Quadratic, Generalized)",
+            "Support Vector Machine",
+            "Convolutional Neural Network",
+            "Classification and Clustering with Hyper-rectangles, Hyperblocks, Boxes",
+            "Machine Learning Enhancement methods",
+            "Converting tabular data to images",
+            "Learning representation/features",
+            "Model Trustworthiness, Explainability and Transparency",
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Pareto Front",
+            "General Line Coordinates Visualization with VKD",
+            "Parallel and Radial Coordinates",
+            "General Line Coordinates – Linear",
+            "Collocated Paired Coordinates",
+            "Shifted Paired Coordinates",
+            "Glyphs",
+            "In line Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Inselberg, A."
+        ],
+        "title": "Parallel Coordinates",
+        "publisher": "Springer",
+        "date": "2009",
+        "volume_issue_pages": "",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "General Line Coordinates Visualization with VKD",
+            "Parallel and Radial Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Michie, D."
+        ],
+        "title": "Machine learning in the next five years",
+        "publisher": "Proceedings of the third European working session on learning, Pitman",
+        "date": "1988",
+        "volume_issue_pages": "107–122",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Muggleton SH",
+            "Schmid U",
+            "Zeller C",
+            "Tamaddoni-Nezhad A",
+            "Besold T."
+        ],
+        "title": "Ultra-strong machine learning: comprehensibility of programs learned with ILP",
+        "publisher": "Machine Learning",
+        "date": "2018",
+        "volume_issue_pages": "119-140",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "NIST AI Resource Center"
+        ],
+        "title": "AI Risks and Trustworthiness",
+        "publisher": "NIST",
+        "date": "2025",
+        "volume_issue_pages": "",
+        "link": "",
+        "notes": "Gaithersburg, MA, USA",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Williams A",
+            "Kovalerchuk B."
+        ],
+        "title": "Quantifying AI Model Trust as a Model Sureness Measure by Bidirectional Active Processing and Visual Knowledge Discovery",
+        "publisher": "Electronics",
+        "date": "2026",
+        "volume_issue_pages": "15(3):580",
+        "link": "",
+        "notes": "Jan 29",
+        "topics": [
+            "Machine Learning Enhancement methods",
+            "Model Trustworthiness, Explainability and Transparency"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Uddin, S.",
+            "Lu, H.",
+            "Rahman, A.",
+            "Gao, J."
+        ],
+        "title": "A novel approach for assessing fairness in deployed machine learning algorithms",
+        "publisher": "Scientific Reports. Nature",
+        "date": "2024",
+        "volume_issue_pages": "14, 17753",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Fan, X.",
+            "Tao, C."
+        ],
+        "title": "Towards Resilient and Efficient LLMs: A Comparative Study of Efficiency, Performance, and Adversarial Robustness",
+        "publisher": "Proc. of the 7th AI and Cloud Computing Conference",
+        "date": "2024",
+        "volume_issue_pages": "pp. 429–436",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Roechner, P.",
+            "Marques, H.",
+            "Campello, R.",
+            "Zimek, A."
+        ],
+        "title": "Evaluating outlier probabilities: Assessing sharpness, refinement, and calibration using stratified and weighted measures",
+        "publisher": "Data Min. Knowl. Discov.",
+        "date": "2024",
+        "volume_issue_pages": "38, 3719–3757",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Bayram, F.",
+            "Ahmed, B.S."
+        ],
+        "title": "Towards trustworthy machine learning in production: An overview of the robustness in mlops approach",
+        "publisher": "ACM Comput. Surv.",
+        "date": "2025",
+        "volume_issue_pages": "57, 121",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Tēnn, K.P.",
+            "Chang, Y.W.",
+            "Chen, H.Y.",
+            "Fan, T.K.",
+            "Lin, T."
+        ],
+        "title": "Toward Trustworthy Artificial Intelligence: An Integrated Framework Approach Mitigating Threats",
+        "publisher": "Computer",
+        "date": "2024",
+        "volume_issue_pages": "57, 57–67",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Wachter, S.",
+            "Mittelstadt, B.",
+            "Russell, C."
+        ],
+        "title": "Counterfactual Explanations Without Opening the Black Box: Automated Decisions and the GDPR",
+        "publisher": "Harv. J. Law Technol.",
+        "date": "2018",
+        "volume_issue_pages": "31, 841–887",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Rutinowski, J.",
+            "Klüttermann, S.",
+            "Endendyk, J.",
+            "Reining, C.",
+            "Müller, E."
+        ],
+        "title": "Benchmarking Trust: A Metric for Trustworthy Machine Learning",
+        "publisher": "Communications in Computer and Information Science, Proc. of 2nd World Conf. on Explainable AI, Springer",
+        "date": "2024",
+        "volume_issue_pages": "pp. 287–307",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Smith, C."
+        ],
+        "title": "Trustworthy by Design",
+        "publisher": "Proceedings of the IEEE/ACM 46th International Conference on Software Engineering",
+        "date": "2024",
+        "volume_issue_pages": "pp. 1–4",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Ribeiro MT",
+            "Singh S",
+            "Guestrin C."
+        ],
+        "title": "Why should i trust you? Explaining the predictions of any classifier",
+        "publisher": "Proc. of the 22nd ACM SIGKDD intern. conf. on knowledge discovery and data mining",
+        "date": "2016",
+        "volume_issue_pages": "pp. 1135-1144",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Lundberg SM",
+            "Lee SI."
+        ],
+        "title": "A unified approach to interpreting model predictions",
+        "publisher": "Advances in neural information processing systems",
+        "date": "2017",
+        "volume_issue_pages": "Vol. 30",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Kovalerchuk, B.",
+            "Ahmad, M. A.",
+            "Teredesai, A."
+        ],
+        "title": "Survey of explainable machine learning with visual and granular methods beyond quasi-explanations",
+        "publisher": "Interpretable Artificial Intelligence: A Perspective of Granular Computing. Springer",
+        "date": "2021",
+        "volume_issue_pages": "pp. 217-267",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Rudin C."
+        ],
+        "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+        "publisher": "Nature machine intelligence",
+        "date": "2019",
+        "volume_issue_pages": "1(5):206-215",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Molnar, C."
+        ],
+        "title": "Interpretable machine learning: A guide for making black box models explainable",
+        "publisher": "Web Publication",
+        "date": "2020",
+        "volume_issue_pages": "",
+        "link": "https://christophm.github.io/interpretable-ml-book/",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Slack D",
+            "Hilgard A",
+            "Singh S",
+            "Lakkaraju H."
+        ],
+        "title": "Reliable post hoc explanations: Modeling uncertainty in explainability",
+        "publisher": "Advances in neural information processing systems",
+        "date": "2021",
+        "volume_issue_pages": "34:9391-404",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Jean-Marie John-Mathews."
+        ],
+        "title": "Critical empirical study on black-box explanations in AI",
+        "publisher": "42nd Inter. Conf. on Information Systems, AIS",
+        "date": "2021",
+        "volume_issue_pages": "",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Flachaire E",
+            "Hué S",
+            "Laurent S",
+            "Hacheme G."
+        ],
+        "title": "Interpretable Machine Learning Using Partial Linear Models",
+        "publisher": "Oxford Bulletin of Economics and Statistics",
+        "date": "2024",
+        "volume_issue_pages": "86(3):519-40",
+        "link": "",
+        "notes": "Jun",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Schulte L",
+            "Ledel B",
+            "Herbold S."
+        ],
+        "title": "Studying the explanations for the automated prediction of bug and non-bug issues using LIME and SHAP",
+        "publisher": "Empirical Software Engineering",
+        "date": "2024",
+        "volume_issue_pages": "29(4):93",
+        "link": "",
+        "notes": "Jul",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Hashemi M",
+            "Darejeh A",
+            "Cruz F."
+        ],
+        "title": "Understanding user preferences in explainable artificial intelligence: A mapping function proposal",
+        "publisher": "ACM Trans. on Intelligent Systems and Technology",
+        "date": "2025",
+        "volume_issue_pages": "16(4):1-37",
+        "link": "",
+        "notes": "Jun 10",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Brandsæter A",
+            "Glad IK."
+        ],
+        "title": "Explainable artificial intelligence: How subsets of the training data affect a prediction",
+        "publisher": "Stat",
+        "date": "2020",
+        "volume_issue_pages": "1050:1057",
+        "link": "",
+        "notes": "Dec",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Hoaglin DC."
+        ],
+        "title": "Regressions are commonly misinterpreted",
+        "publisher": "The Stata Journal",
+        "date": "2016",
+        "volume_issue_pages": "16(1):5-22",
+        "link": "",
+        "notes": "Mar",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Mersha M",
+            "Lam K",
+            "Wood J",
+            "Alshami AK",
+            "Kalita J."
+        ],
+        "title": "Explainable artificial intelligence: A survey of needs, techniques, applications, and future direction",
+        "publisher": "Neurocomputing",
+        "date": "2024",
+        "volume_issue_pages": "599:128111",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Kovalerchuk B."
+        ],
+        "title": "Interpretable AI/ML for High-stakes Tasks with Human-in-the-loop: Critical Review and Future Trends",
+        "publisher": "Preprint",
+        "date": "2024",
+        "volume_issue_pages": "",
+        "link": "https://doi.org/10.21203/rs.3.rs-3989807/v1",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Lipton, Z. C."
+        ],
+        "title": "The Mythos of Model Interpretability",
+        "publisher": "ACM Queue",
+        "date": "2018",
+        "volume_issue_pages": "16(1), 31–57",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Cashman D",
+            "Keller M",
+            "Jeon H",
+            "Kwon BC",
+            "Wang Q."
+        ],
+        "title": "A critical analysis of the usage of dimensionality reduction in four domains",
+        "publisher": "IEEE Trans. on Visualization and Computer Graphics",
+        "date": "2025",
+        "volume_issue_pages": "Vol. 31, 10, pp. 9405-9423",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Stahnke J",
+            "Dörk M",
+            "Müller B",
+            "Thom A."
+        ],
+        "title": "Probing projections: Interaction techniques for interpreting arrangements and errors of dimensionality reductions",
+        "publisher": "IEEE Trans. on visualiz. and computer graphics",
+        "date": "2015",
+        "volume_issue_pages": "22(1)",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Maszczyk T",
+            "Duch W."
+        ],
+        "title": "Support vector machines for visualization and dimensionality reduction",
+        "publisher": "Intern. Conf. on Artificial Neural Networks. Springer",
+        "date": "2008",
+        "volume_issue_pages": "pp. 346-356",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Ortigossa ES",
+            "Dias FF",
+            "Nascimento DC",
+            "Nonato LG."
+        ],
+        "title": "Time Series Information Visualization—A Review of Approaches and Tools",
+        "publisher": "IEEE Access",
+        "date": "2025",
+        "volume_issue_pages": "",
+        "link": "",
+        "notes": "Sep 12",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Byron L",
+            "Wattenberg M."
+        ],
+        "title": "Stacked graphs–geometry & aesthetics",
+        "publisher": "IEEE transactions on visualization and computer graphics",
+        "date": "2008",
+        "volume_issue_pages": "14(6):1245-52",
+        "link": "",
+        "notes": "Oct 24",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Kovalerchuk B.",
+            "Dunn A.",
+            "Worland A.",
+            "Wagle S."
+        ],
+        "title": "Interactive decision tree creation and enhancement with complete visualization for explainable modeling",
+        "publisher": "Artificial Intelligence and Visualization: Advancing Visual Knowledge Discovery. Springer",
+        "date": "2024",
+        "volume_issue_pages": "pp. 3-40",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Decision Trees & Generalized Decision Trees",
+            "General Line Coordinates Visualization with VKD",
+            "Shifted Paired Coordinates",
+            "Bended Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Williams, A.",
+            "Kovalerchuk, B."
+        ],
+        "title": "Boosting of Classification Models with Human-in-the-Loop Computational Visual Knowledge Discovery",
+        "publisher": "Artificial Intelligence in HCI. Springer",
+        "date": "",
+        "volume_issue_pages": "pp. 391–412",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Decision Trees & Generalized Decision Trees",
+            "Additive classifiers (Linear, Quadratic, Generalized)",
+            "Machine Learning Enhancement methods",
+            "Generating synthetic data",
+            "Model boosting",
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Computational and Interactive Visual Learning",
+            "Divide & Classify Process"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Cutlip N",
+            "Kovalerchuk B."
+        ],
+        "title": "Lossless Interpretable Glyphs for Visual Knowledge Discovery in High-Dimensional Data",
+        "publisher": "27th International Conference Information Visualisation (IV). IEEE",
+        "date": "2023",
+        "volume_issue_pages": "pp. 292-299",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "k-Nearest Neighbors",
+            "Classification and Clustering with Hyper-rectangles, Hyperblocks, Boxes",
+            "Machine Learning Enhancement methods",
+            "Converting tabular data to images",
+            "Learning representation/features",
+            "Class summary view",
+            "General Line Coordinates Visualization with VKD",
+            "Glyphs"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Cutlip N",
+            "Kovalerchuk B."
+        ],
+        "title": "Interpretable Visual Representation Learning with Animated Glyphs in Shifted Paired Coordinates",
+        "publisher": "29th Intern. Conf. Information Visualisation (IV). IEEE",
+        "date": "2025",
+        "volume_issue_pages": "pp. 197-204",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "k-Nearest Neighbors",
+            "Classification and Clustering with Hyper-rectangles, Hyperblocks, Boxes",
+            "Machine Learning Enhancement methods",
+            "Converting tabular data to images",
+            "Learning representation/features",
+            "Class summary view",
+            "General Line Coordinates Visualization with VKD",
+            "Shifted Paired Coordinates",
+            "Glyphs"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Huber L",
+            "Kovalerchuk B",
+            "Recaido C."
+        ],
+        "title": "Visual knowledge discovery with general line coordinates",
+        "publisher": "Artificial Intelligence and Visualization: Advancing Visual Knowledge Discovery. Springer",
+        "date": "2024",
+        "volume_issue_pages": "pp. 159-202",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Classification and Clustering with Hyper-rectangles, Hyperblocks, Boxes",
+            "Machine Learning Enhancement methods",
+            "Model Trustworthiness, Explainability and Transparency",
+            "Class summary view",
+            "General Line Coordinates Visualization with VKD",
+            "General Line Coordinates – Linear"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Hayes D.",
+            "Kovalerchuk B."
+        ],
+        "title": "Parallel Coordinates for Discovery of Interpretable Machine Learning Models",
+        "publisher": "Artificial Intelligence and Visualization: Advancing Visual Knowledge Discovery. Springer",
+        "date": "2024",
+        "volume_issue_pages": "pp. 125-158",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Classification and Clustering with Hyper-rectangles, Hyperblocks, Boxes",
+            "Machine Learning Enhancement methods",
+            "Class summary view",
+            "General Line Coordinates Visualization with VKD",
+            "Visualization of data with missing values"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Kovalerchuk B.",
+            "McCoy E."
+        ],
+        "title": "Explainable Machine Learning for Categorical and Mixed Data with Lossless Visualization",
+        "publisher": "Artificial Intelligence and Visualization: Advancing Visual Knowledge Discovery. Springer",
+        "date": "2024",
+        "volume_issue_pages": "pp. 73-124",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Classification and Clustering with Hyper-rectangles, Hyperblocks, Boxes",
+            "Classification of Categorical & Mixed data",
+            "Boolean and k-valued Logical Rules",
+            "Sequential Rule Generation Algorithms",
+            "Machine Learning Enhancement methods",
+            "Model Trustworthiness, Explainability and Transparency",
+            "Class summary view",
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Monotone Boolean and Ordinal Expert Knowledge Acquisition"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Kovalerchuk B",
+            "Kalla DC",
+            "Agarwal B."
+        ],
+        "title": "Deep Learning Image Recognition for Non-images",
+        "publisher": "Integrating Artificial Intelligence and Visualization for Visual Knowledge Discovery. Springer, Cham",
+        "date": "2022",
+        "volume_issue_pages": "pp. 63-100",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Convolutional Neural Network",
+            "Machine Learning Enhancement methods",
+            "Converting tabular data to images"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "McDonald R",
+            "Kovalerchuk B."
+        ],
+        "title": "Non-linear visual knowledge discovery with elliptic paired coordinates",
+        "publisher": "Integrating Artificial Intelligence and Visualization for Visual Knowledge Discovery. Springer",
+        "date": "2022",
+        "volume_issue_pages": "pp. 141-172",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Classification and Clustering with Hyper-rectangles, Hyperblocks, Boxes",
+            "General Line Coordinates Visualization with VKD",
+            "Elliptic Paired Coordinates",
+            "Circular Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Kovalerchuk B.",
+            "Phan H."
+        ],
+        "title": "Full High-Dimensional Intelligible Learning In 2-D Lossless Visualization Space",
+        "publisher": "Artificial Intelligence and Visualization: Advancing Visual Knowledge Discovery. Springer",
+        "date": "2024",
+        "volume_issue_pages": "pp. 41-72",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Classification and Clustering with Hyper-rectangles, Hyperblocks, Boxes",
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Full 2-D Machine Learning Paradigm",
+            "General Line Coordinates Visualization with VKD",
+            "In line Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Recaido C",
+            "Kovalerchuk B."
+        ],
+        "title": "Visual Explainable Machine Learning for High-Stakes Decision-Making with Worst Case Estimates",
+        "publisher": "Data Analysis and Optimization. Springer",
+        "date": "2023",
+        "volume_issue_pages": "pp. 291-329",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Machine Learning Enhancement methods",
+            "Estimates worst-case accuracy",
+            "General Line Coordinates Visualization with VKD",
+            "Dynamic Scaffolding Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Williams A.",
+            "Kovalerchuk B."
+        ],
+        "title": "Synthetic Data Generation and Automated Multidimensional Data Labeling for AI/ML in General and Circular Coordinates",
+        "publisher": "28th Intern. Conf. Information Visualisation. IEEE",
+        "date": "2024",
+        "volume_issue_pages": "pp. 272-279",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Machine Learning Enhancement methods",
+            "Labeling data",
+            "Generating synthetic data",
+            "General Line Coordinates Visualization with VKD",
+            "Circular Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Gâlmeanu, H.",
+            "Kovalerchuk, B.",
+            "Andonie, R."
+        ],
+        "title": "Interactive Discovery of Concept Drift with Lossless Visualization in Machine Learning",
+        "publisher": "Artificial Intelligence in HCI. HCII 2025. Lecture Notes in Computer Science. Springer",
+        "date": "2025",
+        "volume_issue_pages": "Vol. 15822, pp. 310–324",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Machine Learning Enhancement methods",
+            "Concept drift for n-D time series"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Williams A",
+            "Kovalerchuk B."
+        ],
+        "title": "High-Dimensional Data Classification in Concentric Coordinates",
+        "publisher": "29th Intern. Conf. Information Visualisation (IV). IEEE",
+        "date": "2025",
+        "volume_issue_pages": "pp. 217-224",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "k-Nearest Neighbors",
+            "General Line Coordinates Visualization with VKD",
+            "Concentric Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Salih AM",
+            "Raisi‐Estabragh Z",
+            "Galazzo IB",
+            "Radeva P",
+            "Petersen SE",
+            "Lekadir K",
+            "Menegaz G."
+        ],
+        "title": "A perspective on explainable artificial intelligence methods: SHAP and LIME",
+        "publisher": "Advanced Intelligent Systems",
+        "date": "2025",
+        "volume_issue_pages": "7(1):2400304",
+        "link": "",
+        "notes": "",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Reddy P",
+            "Gujral AS."
+        ],
+        "title": "Improving Neural Network Efficiency Using Piecewise Linear Approximation of Activation Functions",
+        "publisher": "The International FLAIRS Conference Proceedings",
+        "date": "2025",
+        "volume_issue_pages": "Vol. 38",
+        "link": "",
+        "notes": "May 14",
+        "topics": [],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Huber H",
+            "Kovalerchuk B."
+        ],
+        "title": "Monotone Functions and Models for Explanation of Machine Learning Models",
+        "publisher": "28th International Conference Information Visualisation. IEEE",
+        "date": "2024",
+        "volume_issue_pages": "pp. 227-235",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Boolean and k-valued Logical Rules",
+            "Machine Learning Enhancement methods",
+            "Model Trustworthiness, Explainability and Transparency",
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Monotone Boolean and Ordinal Expert Knowledge Acquisition"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Kovalerchuk B.",
+            "Martinez J.",
+            "Fleagle M."
+        ],
+        "title": "Visual Explanation of Machine Learning Models in Shifted Paired Coordinates in 3D",
+        "publisher": "28th Intern. Conf. Information Visualisation. IEEE",
+        "date": "2024",
+        "volume_issue_pages": "pp. 258-265",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Classification of Categorical & Mixed data",
+            "Boolean and k-valued Logical Rules",
+            "Machine Learning Enhancement methods",
+            "Model Trustworthiness, Explainability and Transparency",
+            "General Line Coordinates Visualization with VKD",
+            "Shifted Paired Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Martinez J.",
+            "Kovalerchuk B."
+        ],
+        "title": "General Line Coordinates in 3D",
+        "publisher": "27th Intern. Conf. Information Visualisation, IEEE",
+        "date": "2023",
+        "volume_issue_pages": "pp. 308-315",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Classification of Categorical & Mixed data"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Kovalerchuk, B.",
+            "Delizy, F.",
+            "Riggs, L."
+        ],
+        "title": "Visual Data Mining and Discovery with Binarized Vectors",
+        "publisher": "Data Mining: Foundation and Intelligent Paradigms",
+        "date": "2012",
+        "volume_issue_pages": "24: 135-156",
+        "link": "",
+        "notes": "",
+        "topics": [
+            "Classification and Clustering",
+            "Boolean and k-valued Logical Rules",
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Monotone Boolean and Ordinal Expert Knowledge Acquisition"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    },
+    {
+        "authors": [
+            "Kovalerchuk B.",
+            "Williams, A."
+        ],
+        "title": "Lossless Visual Analysis of Multidimensional Data in Collocated Paired Coordinats for Machine Learning",
+        "publisher": "HCI Intrnational Conference, LNAI, Springer",
+        "date": "2026",
+        "volume_issue_pages": "",
+        "link": "",
+        "notes": "in print",
+        "topics": [
+            "General Line Coordinates Visualization with VKD",
+            "Collocated Paired Coordinates",
+            "Combined different General Line Coordinates"
+        ],
+        "form": "paper",
+        "cites": [],
+        "summary": ""
+    }
 ]
