@@ -223,7 +223,8 @@ const sourceFormFields = [
         element : "input",
         type : "text",
         jsonkey : "link",
-        required : true,
+        // not all papers have a link :(
+        //required : true,
     },
     // Title field
     {
