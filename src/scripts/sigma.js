@@ -7,7 +7,7 @@
 
 import Graph from "graphology";
 import Sigma from "sigma";
-import circular from "graphology-layout/circular";
+import random from "graphology-layout/random";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import { ghGetSourceJSONs, ghAddSourceForm } from "./github"
 
@@ -108,7 +108,7 @@ for(const topic in topicMap) {
  * and will change as the dataset increases to allow for a readable graph.
  * There is also the possibility to change to random instead of circular.
  */
-circular.assign(graph);
+random.assign(graph);
 const settings = forceAtlas2.inferSettings(graph);
 settings.gravity = 0.1;
 settings.scalingRatio = 10;

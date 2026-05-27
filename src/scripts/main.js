@@ -21,6 +21,21 @@ closeHelpWindowBtn.onclick = function() {
     helpWindow.style.display = "none";
 }
 
+const aboutWindow = document.getElementById("about-window");
+const openAboutWindowBtn = document.getElementById("about-button");
+const closeAboutWindowBtn = document.getElementById("close-about-window");
+
+openAboutWindowBtn.onclick = function() {
+    //console.log("Hey");
+    aboutWindow.style.display = aboutWindow.style.display === "block"
+        ? "none"
+        : "block";
+}
+
+closeAboutWindowBtn.onclick = function() {
+    aboutWindow.style.display = "none";
+}
+
 /**
  * This is the code that displays the info about each document
  * when the node is clicked. This is not the final product as

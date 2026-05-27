@@ -14,9 +14,10 @@ header img {
 header h1 {
     padding-left: 100px;
     text-align: center;
-    font-size: 175%;
+    font-size: 150%;
     padding-right: 25px;
     border-right: 3px solid black;
+    width: 400px;
 }
 
 header div {
@@ -35,7 +36,7 @@ header button {
     font-size: 75%;
 }
 
-#help-button {
+#help-button, #about-button {
     font-size: 100%;
 }
 
@@ -176,6 +177,61 @@ aside #display-container div.Topics {
     transform: translate(-50%, -50%);
     background-color: #ECE1CE;
     display: none;
+}
+
+#about-window {
+    width: 50%;
+    height: 80%;
+    border: 4px solid black;
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ECE1CE;
+    display: none;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#about-window p {
+    font-size: 150%;
+}
+
+#about-window table {
+    margin: 0 auto;
+    font-size: 125%;
+}
+
+#about-window th {
+    border: 4px solid black;
+    padding: 4px;
+    font-weight: bold;
+}
+
+#about-window td {
+    border: 4px solid black;
+    padding: 3px;
+}
+
+.close-about-window {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.close-about-window img {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+
+#about-window button {
+    float: right;
+    height: 30px;
+    width: 30px;
 }
 
 .close-help-window {
