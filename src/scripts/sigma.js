@@ -10,7 +10,8 @@ import Sigma from "sigma";
 import random from "graphology-layout/random";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import { ghGetSourceJSONs, ghAddSourceForm } from "./github"
-
+import { getTopicHierarchy } from "./topics"
+const topicHierarchy = getTopicHierarchy()
 
 /**
  * This function loads the data from the JSON files. It currently only does this from
@@ -145,6 +146,47 @@ const section = document.createElement("div");
 section.className = "Topics";
 section.textContent = "Topics:";
 display_container.appendChild(section);
+
+console.log(topicHierarchy)
+
+// collapsible topics
+/*
+for(let supertopic in topicHierarchy) {
+    let subtopics = topicHierarchy[supertopic]
+    // supertopic button
+    const button = document.createElement("button")
+    button.className = "supertopic";
+    button.innerText = supertopic;
+    display_container.appendChild(button)
+
+    const subtopic_container = document.createElement("div");
+    subtopic_container.className = "subtopic-container"
+    display_container.appendChild(subtopic_container)
+
+    for(let i = 0; i < subtopics.length; i ++) {
+        const topic = subtopics[i];
+        const row = document.createElement("div");
+        row.className = "topic-row";
+
+        const label = document.createElement("label");
+        label.textContent = topic;
+
+        //adds button to div
+        const topicCheckbox = document.createElement("input");
+        topicCheckbox.type = "checkbox";
+        topicCheckbox.checked = true;
+
+        topicCheckbox.addEventListener("click", () => {
+            topicVisibility[topic] = event.target.checked;
+            updateVisibility();
+        });
+
+        row.appendChild(label);
+        row.appendChild(topicCheckbox);
+        subtopic_container.appendChild(row);
+    }
+}
+*/
 
 // add button for the add source form
 for(let i = 0; i < topics.length; i++) {

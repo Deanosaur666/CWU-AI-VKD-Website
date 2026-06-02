@@ -145,18 +145,10 @@ aside #display-container div.Topics {
     display: flex;
     flex-direction: column;
     width: 260px;
+    overflow-y: auto;
 }
 
-/*Formatting each row of container */
-#display-container div {
-    font-size: 125%;
-    padding: 5px;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
-}
+
 
 /*So the text boxes on years isn't too wide */
 #display-container div input {
@@ -268,4 +260,18 @@ label {
 
 .required {
     color: red;
+}
+
+.subtopic-container {
+    width: 100%;
+    display: block;
+}
+
+.topic-row {
+    width: 100%;
+    display: block;
+}
+
+.topic-row label {
+    font-size: 50%;
 }
