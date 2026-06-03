@@ -115,6 +115,7 @@ aside #display-container div.Topics {
     This is where the node information appears on the right-hand side of the screen
 */
 #info-container {
+    padding-left: 4px;
     border: 2px solid black;
     flex: 1.25;
     width: 260px;
@@ -146,6 +147,11 @@ aside #display-container div.Topics {
     flex-direction: column;
     width: 260px;
     overflow-y: auto;
+    direction: rtl;
+}
+
+#display-container > * {
+    direction: ltr;
 }
 
 
