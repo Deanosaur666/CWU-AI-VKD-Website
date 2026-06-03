@@ -113,17 +113,53 @@ graph.forEachNode((node, attributes) => {
     }
 });
 
+//creates topic centers for forceAtlas2
+const topicCenters = {};
+
+topics.forEach((topic, i) => {
+    const angle = (2 * Math.PI * i) / topics.length;
+
+    topicCenters[topic] = {
+        x: Math.cos(angle) * 100,
+        y: Math.sin(angle) * 100
+    };
+});
+
+//assigns nodes to topics
+graph.forEachNode((node, attributes) => {
+    const nodeTopics = attributes.topics || [];
+
+    if(nodeTopics.length > 0) {
+        const center = topicCenters[nodeTopics[0]];
+
+        graph.setNodeAttribute(
+            node,
+            "x",
+            center.x + (Math.random() - 0.05) * 20
+        );
+
+        graph.setNodeAttribute(
+            node,
+            "y",
+            center.y + (Math.random() - 0.05) * 20
+        );
+        
+    }
+    else {
+        graph.setNodeAttribute(node, "x", 0);
+        graph.setNodeAttribute(node, "y", 0);
+    }
+});
 
 /**
  * Organizes the graph based on genre. These are temporary numbers
  * and will change as the dataset increases to allow for a readable graph.
  * There is also the possibility to change to random instead of circular.
  */
-random.assign(graph);
 const settings = forceAtlas2.inferSettings(graph);
 settings.gravity = 0.1;
 settings.scalingRatio = 10;
-forceAtlas2.assign(graph, { settings, iterations: 2});
+forceAtlas2.assign(graph, { settings, iterations: 100});
 
 
 //creates renderer
