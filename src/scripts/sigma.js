@@ -51,6 +51,42 @@ section.className = "Topics";
 section.textContent = "Topics:";
 display_container.appendChild(section);
 
+
+/**
+ * All of this is for the "Select All" button so that
+ * the user can hide everything and choose what category
+ * to search for if they so wish. It currently doesn't
+ * work with the filter by year option :(
+ */
+const topicCheckboxes = [];
+const selectAllRow = document.createElement("div");
+
+const selectAllLabel = document.createElement("label");
+selectAllLabel.textContent = "Select All";
+
+const selectAllCheckbox = document.createElement("input");
+selectAllCheckbox.type = "checkbox";
+selectAllCheckbox.checked = true;
+
+selectAllCheckbox.addEventListener("change", (event) => {
+    const checked = event.target.checked;
+
+    topicCheckboxes.forEach(cb => {
+        cb.checked = checked;
+    });
+
+    // update model state
+    topics.forEach(topic => {
+        topicVisibility[topic] = checked;
+    });
+
+    updateVisibility();
+});
+
+selectAllRow.appendChild(selectAllLabel);
+selectAllRow.appendChild(selectAllCheckbox);
+display_container.appendChild(selectAllRow);
+
 /**
  * This reads each of the topics from the JSON and creates an arraylist of them
  * and binds the nodes to that topic
@@ -123,6 +159,7 @@ for(let supertopic in topicHierarchy) {
             topicVisibility[topic] = event.target.checked;
             updateVisibility();
         });
+        topicCheckboxes.push(topicCheckbox);
 
         row.appendChild(label);
         row.appendChild(topicCheckbox);
@@ -163,6 +200,7 @@ if(uncatergorizedTopics.length > 0) {
             topicVisibility[topic] = event.target.checked;
             updateVisibility();
         });
+        topicCheckboxes.push(topicCheckbox);
         row.appendChild(label);
         row.appendChild(topicCheckbox);
         subtopic_container.appendChild(row);
@@ -359,7 +397,7 @@ display_container.appendChild(yearSelect);
 //helper function
 function isNodeVisible(topics) {
     return topics.some(t => topicVisibility[t]) ||
-        (topics.length === 0 && topicVisibility[none]);
+        (topics.length === 0 && topicVisibility["none"]);
 }
 
 /**
@@ -380,7 +418,7 @@ async function updateVisibility() {
         const sourceTopics = graph.getNodeAttribute(source, "topics") || [];
         const targetTopics = graph.getNodeAttribute(target, "topics") || [];
 
-        const visible = isNodeVisible(souceTopics) && isNodeVisible(targetTopics);
+        const visible = isNodeVisible(sourceTopics) && isNodeVisible(targetTopics);
         
         graph.setEdgeAttribute(edge, "hidden", !visible);
     });
