@@ -36,9 +36,15 @@ header button {
     font-size: 75%;
 }
 
+#header-info a:hover, #help-button:hover, #about-button:hover, .button-row button:hover{
+    color:rgb(113, 113, 113);
+}
+
 #help-button, #about-button {
     font-size: 100%;
 }
+
+
 
 header button:hover {
     cursor: pointer;
@@ -132,8 +138,13 @@ aside .yearStyle input{
 
 aside .yearStyle input[type="button"]{
     background: #820028;
+    border-radius: 10px;
     color: white;
     border: 2px solid black;
+}
+
+aside .yearStyle input[type="button"]:hover{
+    background: rgb(190, 0, 0);
 }
 
 #sigma-container {
@@ -143,7 +154,19 @@ aside .yearStyle input[type="button"]{
     background-color: #FFFFFF;
 }
 
-#uploadButton
+/*Styles for admin buttons*/
+#uploadButton, #authButton,#info-container .button-row button, #editSourceButton{
+    background: #820028;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#uploadButton:hover, #authButton:hover,#info-container .button-row button:hover, #editSourceButton:hover{
+    background: rgb(190, 0, 0);
+}
 
 /*
     This is where the node information appears on the right-hand side of the screen
@@ -157,6 +180,14 @@ aside .yearStyle input[type="button"]{
     font-size: 150%;
     max-height: 100vh;
     overflow-y: auto;
+}
+
+#info-container a{
+    color:#820028
+}
+
+#info-container a:hover{
+    color:rgb(190, 0, 0);
 }
 
 /*
