@@ -8,7 +8,12 @@
             "Boris Kovalerchuk",
             "Evgenii Vityaev"
         ],
-        "topics": [],
+        "topics": [
+            "Decision Trees & Generalized Decision Trees",
+            "Convolutional Neural Network",
+            "Learning representation/features",
+            "Visual Knowledge Discovery (VKD) Concepts"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Kluwer Academic Publishers",
@@ -26,7 +31,9 @@
             "Lawrence Mann",
             "Gerald M Knapp"
         ],
-        "topics": [],
+        "topics": [
+            "Pareto Front"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "MCB UP Ltd",
@@ -44,7 +51,11 @@
             "James F Ruiz",
             "Jane Clayton"
         ],
-        "topics": [],
+        "topics": [
+            "Classification of Categorical & Mixed data",
+            "Boolean and k-valued Logical Rules",
+            "Learning representation/features"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Elsevier",
@@ -83,7 +94,11 @@
             "Muhammad Aurangzeb Ahmad",
             "Ankur Teredesai"
         ],
-        "topics": [],
+        "topics": [
+            "Model Trustworthiness, Explainability and Transparency",
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Computational and Interactive Visual Learning"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": null,
@@ -117,7 +132,10 @@
             "Evgenii Vityaev",
             "James F Ruiz"
         ],
-        "topics": [],
+        "topics": [
+            "Boolean and k-valued Logical Rules",
+            "Monotone Boolean and Ordinal Expert Knowledge Acquisition"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "IEEE",
@@ -139,7 +157,10 @@
             "Evgenii Vityaev",
             "James F Ruiz"
         ],
-        "topics": [],
+        "topics": [
+            "Monotone Boolean and Ordinal Expert Knowledge Acquisition",
+            "Boolean and k-valued Logical Rules"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "PHYSICA-VERLAG",
@@ -165,7 +186,10 @@
             "Aniruddha S Deshpande",
             "Evgenii Vityaev"
         ],
-        "topics": [],
+        "topics": [
+            "Monotone Boolean and Ordinal Expert Knowledge Acquisition",
+            "Sequential Rule Generation Algorithms"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "[New York]: North-Holland, 1968-",
@@ -182,7 +206,10 @@
         "authors": [
             "Boris Kovalerchuk"
         ],
-        "topics": [],
+        "topics": [
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Computational and Interactive Visual Learning"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Springer International Publishing",
@@ -216,7 +243,10 @@
             "Evgenii Vityaev",
             "Boris Kovalerchuk"
         ],
-        "topics": [],
+        "topics": [
+            "Boolean and k-valued Logical Rules",
+            "Sequential Rule Generation Algorithms"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": null,
@@ -232,7 +262,10 @@
             "Evgenii E Vityaev",
             "B Ya Kovalerchuk"
         ],
-        "topics": [],
+        "topics": [
+            "Learning representation/features",
+            "Boolean and k-valued Logical Rules"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "IOS press",
@@ -255,7 +288,10 @@
             "Boris Kovalerchuk",
             "V Taliansky"
         ],
-        "topics": [],
+        "topics": [
+            "Classification of Categorical & Mixed data",
+            "Model Trustworthiness, Explainability and Transparency"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "North-Holland",
@@ -273,7 +309,10 @@
             "Boris Ya Kovalerchuk",
             "Stanislav O Speransky"
         ],
-        "topics": [],
+        "topics": [
+            "Classification of Categorical & Mixed data",
+            "Monotone Boolean and Ordinal Expert Knowledge Acquisition"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Elsevier",
@@ -297,7 +336,10 @@
             "Kawa Nazemi",
             "Ebad Banissi"
         ],
-        "topics": [],
+        "topics": [
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Full 2-D Machine Learning Paradigm"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Springer, Cham",
@@ -313,7 +355,12 @@
             "Boris Kovalerchuk",
             "Vladimir Grishin"
         ],
-        "topics": [],
+        "topics": [
+            "General Line Coordinates Visualization with VKD",
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Computational and Interactive Visual Learning",
+            "Full 2-D Machine Learning Paradigm"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "SAGE Publications",
@@ -336,7 +383,11 @@
             "Vetle I Torvik",
             "Evgeni Vityaev"
         ],
-        "topics": [],
+        "topics": [
+            "Model Trustworthiness, Explainability and Transparency",
+            "Monotone Boolean and Ordinal Expert Knowledge Acquisition",
+            "Classification of Categorical & Mixed data"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Academic Press",
@@ -358,7 +409,10 @@
             "Nuno Datia",
             "Ebad Banissi"
         ],
-        "topics": [],
+        "topics": [
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Computational and Interactive Visual Learning"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Springer Nature",
@@ -374,7 +428,11 @@
             "Germano Resconi",
             "Boris Kovalerchuk"
         ],
-        "topics": [],
+        "topics": [
+            "Multi-Agent Systems",
+            "Learning representation/features",
+            "Model Trustworthiness, Explainability and Transparency"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Springer-Verlag",
@@ -394,7 +452,11 @@
             "Boris Kovalerchuk",
             "Nathan Neuhaus"
         ],
-        "topics": [],
+        "topics": [
+            "Visual Knowledge Discovery (VKD) Concepts",
+            "Model Trustworthiness, Explainability and Transparency",
+            "Computational and Interactive Visual Learning"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "IEEE",
@@ -413,7 +475,10 @@
         "authors": [
             "Boris Kovalerchuk"
         ],
-        "topics": [],
+        "topics": [
+            "General Line Coordinates Visualization with VKD",
+            "Full 2-D Machine Learning Paradigm"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "SPIE",
@@ -430,7 +495,11 @@
             "Leonid Perlovsky",
             "Gregory Wheeler"
         ],
-        "topics": [],
+        "topics": [
+            "Learning representation/features",
+            "Model Trustworthiness, Explainability and Transparency",
+            "Boolean and k-valued Logical Rules"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Routledge",
@@ -446,7 +515,10 @@
             "Boris Kovalerchuk",
             "Leonid Perlovsky"
         ],
-        "topics": [],
+        "topics": [
+            "Learning representation/features",
+            "Model Trustworthiness, Explainability and Transparency"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "IEEE",
@@ -465,7 +537,10 @@
         "authors": [
             "Boris Kovalerchuk"
         ],
-        "topics": [],
+        "topics": [
+            "Boolean and k-valued Logical Rules",
+            "Learning representation/features"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "Taylor & Francis Group",
@@ -483,7 +558,11 @@
             "Boris Kovalerchuk",
             "Germano Resconi"
         ],
-        "topics": [],
+        "topics": [
+            "Boolean and k-valued Logical Rules",
+            "Learning representation/features",
+            "Classification of Categorical & Mixed data"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": "IEEE",
@@ -504,7 +583,10 @@
             "Evgenii Vityaev",
             "Robert Holtfreter"
         ],
-        "topics": [],
+        "topics": [
+            "Learning representation/features",
+            "Sequential Rule Generation Algorithms"
+        ],
         "form": "paper",
         "doi": null,
         "publisher": null,

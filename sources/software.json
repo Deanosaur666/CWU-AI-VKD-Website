@@ -1,6 +1,6 @@
 [
     {
-        "id" : "DSCViz",
+        "id" : "0",
         "link" : "github.com/CWU-VKD-LAB/DSCVis",
         "title" : "DSCVis",
         "date" : "Jun 23, 2022",
@@ -11,7 +11,7 @@
         "summary" : "This application displays multi-dimensional data in 2D using OpenGL for rendering. The plot can be dragged and zoomed in/out. Classes can be hidden, as well as specified attribute markers. A box-clipping algorithm is included to clip lines and return samples of the dataset. This visualization tool features four plots, including Parallel Coordinates, Paired Coordinates, DSC1, and DSC2. Additional multidimensional plots can be added with ease as the plot context class uses general vertices."
     },
     {
-        "id" : "JTabViz",
+        "id" : "1",
         "link" : "https://github.com/CWU-VKD-LAB/JTabViz",
         "title" : "JTabViz: Java Tabular Visualization Toolkit",
         "date" : "Nov 17, 2025",
@@ -22,7 +22,7 @@
         "summary" : "JTabViz is a Java-based cross-platform software toolkit for machine learning (ML) data analysis, classification, and visualization. Originally developed to assist with classifier boosting and interactive classification research. It is designed for the visualization and analysis of multidimensional (n-D) tabular ML data to discover and build classification models from logical rules. With supports for feature engineering and data augmentation to analyze how dataset changes impact ML models. Fully interactive and transparent for interpretable model designing."
     },
     {
-        "id" : "ML_Classifier_Comparison_Tool",
+        "id" : "2",
         "link" : "https://github.com/CWU-VKD-LAB/ML_Classifier_Comparison_Tool",
         "title" : "Machine Learning Classifier Comparison Tool",
         "date" : "Jan 2, 2025",
@@ -31,5 +31,104 @@
         "form" : "software",
         "cites" : [],
         "summary" : "The Machine Learning Classifier Comparison Tool helps benchmark and compare the performance of various machine learning classifiers on a dataset. It supports optional evaluation data, cross-validation (or none if splits = 1), and an embedded parallel-coordinates visualization of the final results."
+    },
+    {
+        "id" : "3",
+        "link" : "https://github.com/CWU-VKD-LAB/VisCanvas2.0",
+        "title" : "VisCanvas 2.0",
+        "date" : "Mar 26, 2025",
+        "authors" : [ "Alice Williams", "Eli McCoy", "User8675309333", "SamShissler",  "Lincoln Huber" ],
+        "topics" : ["Parallel and Radial Coordinates"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "Visualization software for n-D data plotting in Parallel Coordinates and hypercube cluster analysis."
+    },
+    {
+        "id" : "4",
+        "link" : "https://github.com/CWU-VKD-LAB/DV2.0",
+        "title" : "DV2.0",
+        "date" : "Sep 22, 2025",
+        "authors" : [ "Alice Williams" ],
+        "topics" : ["General Line Coordinates"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "This application displays n-Dimensional data in 2D using General Line Coordinates Linear (GLC-L) then visualizes the results as Hyper Blocks using CUDA for optimization."
+    },
+    {
+        "id" : "5",
+        "link" : "https://github.com/CWU-VKD-LAB/DCVis",
+        "title" : "DCVis: Dynamic Coordinate Visualization System",
+        "date" : "Dec 29, 2024",
+        "authors" : [ "Alice Williams" ],
+        "topics" : ["General Line Coordinates"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "DCVis allows users to interactively build visual ML models for classifying new data. It offers tools to explore multidimensional data using General Line Coordinate visualizations and includes features for interactive classification and synthetic data generation to enhance supervised learning models."
+    },
+    {
+        "id" : "6",
+        "link" : "https://github.com/CWU-VKD-LAB/MOEKA",
+        "title" : "Monotone Boolean Function Expert Knowledge Acquisition",
+        "date" : "Jun 13, 2025",
+        "authors" : [ "Ryan-Glgr" ],
+        "topics" : ["Expert Knowledge Acquisition"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "MOEKA is a specialized user-interview based software system designed for expert knowledge acquisition and representation of monotone Boolean functions. "
+    },
+    {
+        "id" : "7",
+        "link" : "https://github.com/CWU-VKD-LAB/SPC-DT",
+        "title" : "SPC-DT",
+        "date" : "Mar 2, 2024",
+        "authors" : [ "Alice Williams" ],
+        "topics" : ["Paired Coordinates"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "Visualizes decision trees using shifted paired coordinates."
+    },
+    {
+        "id" : "8",
+        "link" : "https://github.com/CWU-VKD-LAB/SPC_SF_Data_Glyph",
+        "title" : "SPC-SF Hybrid Visualization (Bird Glyphs)",
+        "date" : "Mar 30, 2024",
+        "authors" : [ "Nicholas Cutlip" ],
+        "topics" : ["Hybrid Visualization", "Paired Coordinates"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "The visualization method is glyph based, and allows for the lossless and reversible visualization of high-dimensional data. I am currently developing a GUI for the method using Qt."
+    },
+    {
+        "id" : "9",
+        "link" : "https://github.com/CWU-VKD-LAB/SPC-3D",
+        "title" : "SPC-3D",
+        "date" : "Aug 18, 2023",
+        "authors" : [ "RifinTidHamar" ],
+        "topics" : ["Paired Coordinates"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "Visualizes decision trees using shifted paired coordinates."
+    },
+    {
+        "id" : "10",
+        "link" : "https://github.com/CWU-VKD-LAB/DV1.0",
+        "title" : "DV1.0",
+        "date" : "Jul 2, 2022",
+        "authors" : [ "Alice Williams" ],
+        "topics" : ["Data Visiualization"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "DV Program for Professor Kovalerchuk."
+    },
+    {
+        "id" : "11",
+        "link" : "https://github.com/CWU-VKD-LAB/HB_CUDA",
+        "title" : "Hyperblocks CUDA",
+        "date" : "Aug 20, 2025",
+        "authors" : [ "Alice Williams" ],
+        "topics" : ["Hyperblocks"],
+        "form" : "software",
+        "cites" : [],
+        "summary" : "This repository, is a standalone C++/CUDA implementation of the DV2.0 Hyperblocks model, originally developed in Java at the CWU VKD Lab. "
     }
 ]
