@@ -61,7 +61,9 @@ graph.forEachNode((node, attributes) => {
 const palette = [
     "#FB2340", "#F8A025", "#1FE9FF",
     "#00EB62", "#0400EB", "#EB00E3",
-    "#F5ED00", "#93F500", "#AF00F5"
+    "#F5ED00", "#93F500", "#AF00F5",
+    "#850404", "#130485", "#2A3616",
+    "#FFBDE4", "#B5A000", "#00B579"
 ]
 
 //assigns each topic a color
@@ -80,29 +82,37 @@ topics.push("none");
  */
 graph.forEachNode((node, attributes) => {
     graph.setNodeAttribute(node, "color", COLORS[attributes.topics[0]] || "gray");
-    graph.setNodeAttribute(node, "size", 5 + (5 * attributes.topics.length));
+    graph.setNodeAttribute(node, "size", 5 + (2 * attributes.topics.length));
 });
 
-/**
- * This is where the edges are added. Each node connects to each other node
- * that shares any topic with it, and that edge has the color of the topic.
- */
-for(const topic in topicMap) {
-    const nodes = topicMap[topic];
+//creates a list of titles for citations
+const citations = {};
+graph.forEachNode((node, attributes) => {
+    if (!citations[attributes.title]) {
+        citations[attributes.title] = [];
+    }
 
-    for(let i = 0; i < nodes.length; i++) {
-        for(let j = i + 1; j < nodes.length; j++) {
-            graph.addEdge(
-                nodes[i],
-                nodes[j],
-                {
-                    size: 5,
-                    color: COLORS[topic]
-                }
-            );
+    citations[attributes.title] = node;
+});
+
+//goes through each nodes citations and links them to their citations
+graph.forEachNode((node, attributes) => {
+    const sources = attributes.cites || [];
+
+    for (const source of sources) {
+        const targetNode = citations[source];
+
+        if (targetNode) {
+            if (!graph.hasEdge(node, targetNode)) {
+                graph.addEdge(node, targetNode, {
+                    size: 3,
+                    color: "#D6D6D6"
+                });
+            }
         }
     }
-}
+});
+
 
 /**
  * Organizes the graph based on genre. These are temporary numbers

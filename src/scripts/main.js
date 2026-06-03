@@ -50,6 +50,9 @@ renderer.on("clickNode", ({node}) => {
     let linkElement = `<a href="${data.link}" target="_blank">Link</a>`;
     if(!data.link)
         linkElement = ""; // no link
+    const citations = (data.cites || [])
+        .map(cite => `<li>- ${cite}</li>`)
+        .join("");
 
     info_container.innerHTML =
     `<strong>${data.title}</strong>
@@ -57,7 +60,7 @@ renderer.on("clickNode", ({node}) => {
     <br>Authors: ${data.authors}</br>
     <br>Topics: ${data.topics}</br>
     ${linkElement}
-    <br>Citations: ${data.citations}</br>
+    <br>Citations: ${citations}</br>
     <br>Summary: ${data.summary}</br>
     <button id="editSourceButton">Edit source</button>
     `;
