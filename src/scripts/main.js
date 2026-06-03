@@ -4,7 +4,7 @@
  * 1. Hovering over the node will show info to snippet-container
  * 2. The logic for hte help window
  */
-import { graph, renderer, topicMap, snippet_container } from './sigma.js';
+import { graph, renderer, snippet_container } from './sigma.js';
 import { setSelectedSource, getSelectedSource, ghAddSourceForm } from './github.js';
 
 const helpWindow = document.getElementById("help-window");

@@ -40,20 +40,137 @@ for(let i=0;i<graph_json.length;i++) {
 }
 
 /**
+ * This creates the display-container by reading from
+ * the topics and creating a div that has a checkbox and
+ * label for each. The checkbox toggles the topicVisibility
+ * and calls updateVisibility().
+ */
+const display_container = document.getElementById("display-container");
+const section = document.createElement("div");
+section.className = "Topics";
+section.textContent = "Topics:";
+display_container.appendChild(section);
+
+/**
  * This reads each of the topics from the JSON and creates an arraylist of them
  * and binds the nodes to that topic
  */
-let topicMap = {};
+
+//creates a set of categorized topics from topics.js
+const categorizedTopics = new Set();
+for(const supertopic in topicHierarchy) {
+    for(const topic of topicHierarchy[supertopic]) {
+        categorizedTopics.add(topic);
+    }
+}
+
+//creates a set of topics from nodes
+const allTopics = new Set();
 graph.forEachNode((node, attributes) => {
     const topics = attributes.topics || [];
 
     for(const topic of topics) {
-        if(!topicMap[topic]) {
-            topicMap[topic] = [];
-        }
-        topicMap[topic].push(node);
+        allTopics.add(topic);
     }
 });
+
+//puts topics in nodes that aren't in categorized topics into their own set
+const uncatergorizedTopics = [];
+for(const topic of allTopics) {
+    if(!categorizedTopics.has(topic)) {
+        uncatergorizedTopics.push(topic);
+    }
+}
+
+/**
+ * This creates the divs for the categorized topics in the
+ * display_container based on the set. It also allows you to
+ * toggle with the buttons, with the topic checkboxes starting
+ * off as hidden.
+ */
+for(let supertopic in topicHierarchy) {
+    let subtopics = topicHierarchy[supertopic]
+    // supertopic button
+
+    const subtopic_container = document.createElement("div");
+    subtopic_container.className = "subtopic-container"
+    subtopic_container.style.display = "none";
+    const button = document.createElement("button")
+    button.className = "supertopic";
+    button.innerText = supertopic;
+    button.addEventListener("click", () => {
+        subtopic_container.style.display =
+            subtopic_container.style.display === "none"
+                ? "block"
+                : "none";
+    });
+    display_container.appendChild(button);
+
+    for(let i = 0; i < subtopics.length; i ++) {
+        const topic = subtopics[i];
+        const row = document.createElement("div");
+        row.className = "topic-row";
+
+        const label = document.createElement("label");
+        label.textContent = topic;
+
+        //adds button to div
+        const topicCheckbox = document.createElement("input");
+        topicCheckbox.type = "checkbox";
+        topicCheckbox.checked = true;
+
+        topicCheckbox.addEventListener("click", () => {
+            topicVisibility[topic] = event.target.checked;
+            updateVisibility();
+        });
+
+        row.appendChild(label);
+        row.appendChild(topicCheckbox);
+        subtopic_container.appendChild(row);
+    }
+    display_container.appendChild(subtopic_container);
+}
+
+//does the same as above but for the uncategorized topics
+if(uncatergorizedTopics.length > 0) {
+
+    const subtopic_container = document.createElement("div");
+    subtopic_container.className = "subtopic-container";
+    subtopic_container.style.display = "none";
+    const button = document.createElement("button");
+    button.className = "supertopic";
+    button.innerText = "Uncategorized";
+    button.addEventListener("click", () => {
+        subtopic_container.style.display =
+            subtopic_container.style.display === "none"
+                ? "block"
+                : "none";
+    });
+    display_container.appendChild(button);
+
+    for(const topic of uncatergorizedTopics) {
+        const row = document.createElement("div");
+        row.className = "topic-row";
+
+        const label = document.createElement("label");
+        label.textContent = topic;
+
+        const topicCheckbox = document.createElement("input");
+        topicCheckbox.type = "checkbox";
+        topicCheckbox.checked = true;
+
+        topicCheckbox.addEventListener("click", () => {
+            topicVisibility[topic] = event.target.checked;
+            updateVisibility();
+        });
+        row.appendChild(label);
+        row.appendChild(topicCheckbox);
+        subtopic_container.appendChild(row);
+    }
+    display_container.appendChild(subtopic_container);
+}
+
+
 
 /**
  * The set colors that can be used for topics
@@ -63,12 +180,13 @@ const palette = [
     "#00EB62", "#0400EB", "#EB00E3",
     "#F5ED00", "#93F500", "#AF00F5",
     "#850404", "#130485", "#2A3616",
-    "#FFBDE4", "#B5A000", "#00B579"
+    "#FFBDE4", "#B5A000", "#00B579",
+    "#8C5023", "#6D827A", "#25520B"
 ]
 
 //assigns each topic a color
 const COLORS = {};
-const topics = Object.keys(topicMap);
+const topics = [...allTopics];
 topics.forEach((topic, i) => {
     COLORS[topic] = palette[i % palette.length];
 });
@@ -171,7 +289,7 @@ const sigmaContainer = renderer.getContainer();
 
 sigmaContainer.insertBefore(snippet_container, sigmaContainer.querySelector(".sigma-hovers"));
 
-export { graph, renderer, topicMap, snippet_container };
+export { graph, renderer, snippet_container };
 
 
 //creates a dictionary for the visibility on each topic
@@ -179,85 +297,6 @@ const topicVisibility = { "none" : true };
 topics.forEach(topic => {
     topicVisibility[topic] = true;
 });
-
-
-/**
- * This creates the display-container by reading from
- * the topics and creating a div that has a checkbox and
- * label for each. The checkbox toggles the topicVisibility
- * and calls updateVisibility().
- */
-const display_container = document.getElementById("display-container");
-const section = document.createElement("div");
-section.className = "Topics";
-section.textContent = "Topics:";
-display_container.appendChild(section);
-
-console.log(topicHierarchy)
-
-// collapsible topics
-/*
-for(let supertopic in topicHierarchy) {
-    let subtopics = topicHierarchy[supertopic]
-    // supertopic button
-    const button = document.createElement("button")
-    button.className = "supertopic";
-    button.innerText = supertopic;
-    display_container.appendChild(button)
-
-    const subtopic_container = document.createElement("div");
-    subtopic_container.className = "subtopic-container"
-    display_container.appendChild(subtopic_container)
-
-    for(let i = 0; i < subtopics.length; i ++) {
-        const topic = subtopics[i];
-        const row = document.createElement("div");
-        row.className = "topic-row";
-
-        const label = document.createElement("label");
-        label.textContent = topic;
-
-        //adds button to div
-        const topicCheckbox = document.createElement("input");
-        topicCheckbox.type = "checkbox";
-        topicCheckbox.checked = true;
-
-        topicCheckbox.addEventListener("click", () => {
-            topicVisibility[topic] = event.target.checked;
-            updateVisibility();
-        });
-
-        row.appendChild(label);
-        row.appendChild(topicCheckbox);
-        subtopic_container.appendChild(row);
-    }
-}
-*/
-
-// add button for the add source form
-for(let i = 0; i < topics.length; i++) {
-    const topic = topics[i];
-    const row = document.createElement("div");
-    row.className = "topic-row";
-
-    const label = document.createElement("label");
-    label.textContent = topic;
-
-    //adds button to div
-    const topicCheckbox = document.createElement("input");
-    topicCheckbox.type = "checkbox";
-    topicCheckbox.checked = true;
-
-    topicCheckbox.addEventListener("click", () => {
-        topicVisibility[topic] = event.target.checked;
-        updateVisibility();
-    });
-
-    row.appendChild(label);
-    row.appendChild(topicCheckbox);
-    display_container.appendChild(row);
-
-}
 
 //year section header
 const year = document.createElement("div");

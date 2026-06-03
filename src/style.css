@@ -148,11 +148,22 @@ aside #display-container div.Topics {
     width: 260px;
     overflow-y: auto;
     direction: rtl;
+    align-items: center;
+    gap: 6px;
 }
 
 #display-container > * {
     direction: ltr;
 }
+
+#display-container div {
+    padding: 2px;
+}
+
+#display-container div label {
+    font-size: 100%;
+}
+
 
 
 
