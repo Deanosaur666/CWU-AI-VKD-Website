@@ -343,6 +343,7 @@ display_container.appendChild(year);
 
 //Creates all of the elements for year selection
 const yearSelect = document.createElement("div");
+yearSelect.classList.add('yearStyle');
 const startYear = document.createElement("input");
 startYear.type = "text";
 const label = document.createElement("label");

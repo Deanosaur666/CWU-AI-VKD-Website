@@ -104,12 +104,46 @@ aside #display-container div.Topics {
     font-weight: bold;
 }
 
+aside .supertopic {
+    padding: 5px;
+    width: 260px;
+    font-size: 14px;
+
+    background: #820028;
+    color: white;
+    font-weight: bold;
+}
+
+aside .supertopic:hover {
+    padding: 5px;
+    width: 260px;
+    font-size: 14px;
+
+    background: rgb(190, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+aside .yearStyle input{
+
+   text-align: center;
+   margin: 0 .5em;
+}
+
+aside .yearStyle input[type="button"]{
+    background: #820028;
+    color: white;
+    border: 2px solid black;
+}
+
 #sigma-container {
     border: 2px solid black;
     flex: 3;
     position: relative;
     background-color: #FFFFFF;
 }
+
+#uploadButton
 
 /*
     This is where the node information appears on the right-hand side of the screen
