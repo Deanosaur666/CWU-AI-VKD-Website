@@ -356,6 +356,12 @@ yearSelect.appendChild(endYear);
 yearSelect.appendChild(choseYear);
 display_container.appendChild(yearSelect);
 
+//helper function
+function isNodeVisible(topics) {
+    return topics.some(t => topicVisibility[t]) ||
+        (topics.length === 0 && topicVisibility[none]);
+}
+
 /**
  * This is where the visibility of each node/edge is updated
  * due to one of the topic checkboxes being clicked. It also refreshes
@@ -374,8 +380,7 @@ async function updateVisibility() {
         const sourceTopics = graph.getNodeAttribute(source, "topics") || [];
         const targetTopics = graph.getNodeAttribute(target, "topics") || [];
 
-        const visible = sourceTopics.some(t => topicVisibility[t]) &&
-                        targetTopics.some(t => topicVisibility[t]);
+        const visible = isNodeVisible(souceTopics) && isNodeVisible(targetTopics);
         
         graph.setEdgeAttribute(edge, "hidden", !visible);
     });
