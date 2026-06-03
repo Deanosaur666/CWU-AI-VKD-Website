@@ -53,12 +53,16 @@ renderer.on("clickNode", ({node}) => {
     const citations = (data.cites || [])
         .map(cite => `<li>- ${cite}</li>`)
         .join("");
+    
+    const topics = (data.topics || [])
+        .map(topic => `<li>- ${topic}</li>`)
+        .join("");
 
     info_container.innerHTML =
     `<strong>${data.title}</strong>
     <br>Date: ${data.date}</br>
     <br>Authors: ${data.authors}</br>
-    <br>Topics: ${data.topics}</br>
+    <br>Topics: ${topics}</br>
     ${linkElement}
     <br>Citations: ${citations}</br>
     <br>Summary: ${data.summary}</br>
