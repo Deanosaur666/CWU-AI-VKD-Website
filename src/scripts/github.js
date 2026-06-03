@@ -181,6 +181,8 @@ header.appendChild(row);
 // upload button
 const uploadButton = document.createElement("button");
 uploadButton.textContent = "Upload changes";
+uploadButton.className = "firstUploadButton";
+uploadButton.style.display = "none";
 
 uploadButton.addEventListener("click", () => {
     ghUploadForm();
@@ -188,7 +190,7 @@ uploadButton.addEventListener("click", () => {
 
 const display_container = document.getElementById("display-container");
 row.appendChild(uploadButton);
-display_container.appendChild(uploadButton);
+info_container.appendChild(uploadButton);
 
 const sourceFormFields = [
     // a dropdown list from sourceTypes,
@@ -531,6 +533,8 @@ function ghSubmitAddSourceForm() {
         gh_source_modified[sourcePath] = true;
         console.log(`Modfied source ${index} in ${sourcePath}.`);
     }
+
+    ghUploadForm();
 
     console.log(JSON.stringify(sourceJson, null, "\t"));
 
