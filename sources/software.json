@@ -1,17 +1,17 @@
 [
     {
-        "id" : "S0",
+        "id" : "50",
         "link" : "github.com/CWU-VKD-LAB/DSCVis",
         "title" : "DSCVis",
         "date" : "Jun 23, 2022",
         "authors" : ["Charles57-CWU"],
-        "topics" : ["Parallel and Radial Coordinates", "Dimension reduction"],
+        "topics" : ["Parallel Coordinates", "Radial Coordinates", "Dimension reduction", "Circular Coordinates"],
         "form" : "software",
-        "cites" : [],
+        "cites" : ["Synthetic Data Generation and Automated Multidimensional Data Labeling for AI/ML in General and Circular Coordinates"],
         "summary" : "This application displays multi-dimensional data in 2D using OpenGL for rendering. The plot can be dragged and zoomed in/out. Classes can be hidden, as well as specified attribute markers. A box-clipping algorithm is included to clip lines and return samples of the dataset. This visualization tool features four plots, including Parallel Coordinates, Paired Coordinates, DSC1, and DSC2. Additional multidimensional plots can be added with ease as the plot context class uses general vertices."
     },
     {
-        "id" : "S1",
+        "id" : "51",
         "link" : "https://github.com/CWU-VKD-LAB/JTabViz",
         "title" : "JTabViz: Java Tabular Visualization Toolkit",
         "date" : "Nov 17, 2025",
@@ -22,29 +22,29 @@
         "summary" : "JTabViz is a Java-based cross-platform software toolkit for machine learning (ML) data analysis, classification, and visualization. Originally developed to assist with classifier boosting and interactive classification research. It is designed for the visualization and analysis of multidimensional (n-D) tabular ML data to discover and build classification models from logical rules. With supports for feature engineering and data augmentation to analyze how dataset changes impact ML models. Fully interactive and transparent for interpretable model designing."
     },
     {
-        "id" : "S2",
+        "id" : "52",
         "link" : "https://github.com/CWU-VKD-LAB/ML_Classifier_Comparison_Tool",
         "title" : "Machine Learning Classifier Comparison Tool",
         "date" : "Jan 2, 2025",
         "authors" : [ "Alice Williams" ],
         "topics" : ["Classification of Categorical & Mixed data"],
         "form" : "software",
-        "cites" : [],
+        "cites" : ["Boosting of Classification Models with Human-in-the-Loop Computational Visual Knowledge Discovery"],
         "summary" : "The Machine Learning Classifier Comparison Tool helps benchmark and compare the performance of various machine learning classifiers on a dataset. It supports optional evaluation data, cross-validation (or none if splits = 1), and an embedded parallel-coordinates visualization of the final results."
     },
     {
-        "id" : "S3",
+        "id" : "53",
         "link" : "https://github.com/CWU-VKD-LAB/VisCanvas2.0",
         "title" : "VisCanvas 2.0",
         "date" : "Mar 26, 2025",
         "authors" : [ "Alice Williams", "Eli McCoy", "User8675309333", "SamShissler",  "Lincoln Huber" ],
-        "topics" : ["Parallel and Radial Coordinates"],
+        "topics" : ["Parallel Coordinates", "Radial Coordinates"],
         "form" : "software",
-        "cites" : [],
+        "cites" : ["High-Dimensional Data Classification in Concentric Coordinates"],
         "summary" : "Visualization software for n-D data plotting in Parallel Coordinates and hypercube cluster analysis."
     },
     {
-        "id" : "S4",
+        "id" : "54",
         "link" : "https://github.com/CWU-VKD-LAB/DV2.0",
         "title" : "DV2.0",
         "date" : "Sep 22, 2025",
@@ -55,29 +55,29 @@
         "summary" : "This application displays n-Dimensional data in 2D using General Line Coordinates Linear (GLC-L) then visualizes the results as Hyper Blocks using CUDA for optimization."
     },
     {
-        "id" : "S5",
+        "id" : "55",
         "link" : "https://github.com/CWU-VKD-LAB/DCVis",
         "title" : "DCVis: Dynamic Coordinate Visualization System",
         "date" : "Dec 29, 2024",
         "authors" : [ "Alice Williams" ],
         "topics" : ["General Line Coordinates"],
         "form" : "software",
-        "cites" : [],
+        "cites" : ["Synthetic Data Generation and Automated Multidimensional Data Labeling for AI/ML in General and Circular Coordinates"],
         "summary" : "DCVis allows users to interactively build visual ML models for classifying new data. It offers tools to explore multidimensional data using General Line Coordinate visualizations and includes features for interactive classification and synthetic data generation to enhance supervised learning models."
     },
     {
-        "id" : "S6",
+        "id" : "56",
         "link" : "https://github.com/CWU-VKD-LAB/MOEKA",
         "title" : "Monotone Boolean Function Expert Knowledge Acquisition",
         "date" : "Jun 13, 2025",
         "authors" : [ "Ryan-Glgr" ],
         "topics" : ["Expert Knowledge Acquisition"],
         "form" : "software",
-        "cites" : [],
+        "cites" : ["Monotone Functions and Models for Explanation of Machine Learning Models"],
         "summary" : "MOEKA is a specialized user-interview based software system designed for expert knowledge acquisition and representation of monotone Boolean functions. "
     },
     {
-        "id" : "S7",
+        "id" : "57",
         "link" : "https://github.com/CWU-VKD-LAB/SPC-DT",
         "title" : "SPC-DT",
         "date" : "Mar 2, 2024",
@@ -88,29 +88,29 @@
         "summary" : "Visualizes decision trees using shifted paired coordinates."
     },
     {
-        "id" : "S8",
+        "id" : "58",
         "link" : "https://github.com/CWU-VKD-LAB/SPC_SF_Data_Glyph",
         "title" : "SPC-SF Hybrid Visualization (Bird Glyphs)",
         "date" : "Mar 30, 2024",
         "authors" : [ "Nicholas Cutlip" ],
         "topics" : ["Hybrid Visualization", "Paired Coordinates"],
         "form" : "software",
-        "cites" : [],
+        "cites" : ["Interpretable Visual Representation Learning with Animated Glyphs in Shifted Paired Coordinates"],
         "summary" : "The visualization method is glyph based, and allows for the lossless and reversible visualization of high-dimensional data. I am currently developing a GUI for the method using Qt."
     },
     {
-        "id" : "S9",
+        "id" : "59",
         "link" : "https://github.com/CWU-VKD-LAB/SPC-3D",
         "title" : "SPC-3D",
         "date" : "Aug 18, 2023",
         "authors" : [ "RifinTidHamar" ],
         "topics" : ["Paired Coordinates"],
         "form" : "software",
-        "cites" : [],
+        "cites" : ["Visualization of Decision Trees based on General Line Coordinates to Support Explainable Models"],
         "summary" : "Visualizes decision trees using shifted paired coordinates."
     },
     {
-        "id" : "S10",
+        "id" : "510",
         "link" : "https://github.com/CWU-VKD-LAB/DV1.0",
         "title" : "DV1.0",
         "date" : "Jul 2, 2022",
@@ -121,7 +121,7 @@
         "summary" : "DV Program for Professor Kovalerchuk."
     },
     {
-        "id" : "S11",
+        "id" : "511",
         "link" : "https://github.com/CWU-VKD-LAB/HB_CUDA",
         "title" : "Hyperblocks CUDA",
         "date" : "Aug 20, 2025",
