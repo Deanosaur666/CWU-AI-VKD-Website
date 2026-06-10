@@ -502,14 +502,8 @@ function ghSubmitAddSourceForm() {
     let sourcePath = sourceTypeToPath[type];
     let sourceJson = gh_source_jsons[sourcePath];
     let index = -1;
-    if(jsonobj.id) {
-        console.log(sourceJson);
-        console.log(jsonobj.id);
-        index = sourceJson.findIndex((e) => jsonobj.id == e.id, jsonobj);
-        console.log(index);
-    }
     if(index == -1 && jsonobj.title) {
-        index = sourceJson.findIndex((e) => jsonobj.title == e.titl, jsonobj);
+        index = sourceJson.findIndex((e) => jsonobj.title == e.title, jsonobj);
     }
 
     console.log("Old sources:");
