@@ -238,7 +238,7 @@ topics.push("none");
  */
 graph.forEachNode((node, attributes) => {
     graph.setNodeAttribute(node, "color", COLORS[attributes.topics[0]] || "gray");
-    graph.setNodeAttribute(node, "size", 5 + (2 * attributes.topics.length));
+    graph.setNodeAttribute(node, "size", 10);
 });
 
 //creates a list of titles for citations
