@@ -210,14 +210,6 @@ const sourceFormFields = [
         jsonkey : "form",
         required : true,
     },
-    // ID field
-    {
-        id : "idField",
-        label : "ID",
-        element : "input",
-        type : "text",
-        jsonkey : "id"
-    },
     // Link field
     {
         id : "linkField",

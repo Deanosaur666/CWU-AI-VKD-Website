@@ -37,10 +37,10 @@ let graph = new Graph({
 for(let i=0;i<graph_json.length;i++) {
     let node = graph_json[i];
     try {
-        graph.addNode(node.id || node.title, node);
+        graph.addNode(node.title, node);
     }
     catch {
-        console.log(`Failed to add node.\nID: ${node.id}\nTitle: ${node.title}.`)
+        console.log(`Failed to add node.\nTitle: ${node.title}.`)
     }
 }
 
