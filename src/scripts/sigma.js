@@ -36,7 +36,12 @@ let graph = new Graph({
 //this populates the graph with the nodes
 for(let i=0;i<graph_json.length;i++) {
     let node = graph_json[i];
-    graph.addNode(node.id || node.title, node);
+    try {
+        graph.addNode(node.id || node.title, node);
+    }
+    catch {
+        console.log(`Failed to add node.\nID: ${node.id}\nTitle: ${node.title}.`)
+    }
 }
 
 /**
