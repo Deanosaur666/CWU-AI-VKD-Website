@@ -12,6 +12,15 @@
     transform: translate(-50%, -50%);
     background-color: #ECE1CE;
     display: none;
+
+    justify-content: center;
+     align-items: center;
+}
+
+.helpImage{
+    height: 200px;
+    width: 500px;
+    margin: 0 5em;
 }
 
 #about-window {
