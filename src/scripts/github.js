@@ -112,6 +112,8 @@ async function ghUploadJSON(object, path) {
     const { commit: { html_url } } = fileContent.data;
 
     console.log(`File ${path} updated. See changes at ${html_url}.`);
+
+    return true;
 }
 
 export async function ghGetSourceJSONs() {
@@ -134,12 +136,17 @@ export async function ghGetSourceJSONs() {
 }
 
 export async function ghUploadModifed() {
+    let failure = false;
     for(const [key, value] of Object.entries(gh_source_jsons)) {
         if(gh_source_modified[key]) {
-            ghUploadJSON(value, key);
+            let status = ghUploadJSON(value, key);
+            if(!status)
+                failure = true;
             gh_source_modified[key] = false;
         }
     }
+
+    return failure;
 }
 
 export function ghAddSource(sourceFilePath, object) {
@@ -553,7 +560,13 @@ function ghUploadForm() {
 }
 
 async function clickUploadButton() {
-    await ghUploadModifed();
+    let failure = await ghUploadModifed();
+    if(failure) {
+        alert("Upload failed. :(");
+    }
+    else {
+        alert("Upload successful. Please refresh the page to see changes.");
+    }
     ghUploadForm();
 }
 
