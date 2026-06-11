@@ -105,14 +105,20 @@ for(const supertopic in topicHierarchy) {
     }
 }
 
-//creates a set of topics from nodes
+//creates a set of topics and document types from nodes
+const docTypes = new Set();
 const allTopics = new Set();
 graph.forEachNode((node, attributes) => {
     const topics = attributes.topics || [];
+    const formType = attributes.form || [];
 
     for(const topic of topics) {
         allTopics.add(topic);
     }
+    if(!docTypes.has(formType)) {
+        docTypes.add(formType);
+    }
+
 });
 
 //puts topics in nodes that aren't in categorized topics into their own set
@@ -201,7 +207,7 @@ if(uncatergorizedTopics.length > 0) {
         topicCheckbox.type = "checkbox";
         topicCheckbox.checked = true;
 
-        topicCheckbox.addEventListener("click", () => {
+        topicCheckbox.addEventListener("click", (event) => {
             topicVisibility[topic] = event.target.checked;
             updateVisibility();
         });
@@ -341,6 +347,12 @@ topics.forEach(topic => {
     topicVisibility[topic] = true;
 });
 
+//creates dictionary for visibility on each group
+const typeVisibility = { "none" : true };
+docTypes.forEach(form => {
+    typeVisibility[form] = true;
+});
+
 //year section header
 const year = document.createElement("div");
 year.textContent = "Filter By Year:";
@@ -360,6 +372,7 @@ endYear.value = currentYear;
 const choseYear = document.createElement("input");
 choseYear.type = "button";
 choseYear.value = "Filter ";
+
 
 /**
  * Event listener for when the "sort" button is
@@ -406,18 +419,53 @@ function isNodeVisible(topics) {
         (topics.length === 0 && topicVisibility["none"]);
 }
 
+//section for filtering by document type
+const docType = document.createElement("div");
+docType.textContent = "Filter By Type";
+display_container.appendChild(docType);
+
+//checkboxes for each document type
+for(const formType of docTypes) {
+    const row = document.createElement("div");
+    row.className = "formTypeRow";
+
+    //makes first leter uppercase
+    const labelText = formType => formType[0].toUpperCase() + formType.slice(1);
+
+    const label = document.createElement("label");
+    label.textContent = labelText(formType);
+
+    const formCheckbox = document.createElement("input");
+    formCheckbox.type = "checkbox";
+    formCheckbox.checked = true;
+
+    formCheckbox.addEventListener("click", (event) => {
+        typeVisibility[formType] = event.target.checked;
+        updateVisibility();
+        console.log("Hey");
+    });
+    row.appendChild(label);
+    row.appendChild(formCheckbox);
+    display_container.appendChild(row);
+}
+
+
 /**
  * This is where the visibility of each node/edge is updated
- * due to one of the topic checkboxes being clicked. It also refreshes
+ * due to one of the topic and type checkboxes being clicked. It also refreshes
  * the renderer to insure that the updates are shown to the screen.
  */
 async function updateVisibility() {
     graph.forEachNode((node, attributes) => {
         const topics = attributes.topics || [];
+        const formType = attributes.form || "none";
+        
 
-        const visible = topics.some(t => topicVisibility[t]) || (topics.length == 0 && topicVisibility["none"]);
+        const topicVisible = topics.some(t => topicVisibility[t]) || (topics.length == 0 && topicVisibility["none"]);
 
-        graph.setNodeAttribute(node, "hidden", !visible);
+        const typeVisible = typeVisibility[formType] ?? true;
+
+        graph.setNodeAttribute(node, "hidden", !(topicVisible && typeVisible));
     });
 
     graph.forEachEdge((edge, attributes, source, target) => {
