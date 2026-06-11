@@ -30,7 +30,7 @@ let sourceTypes = [
 let sourcePaths = [
     "sources/articles.json",
     "sources/software.json",
-
+    "sources/books.json",
     "sources/other.json" // anything else
 ];
 
