@@ -421,7 +421,7 @@ function isNodeVisible(topics) {
 
 //section for filtering by document type
 const docType = document.createElement("div");
-docType.textContent = "Filter By Type";
+docType.textContent = "Filter By Type:";
 display_container.appendChild(docType);
 
 //checkboxes for each document type
