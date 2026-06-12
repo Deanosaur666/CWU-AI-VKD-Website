@@ -22,6 +22,7 @@ All website formatting, text, titles, etc. are controled in the index.html file 
 
 Example code from the index.html for help window:
 
+```html
 <!--
 <div id="help-window" class="help-window"> // THIS IS THE HEADER TITLE
       <button id ="close-help-window" class="close-help-window">
@@ -32,3 +33,4 @@ Example code from the index.html for help window:
         They are clustered by topic and linked if they share citations.
       </h2>
 -->
+```
