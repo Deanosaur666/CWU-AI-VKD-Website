@@ -30,7 +30,7 @@ let sourceTypes = [
 let sourcePaths = [
     "sources/articles.json",
     "sources/software.json",
-
+    "sources/books.json",
     "sources/other.json" // anything else
 ];
 
@@ -40,6 +40,7 @@ sourceTypeToPath["paper"] = "sources/articles.json";
 sourceTypeToPath["software"] = "sources/software.json";
 sourceTypeToPath["other"] = "sources/other.json";
 
+// Login
 export async function ghAuth(authToken) {
     username = "";
 
@@ -65,6 +66,7 @@ export async function ghAuth(authToken) {
 
 }
 
+// get source files
 async function ghGetJSON(path) {
     console.log(`ghGetJSon(${path})`);
     
@@ -91,6 +93,7 @@ async function ghGetJSON(path) {
     return json;
 }
 
+// upload a file to the repo
 async function ghUploadJSON(object, path) {
     // you can't upload if you're not logged in
     if(!username) {
@@ -112,8 +115,11 @@ async function ghUploadJSON(object, path) {
     const { commit: { html_url } } = fileContent.data;
 
     console.log(`File ${path} updated. See changes at ${html_url}.`);
+
+    return true;
 }
 
+// getting all sources
 export async function ghGetSourceJSONs() {
     let objects = [];
     let promises = [];
@@ -133,15 +139,22 @@ export async function ghGetSourceJSONs() {
     return objects;
 }
 
+// upload all modified files
 export async function ghUploadModifed() {
+    let failure = false;
     for(const [key, value] of Object.entries(gh_source_jsons)) {
         if(gh_source_modified[key]) {
-            ghUploadJSON(value, key);
+            let status = ghUploadJSON(value, key);
+            if(!status)
+                failure = true;
             gh_source_modified[key] = false;
         }
     }
+
+    return failure;
 }
 
+// add a new source to a file
 export function ghAddSource(sourceFilePath, object) {
     // add object to end of the array
     gh_source_jsons[sourceFilePath].push(object);
@@ -192,6 +205,8 @@ const display_container = document.getElementById("display-container");
 row.appendChild(uploadButton);
 info_container.appendChild(uploadButton);
 
+
+// what fields we can edit
 const sourceFormFields = [
     // a dropdown list from sourceTypes,
     // determines what file to add to, for
@@ -553,7 +568,13 @@ function ghUploadForm() {
 }
 
 async function clickUploadButton() {
-    await ghUploadModifed();
+    let failure = await ghUploadModifed();
+    if(failure) {
+        alert("Upload failed. :(");
+    }
+    else {
+        alert("Upload successful. Please refresh the page to see changes.");
+    }
     ghUploadForm();
 }
 

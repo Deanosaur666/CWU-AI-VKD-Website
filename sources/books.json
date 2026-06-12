@@ -1,0 +1,145 @@
+[
+    {
+        "id": 602,
+        "link": null,
+        "title": "Artificial Intelligence and Visualization: Advancing Visual Knowledge Discovery",
+        "date": "2024",
+        "authors": [
+            "Boris Kovalerchuk",
+            "Kawa Nazemi",
+            "Razvan Andonie",
+            "Nuno Datia",
+            "Ebad Banissi"
+        ],
+        "topics": [
+            "Visual Knowledge discovery (VKD)",
+            "General Line Coordinates (GLC)",
+            "Explainability of models"
+        ],
+        "form": "book",
+        "doi": null,
+        "publisher": "Springer",
+        "cites": [],
+        "summary": "Continues a Springer series on Integrated AI, Machine Learning, and Visual Knowledge Discovery. Focuses on the challenges of model explainability, utilizing lossless visualizations like General Line Coordinates, and features visual analytics applications in text mining and NLP."
+    },
+    {
+        "id": 603,
+        "link": null,
+        "title": "Integrating Artificial Intelligence and Visualization for Visual Knowledge Discovery",
+        "date": "2022",
+        "authors": [
+            "Boris Kovalerchuk",
+            "Kawa Nazemi",
+            "Razvan Andonie",
+            "Nuno Datia",
+            "Ebad Banissi"
+        ],
+        "topics": [
+            "Visual Knowledge discovery (VKD)",
+            "Explainability of models"
+        ],
+        "form": "book",
+        "doi": null,
+        "publisher": "Springer",
+        "cites": [],
+        "summary": "Addresses the long-standing challenge of explainability in AI and ML—particularly for life-critical applications—by proposing visual methods. It focuses on discovering explainable high-dimensional patterns while preserving data properties using visual \"n-D glasses\" approaches."
+    },
+    {
+        "id": 604,
+        "link": null,
+        "title": "Visual Knowledge Discovery and Machine Learning",
+        "date": "2018",
+        "authors": [
+            "Boris Kovalerchuk"
+        ],
+        "topics": [
+            "General Line Coordinates (GLC)",
+            "Dimension reduction"
+        ],
+        "form": "book",
+        "doi": null,
+        "publisher": "Springer Nature",
+        "cites": [],
+        "summary": "Combines high-dimensional data visualization with machine learning to identify complex n-D data patterns. It extensively expands on General Lines Coordinates (GLCs), providing algorithms for classification, clustering, and dimension reduction alongside multiple real-world case studies."
+    },
+    {
+        "id": 605,
+        "link": null,
+        "title": "Uncertainty Modeling: Dedicated to Professor Boris Kovalerchuk on his Anniversary",
+        "date": "2017",
+        "authors": [
+            "Vladik Kreinovich"
+        ],
+        "topics": [],
+        "form": "book",
+        "doi": null,
+        "publisher": "Springer",
+        "cites": [],
+        "summary": "A festschrift commemorating Dr. Boris Kovalerchuk's 65th birthday, focusing on data processing under uncertainty, with a specific emphasis on fuzzy data processing derived from imprecise expert opinions."
+    },
+    {
+        "id": 606,
+        "link": null,
+        "title": "Visual and Spatial Analysis: Advances on Data Mining, Reasoning and Problem Solving",
+        "date": "2005",
+        "authors": [
+            "Boris Kovalerchuk",
+            "James Schwing"
+        ],
+        "topics": [],
+        "form": "book",
+        "doi": null,
+        "publisher": "Springer",
+        "cites": [],
+        "summary": "Explores current trends in visual and spatial analysis for data mining, reasoning, and decision-making, particularly in geospatial domains. It integrates modern symbolic and visual problem-solving approaches across 21 structured chapters."
+    },
+    {
+        "id": 607,
+        "link": null,
+        "title": "Data Mining in Finance: Advances in Relational and Hybrid Methods",
+        "date": "2000",
+        "authors": [
+            "Boris Kovalerchuk",
+            "Evgenii Vityaev"
+        ],
+        "topics": [
+            "Decision Trees (DT)",
+            "Explainability of models"
+        ],
+        "form": "book",
+        "doi": null,
+        "publisher": "Kluwer Acad. Publ/Springer",
+        "cites": [],
+        "summary": "Examines major algorithmic approaches to predictive data mining in finance. It highlights relational data mining for its ability to generate expressive rules and better explainability, introducing efficient algorithms and interactive tools for expert knowledge extraction."
+    },
+    {
+        "id": 608,
+        "link": null,
+        "title": "Computational Intelligence ~CI 2006~: Proc. the IASTED International Conference on Computational Intelligence",
+        "date": "2006",
+        "authors": [
+            "Boris Kovalerchuk"
+        ],
+        "topics": [],
+        "form": "book",
+        "doi": null,
+        "publisher": "IASTED",
+        "cites": [],
+        "summary": null
+    },
+    {
+        "id": 609,
+        "link": null,
+        "title": "Computational Intelligence ~CI 2009~: Proc. the IASTED International Conference on Computational Intelligence",
+        "date": "2009",
+        "authors": [
+            "Boris Kovalerchuk"
+        ],
+        "topics": [],
+        "form": "book",
+        "doi": null,
+        "publisher": "IASTED",
+        "cites": [],
+        "summary": null
+    }
+]

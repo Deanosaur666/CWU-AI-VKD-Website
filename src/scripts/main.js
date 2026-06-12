@@ -7,6 +7,9 @@
 import { graph, renderer, snippet_container } from './sigma.js';
 import { setSelectedSource, getSelectedSource, ghAddSourceForm } from './github.js';
 
+
+// Help window
+
 const helpWindow = document.getElementById("help-window");
 const openHelpWindowBtn = document.getElementById("help-button");
 const closeHelpWindowBtn = document.getElementById("close-help-window");
@@ -21,12 +24,13 @@ closeHelpWindowBtn.onclick = function() {
     helpWindow.style.display = "none";
 }
 
+// About window
+
 const aboutWindow = document.getElementById("about-window");
 const openAboutWindowBtn = document.getElementById("about-button");
 const closeAboutWindowBtn = document.getElementById("close-about-window");
 
 openAboutWindowBtn.onclick = function() {
-    //console.log("Hey");
     aboutWindow.style.display = aboutWindow.style.display === "block"
         ? "none"
         : "block";
@@ -35,6 +39,8 @@ openAboutWindowBtn.onclick = function() {
 closeAboutWindowBtn.onclick = function() {
     aboutWindow.style.display = "none";
 }
+
+// Node onClick
 
 /**
  * This is the code that displays the info about each document
@@ -75,6 +81,8 @@ renderer.on("clickNode", ({node}) => {
         ghAddSourceForm(getSelectedSource());
     });
 });
+
+// Node hover
 
 /**
  * This makes the snippet_container appear on the screen when
