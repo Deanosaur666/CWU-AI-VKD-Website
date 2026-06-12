@@ -31,9 +31,9 @@ header button {
     border: none;
     text-decoration: none;
     border-right: 3px solid black;
-    padding-right: 10px;
-    padding-left: 25px;
+    padding: 0 16px;
     font-size: 75%;
+    font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
 }
 
 #header-info a:hover, #help-button:hover, #about-button:hover, .button-row button:hover{
